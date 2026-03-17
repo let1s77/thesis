@@ -1,0 +1,19 @@
+# do 01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/script/run_haze_128_fullframe.tcl
+# ../01_sim/IPU/Testbench_DarkChannel_System/sim/image/test_128.bmp
+# ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vmap 2024.1 Lib Mapping Utility 2024.02 Feb  1 2024
+# vmap work work 
+# Modifying C:/questasim64_2024.1/win64/../modelsim.ini
+# ../00_src/IPU
+# ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 00:23:15 on Mar 15,2026
+# vlog "+acc" "+define+SIM_MODE" ../00_src/IPU/min3_u8.sv ../00_src/IPU/dark_channel.sv ../00_src/IPU/atmospheric_light.sv ../00_src/IPU/bank_bram.sv ../00_src/IPU/bank_pingpong_stream.sv ../00_src/IPU/estimate_transmission.sv ../00_src/IPU/adc_pixel_distance.sv ../00_src/IPU/adc_path_length.sv ../00_src/IPU/adc_rlimit_compute.sv ../00_src/IPU/adc_ase_masked_min.sv ../00_src/IPU/adc_line_buffer_5x5.sv ../00_src/IPU/adc_estimation.sv ../00_src/IPU/frame_linear_counter.sv ../00_src/IPU/invA_lut_q16.sv ../00_src/IPU/omega_clamp_t.sv ../00_src/IPU/norm_channel_q16.sv ../00_src/IPU/ipu_control_logic.sv ../00_src/IPU/grayscale.sv ../00_src/IPU/t_computing.sv ../00_src/IPU/fusing.sv ../00_src/IPU/t_compute_fuse.sv ../00_src/IPU/atm_light_coarse_tx.sv ../00_src/IPU/haze_removal_top.sv ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_128_tb.sv 
+# ** Error: (vlog-7) Failed to open design unit file "../00_src/IPU/min3_u8.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 00:23:16 on Mar 15,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2024.1/win64/vlog failed.
+# Executing ONERROR command at macro ./01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/script/run_haze_128_fullframe.tcl line 45

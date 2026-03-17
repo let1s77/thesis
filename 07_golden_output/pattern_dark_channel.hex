@@ -1,0 +1,23 @@
+// RGB Pattern Input for Dark Channel Prior (24-bit)
+// Format: [23:16]=Blue, [15:8]=Green, [7:0]=Red (BBGGRR hex)
+//
+FFFFFF  // Pattern 1: R=255, G=255, B=255 - White - No haze
+808080  // Pattern 2: R=128, G=128, B=128 - Gray - Medium haze
+404040  // Pattern 3: R= 64, G= 64, B= 64 - Dark gray - Heavy haze
+74F0F0  // Pattern 4: R=240, G=240, B=116 - Light hazy sky
+6CF0F0  // Pattern 5: R=240, G=240, B=108 - Very light haze
+62CC61  // Pattern 6: R= 97, G=204, B= 98 - Green vegetation with haze
+074813  // Pattern 7: R= 19, G= 72, B=  7 - Dark vegetation
+1047B5  // Pattern 8: R=181, G= 71, B= 16 - Brown/orange with haze
+9AF48E  // Pattern 9: R=142, G=244, B=154 - Hazy sky with green tint
+907F84  // Pattern 10: R=132, G=127, B=144 - Cloudy sky
+7CD0E2  // Pattern 11: R=226, G=208, B=124 - Sunset haze
+74478C  // Pattern 12: R=140, G= 71, B=116 - Purple haze
+000000  // Pattern 13: R=  0, G=  0, B=  0 - Black - No haze info
+0000FF  // Pattern 14: R=255, G=  0, B=  0 - Pure red
+00FF00  // Pattern 15: R=  0, G=255, B=  0 - Pure green
+FF0000  // Pattern 16: R=  0, G=  0, B=255 - Pure blue
+B4D2C8  // Pattern 17: R=200, G=210, B=180 - Light atmospheric haze
+8CA096  // Pattern 18: R=150, G=160, B=140 - Medium haze
+5A6E64  // Pattern 19: R=100, G=110, B= 90 - Heavy haze
+2D3732  // Pattern 20: R= 50, G= 55, B= 45 - Very heavy haze

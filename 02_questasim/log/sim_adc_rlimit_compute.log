@@ -1,0 +1,134 @@
+Reading pref.tcl
+
+# 2024.1
+
+# vsim -c tb_opt -do "run -all; quit" 
+# Start time: 23:07:07 on Mar 11,2026
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.adc_rlimit_compute_tb(fast)
+# Loading work.adc_rlimit_compute(fast)
+# run -all
+# 
+# 
+# ================================================================
+#         ADC R-Limit Compute - RTL Testbench
+# ================================================================
+# Total test cases : 20  (25 dl + 1 rlimit per case)
+# Pipeline stages  : 2
+# ================================================================
+# 
+# ----------- Case  0: flat_uniform             -----------
+#   r_limit =   2  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case  1: center_dark_flat         -----------
+#   r_limit =   2  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case  2: horizontal_edge          -----------
+#   r_limit =  14  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case  3: vertical_edge            -----------
+#   r_limit =  16  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case  4: diag_edge_main           -----------
+#   r_limit =  16  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case  5: diag_edge_anti           -----------
+#   r_limit =  16  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case  6: cross_structure          -----------
+#   r_limit =  12  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case  7: center_bright_island     -----------
+#   r_limit =  27  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case  8: noisy_small_variation    -----------
+#   r_limit =   2  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case  9: ramp_horizontal          -----------
+#   r_limit =   8  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case 10: ramp_vertical            -----------
+#   r_limit =   8  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case 11: checkerboard_soft        -----------
+#   r_limit =   8  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case 12: corner_dark_tl           -----------
+#   r_limit =   4  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case 13: corner_dark_br           -----------
+#   r_limit =   4  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case 14: ring_structure           -----------
+#   r_limit =  22  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case 15: left_right_two_regions   -----------
+#   r_limit =  16  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case 16: top_bottom_two_regions   -----------
+#   r_limit =  16  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case 17: center_valley            -----------
+#   r_limit =  23  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case 18: random_like_1            -----------
+#   r_limit =   9  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# ----------- Case 19: random_like_2            -----------
+#   r_limit =   7  OK
+#   rlimit + 25 dl pass-through MATCH  -> PASS
+# 
+# 
+# 
+# ========================================
+#         SIMULATION SUMMARY              
+# ========================================
+#     ********************************
+#     **  R-Limit Compute RTL       **
+#     ********************************
+#     **                            **       |\__||  
+#     **  Congratulations !!        **      / O.O  | 
+#     **                            **    /_____   | 
+#     **  SIMULATION PASS !!        **   /^ ^ ^ \\  |
+#     **                            **  |^ ^ ^ ^ |w| 
+#     ********************************   \m___m__|_|
+#     All 20 cases passed!
+# 
+# 
+# ** Note: $finish    : C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_rlimit_compute_tb.sv(220)
+#    Time: 855 ns  Iteration: 0  Instance: /adc_rlimit_compute_tb
+# End time: 23:07:08 on Mar 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

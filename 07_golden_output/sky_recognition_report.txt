@@ -1,0 +1,87 @@
+======================================================================
+SKY RECOGNITION REPORT
+======================================================================
+Algorithm: src_val = dark_ch if use_dark else gray
+           sky = 1 if src_val > A0 else 0
+======================================================================
+
+[00] Black - gray=0 < A0
+     gray=  0, dark_ch=  0, use_dark=0, A0=150
+     src_val=  0, sky=0, sky_bw=0x00
+
+[01] gray=149, just below A0
+     gray=149, dark_ch= 50, use_dark=0, A0=150
+     src_val=149, sky=0, sky_bw=0x00
+
+[02] gray=150, equal A0 (not >)
+     gray=150, dark_ch= 80, use_dark=0, A0=150
+     src_val=150, sky=0, sky_bw=0x00
+
+[03] gray=151, just above A0 => sky
+     gray=151, dark_ch=100, use_dark=0, A0=150
+     src_val=151, sky=1, sky_bw=0xFF
+
+[04] White - gray=255 >> A0 => sky
+     gray=255, dark_ch=200, use_dark=0, A0=150
+     src_val=255, sky=1, sky_bw=0xFF
+
+[05] Dark pixel - non-sky
+     gray= 50, dark_ch= 30, use_dark=0, A0=150
+     src_val= 50, sky=0, sky_bw=0x00
+
+[06] Medium dark - non-sky
+     gray=100, dark_ch= 60, use_dark=0, A0=150
+     src_val=100, sky=0, sky_bw=0x00
+
+[07] Bright - sky
+     gray=180, dark_ch=120, use_dark=0, A0=150
+     src_val=180, sky=1, sky_bw=0xFF
+
+[08] Very bright - sky
+     gray=200, dark_ch=160, use_dark=0, A0=150
+     src_val=200, sky=1, sky_bw=0xFF
+
+[09] Mid gray - non-sky
+     gray=128, dark_ch=100, use_dark=0, A0=150
+     src_val=128, sky=0, sky_bw=0x00
+
+[10] dark_ch=0 << A0 - non-sky
+     gray=200, dark_ch=  0, use_dark=1, A0=150
+     src_val=  0, sky=0, sky_bw=0x00
+
+[11] dark_ch=149, just below A0
+     gray=100, dark_ch=149, use_dark=1, A0=150
+     src_val=149, sky=0, sky_bw=0x00
+
+[12] dark_ch=150, equal A0 (not >)
+     gray=180, dark_ch=150, use_dark=1, A0=150
+     src_val=150, sky=0, sky_bw=0x00
+
+[13] dark_ch=151, just above => sky
+     gray=220, dark_ch=151, use_dark=1, A0=150
+     src_val=151, sky=1, sky_bw=0xFF
+
+[14] dark_ch=255 >> A0 => sky
+     gray= 50, dark_ch=255, use_dark=1, A0=150
+     src_val=255, sky=1, sky_bw=0xFF
+
+[15] dark_ch=80 - non-sky
+     gray=200, dark_ch= 80, use_dark=1, A0=150
+     src_val= 80, sky=0, sky_bw=0x00
+
+[16] dark_ch=130 - non-sky
+     gray=180, dark_ch=130, use_dark=1, A0=150
+     src_val=130, sky=0, sky_bw=0x00
+
+[17] dark_ch=180 - sky
+     gray=160, dark_ch=180, use_dark=1, A0=150
+     src_val=180, sky=1, sky_bw=0xFF
+
+[18] dark_ch=200 - sky
+     gray=140, dark_ch=200, use_dark=1, A0=150
+     src_val=200, sky=1, sky_bw=0xFF
+
+[19] dark_ch=100 - non-sky
+     gray=120, dark_ch=100, use_dark=1, A0=150
+     src_val=100, sky=0, sky_bw=0x00
+

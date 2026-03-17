@@ -1,0 +1,1977 @@
+m255
+K4
+z2
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt1
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z3 !s12c _opt
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R3
+R1
+R3
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+!s11f vlog 2024.1 2024.02, Feb  1 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z4 dC:/Users/USER/OneDrive - Verisilicon/Desktop/works/week7/questasim
+T_opt
+!s110 1773589400
+V[BW2NRZ`>]6>Y`zQ1Y>a51
+04 25 4 work haze_removal_top_phase_tb fast 0
+=1-c0a810570044-69b6d398-136-44fc
+R1
+Z5 !s12f OEM100
+Z6 !s12b OEM100
+Z7 !s124 OEM100
+Z8 o-quiet -auto_acc_if_foreign -work work
+Z9 tCvgOpt 0
+n@_opt
+Z10 OL;O;2024.1;79
+R4
+T_opt1
+Z11 !s110 1773592959
+VE`Yb=7fT=G42KV5Bdml_Z1
+04 23 4 work haze_removal_top_128_tb fast 0
+=1-c0a810570044-69b6e17f-241-71c0
+R1
+R5
+R6
+R7
+R8
+R9
+n@_opt1
+R10
+R4
+T_opt2
+!s110 1773719047
+VO@5lhE<fLK9<N]L8NnL;o3
+04 14 4 work ipu_top_128_tb fast 0
+=1-c0a810570044-69b8ce07-37-8564
+R1
+R5
+R6
+R7
+R8
+R9
+n@_opt2
+R10
+vadc_ase_masked_min
+Z12 2../00_src/IPU/min3_u8.sv|../00_src/IPU/dark_channel.sv|../00_src/IPU/atmospheric_light.sv|../00_src/IPU/bank_bram.sv|../00_src/IPU/bank_pingpong_stream.sv|../00_src/IPU/estimate_transmission.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_line_buffer_5x5.sv|../00_src/IPU/adc_estimation.sv|../00_src/IPU/frame_linear_counter.sv|../00_src/IPU/invA_lut_q16.sv|../00_src/IPU/omega_clamp_t.sv|../00_src/IPU/norm_channel_q16.sv|../00_src/IPU/ipu_control_logic.sv|../00_src/IPU/grayscale.sv|../00_src/IPU/t_computing.sv|../00_src/IPU/fusing.sv|../00_src/IPU/t_compute_fuse.sv|../00_src/IPU/atm_light_coarse_tx.sv|../00_src/IPU/haze_removal_core.sv|../00_src/IPU/haze_removal_top.sv|../00_src/IPU/mem/img_in_bram.v|../00_src/IPU/mem/img_out_bram.v|../00_src/IPU/mem/ipu_bram_reader.v|../00_src/IPU/mem/ipu_bram_writer.v|../00_src/IPU/ipu_top.sv|../01_sim/IPU/Testbench_IPU_TOP/sim/ipu_top_128_tb.sv
+Z13 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z14 !s110 1773719046
+!i10b 1
+!s100 ?UKO39C;lzS7`0GfhHCd22
+I2FZ3K3Xf?@ia`RnzaYGj60
+S1
+Z15 dC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/02_questasim
+w1773244784
+8../00_src/IPU/adc_ase_masked_min.sv
+F../00_src/IPU/adc_ase_masked_min.sv
+!i122 1991
+L0 18 146
+Z16 VDg1SIo80bB@j0V0VzS_@n1
+Z17 OL;L;2024.1;79
+r1
+!s85 0
+31
+Z18 !s108 1773719046.000000
+Z19 !s107 ../00_src/IPU/mem/ipu_addr.vh|../00_src/IPU/ipu_addr_map.vh|../01_sim/IPU/Testbench_IPU_TOP/sim/ipu_top_128_tb.sv|../00_src/IPU/ipu_top.sv|../00_src/IPU/mem/ipu_bram_writer.v|../00_src/IPU/mem/ipu_bram_reader.v|../00_src/IPU/mem/img_out_bram.v|../00_src/IPU/mem/img_in_bram.v|../00_src/IPU/haze_removal_top.sv|../00_src/IPU/haze_removal_core.sv|../00_src/IPU/atm_light_coarse_tx.sv|../00_src/IPU/t_compute_fuse.sv|../00_src/IPU/fusing.sv|../00_src/IPU/t_computing.sv|../00_src/IPU/grayscale.sv|../00_src/IPU/ipu_control_logic.sv|../00_src/IPU/norm_channel_q16.sv|../00_src/IPU/omega_clamp_t.sv|../00_src/IPU/invA_lut_q16.sv|../00_src/IPU/frame_linear_counter.sv|../00_src/IPU/adc_estimation.sv|../00_src/IPU/adc_line_buffer_5x5.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/estimate_transmission.sv|../00_src/IPU/bank_pingpong_stream.sv|../00_src/IPU/bank_bram.sv|../00_src/IPU/atmospheric_light.sv|../00_src/IPU/dark_channel.sv|../00_src/IPU/min3_u8.sv|
+Z20 !s90 +acc|+define+SIM_MODE|+incdir+../00_src/IPU|+incdir+../00_src/IPU/mem|../00_src/IPU/min3_u8.sv|../00_src/IPU/dark_channel.sv|../00_src/IPU/atmospheric_light.sv|../00_src/IPU/bank_bram.sv|../00_src/IPU/bank_pingpong_stream.sv|../00_src/IPU/estimate_transmission.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_line_buffer_5x5.sv|../00_src/IPU/adc_estimation.sv|../00_src/IPU/frame_linear_counter.sv|../00_src/IPU/invA_lut_q16.sv|../00_src/IPU/omega_clamp_t.sv|../00_src/IPU/norm_channel_q16.sv|../00_src/IPU/ipu_control_logic.sv|../00_src/IPU/grayscale.sv|../00_src/IPU/t_computing.sv|../00_src/IPU/fusing.sv|../00_src/IPU/t_compute_fuse.sv|../00_src/IPU/atm_light_coarse_tx.sv|../00_src/IPU/haze_removal_core.sv|../00_src/IPU/haze_removal_top.sv|../00_src/IPU/mem/img_in_bram.v|../00_src/IPU/mem/img_out_bram.v|../00_src/IPU/mem/ipu_bram_reader.v|../00_src/IPU/mem/ipu_bram_writer.v|../00_src/IPU/ipu_top.sv|../01_sim/IPU/Testbench_IPU_TOP/sim/ipu_top_128_tb.sv|
+!i113 0
+Z21 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z22 !s92 +acc +define+SIM_MODE +incdir+../00_src/IPU +incdir+../00_src/IPU/mem -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vadc_ase_masked_min_tb
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_ase_masked_min_tb.sv
+R13
+Z23 !s110 1773586642
+!i10b 1
+!s100 4jleo<@YF>YHc=E:]i3973
+IanhSPYC2cNg8njM9NUEHL0
+S1
+R15
+Z24 w1773162023
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_ase_masked_min_tb.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_ase_masked_min_tb.sv
+!i122 1923
+L0 29 208
+R16
+R17
+r1
+!s85 0
+31
+Z25 !s108 1773586642.000000
+!s107 ../00_src/IPU/adc_ase_masked_min.sv|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_ase_masked_min_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_ase_masked_min_tb.sv|
+!i113 0
+Z26 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vadc_estimation
+R12
+R13
+R14
+!i10b 1
+!s100 NN3kziX2m8O8Hj7ND:VD23
+I3>>?lfRQ]EHm=aLXF=IR23
+S1
+R15
+w1773487530
+8../00_src/IPU/adc_estimation.sv
+F../00_src/IPU/adc_estimation.sv
+!i122 1991
+L0 29 327
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vadc_estimation_tb
+2../00_src/IPU/adc_line_buffer_5x5.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_estimation.sv|../01_sim/IPU/adc_estimation_tb.sv
+R13
+!s110 1773501988
+!i10b 1
+!s100 LC6YN]fN1iLhf]4@IGC`43
+IRc0cCOZHPl<^PDJJkaAOW2
+S1
+R15
+w1773247343
+8../01_sim/IPU/adc_estimation_tb.sv
+F../01_sim/IPU/adc_estimation_tb.sv
+!i122 1733
+L0 24 243
+R16
+R17
+r1
+!s85 0
+31
+!s108 1773501988.000000
+!s107 ../01_sim/IPU/adc_estimation_tb.sv|../00_src/IPU/adc_estimation.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/adc_line_buffer_5x5.sv|
+!s90 -sv|../00_src/IPU/adc_line_buffer_5x5.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_estimation.sv|../01_sim/IPU/adc_estimation_tb.sv|
+!i113 0
+Z27 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vadc_line_buffer_5x5
+R12
+R13
+R14
+!i10b 1
+!s100 cWcV;2:ZcMKmJBdH5QQm@2
+IDM`T5@0^FlHng8<Oce95;2
+S1
+R15
+w1773502086
+8../00_src/IPU/adc_line_buffer_5x5.sv
+F../00_src/IPU/adc_line_buffer_5x5.sv
+!i122 1991
+L0 14 113
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vadc_path_length
+R12
+R13
+R14
+!i10b 1
+!s100 mPM=XGIE6fzSY``cVHdG10
+IkILBB1]G`d?c4<E1I@<b32
+S1
+R15
+R24
+8../00_src/IPU/adc_path_length.sv
+F../00_src/IPU/adc_path_length.sv
+!i122 1991
+L0 29 114
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vadc_path_length_tb
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_path_length_tb.sv
+R13
+R23
+!i10b 1
+!s100 <lM^?amHci:]BkDG:`GTA0
+IJNY1=O>o9T@6N2n5G^HlY1
+S1
+R15
+R24
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_path_length_tb.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_path_length_tb.sv
+!i122 1924
+L0 27 194
+R16
+R17
+r1
+!s85 0
+31
+R25
+!s107 ../00_src/IPU/adc_path_length.sv|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_path_length_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_path_length_tb.sv|
+!i113 0
+R26
+R9
+vadc_pixel_distance
+R12
+R13
+R14
+!i10b 1
+!s100 0O8aOGYgHZc]MU<QOVO4T0
+IXgnSA8AQDbPXCFeD[eZPA1
+S1
+R15
+Z28 w1773159121
+8../00_src/IPU/adc_pixel_distance.sv
+F../00_src/IPU/adc_pixel_distance.sv
+!i122 1991
+L0 31 169
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vadc_pixel_distance_tb
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_pixel_distance_tb.sv
+R13
+R23
+!i10b 1
+!s100 =SANiPg;ggj10GG9OV?D:0
+I5@]kVX0]5kPHJFDJX?UHQ3
+S1
+R15
+R24
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_pixel_distance_tb.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_pixel_distance_tb.sv
+!i122 1925
+L0 27 202
+R16
+R17
+r1
+!s85 0
+31
+R25
+!s107 ../00_src/IPU/adc_pixel_distance.sv|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_pixel_distance_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_pixel_distance_tb.sv|
+!i113 0
+R26
+R9
+vadc_rlimit_compute
+R12
+R13
+R14
+!i10b 1
+!s100 M6g@hX9AUnEkO1G>WlA]H0
+I;d9P3o6BQAg;38;mahBd20
+S1
+R15
+R28
+8../00_src/IPU/adc_rlimit_compute.sv
+F../00_src/IPU/adc_rlimit_compute.sv
+!i122 1991
+L0 22 126
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vadc_rlimit_compute_tb
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_rlimit_compute_tb.sv
+R13
+R23
+!i10b 1
+!s100 b36XUXWEUa2@@Af1]fn;G2
+InoI;<AB>KYKzFilnm=Xez0
+S1
+R15
+R24
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_rlimit_compute_tb.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_rlimit_compute_tb.sv
+!i122 1926
+L0 31 211
+R16
+R17
+r1
+!s85 0
+31
+R25
+!s107 ../00_src/IPU/adc_rlimit_compute.sv|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_rlimit_compute_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/adc_rlimit_compute_tb.sv|
+!i113 0
+R26
+R9
+vatm_light_coarse_tx
+R12
+R13
+R14
+!i10b 1
+!s100 :6^>]SlJIC>=01RA?iA@L0
+IMC:3aW=1HSBR]n[2QFZi`0
+S1
+R15
+w1773508673
+8../00_src/IPU/atm_light_coarse_tx.sv
+F../00_src/IPU/atm_light_coarse_tx.sv
+!i122 1991
+L0 25 196
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vatmospheric_light
+R12
+R13
+R14
+!i10b 1
+!s100 FSSJ[@40KWR@`Jf6Mo:D33
+IzfzCXHGMnN8jG;lm@Wl]`1
+S1
+R15
+w1770137690
+8../00_src/IPU/atmospheric_light.sv
+F../00_src/IPU/atmospheric_light.sv
+!i122 1991
+L0 22 88
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+Yatmospheric_light_if
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/asmopheric_light_if.sv
+R13
+!s110 1772869663
+!i10b 1
+!s100 D8zoo<<;e]Beb7Z_F`I^@2
+IEiS>Sebf7j9[Y8A=F`eSc0
+S1
+R15
+w1766224594
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/asmopheric_light_if.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/asmopheric_light_if.sv
+!i122 36
+Z29 L0 3 0
+R16
+R17
+r1
+!s85 0
+31
+!s108 1772869663.000000
+!s107 C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/asmopheric_light_if.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/asmopheric_light_if.sv|
+!i113 0
+R26
+R9
+vatmospheric_light_tb
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/atmospheric_light_tb_v2.sv
+R13
+Z30 !s110 1773586638
+!i10b 1
+!s100 E@zB=A6Jkf30PZW<eImJ[0
+I1G0PAEV`PO_3k1Ro]5jU41
+S1
+R15
+w1772870288
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/atmospheric_light_tb_v2.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/atmospheric_light_tb_v2.sv
+!i122 1891
+L0 29 214
+R16
+R17
+r1
+!s85 0
+31
+Z31 !s108 1773586637.000000
+!s107 ../00_src/IPU/atmospheric_light.sv|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/atmospheric_light_tb_v2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/atmospheric_light_tb_v2.sv|
+!i113 0
+R26
+R9
+vbank_bram
+R12
+R13
+R14
+!i10b 1
+!s100 lhFb2odmn9dzBE]h[CRiS3
+Ik6nRIi]7=4NObDX`z]CLD0
+S1
+R15
+w1773461309
+8../00_src/IPU/bank_bram.sv
+F../00_src/IPU/bank_bram.sv
+!i122 1991
+L0 1 36
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vbank_pingpong_stream
+R12
+R13
+R14
+!i10b 1
+!s100 ]>NnQBiZgB;mo4`[Ma0Um3
+I1lBiZf>KaHiR@a3>X6cA<0
+S1
+R15
+w1772873873
+8../00_src/IPU/bank_pingpong_stream.sv
+F../00_src/IPU/bank_pingpong_stream.sv
+!i122 1991
+L0 1 172
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vbank_pingpong_tb
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/bank_pingpong_tb.sv
+R13
+!s110 1773586639
+!i10b 1
+!s100 RMV4Z0F1iXT:V8e8zbecE2
+IV@bPJN6o=UnUf<9Iid0Vz2
+S1
+R15
+w1772874914
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/bank_pingpong_tb.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/bank_pingpong_tb.sv
+!i122 1903
+L0 38 305
+R16
+R17
+r1
+!s85 0
+31
+Z32 !s108 1773586638.000000
+!s107 ../00_src/IPU/frame_linear_counter.sv|../00_src/IPU/bank_bram.sv|../00_src/IPU/bank_pingpong_stream.sv|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/bank_pingpong_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/bank_pingpong_tb.sv|
+!i113 0
+R26
+R9
+vdark_channel
+R12
+R13
+R14
+!i10b 1
+!s100 C?<3fDIS6SY32<:Oh^hH[0
+I2nmi6>CS:?=hi:CFT<b?j3
+S1
+R15
+w1770137612
+Z33 8../00_src/IPU/dark_channel.sv
+Z34 F../00_src/IPU/dark_channel.sv
+!i122 1991
+L0 3 100
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+Ydark_channel_if
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/dark_channel_if.sv
+R13
+!s110 1772869664
+!i10b 1
+!s100 a8CQA=7A>_UiW_3f[BVKF0
+ID5_TTMe39J5;X_Fco1AcG3
+S1
+R15
+w1766201460
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/dark_channel_if.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/dark_channel_if.sv
+!i122 39
+R29
+R16
+R17
+r1
+!s85 0
+31
+!s108 1772869664.000000
+!s107 C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/dark_channel_if.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/dark_channel_if.sv|
+!i113 0
+R26
+R9
+vdark_channel_tb
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/dark_channel_tb_v2.sv
+R13
+R30
+!i10b 1
+!s100 1aB?]fMnj6FN6Xa;BI1ml1
+INb55b<o^0RWnIXm8E5A8T2
+S1
+R15
+w1772870311
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/dark_channel_tb_v2.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/dark_channel_tb_v2.sv
+R33
+R34
+!i122 1892
+L0 28 163
+R16
+R17
+r1
+!s85 0
+31
+R32
+!s107 ../00_src/IPU/search_block_min.sv|../00_src/IPU/src_min.sv|../00_src/IPU/dark_channel.sv|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/dark_channel_tb_v2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/dark_channel_tb_v2.sv|
+!i113 0
+R26
+R9
+verror_diffusion
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/top.sv
+R13
+!s110 1772874407
+!i10b 1
+!s100 f]VPHjlN<QGjcE1DZ=?C70
+IBSDVdGf6kFN=KaZY[e>DX3
+S1
+R15
+w1755463934
+8../00_src/IPU/error_diffusion.sv
+F../00_src/IPU/error_diffusion.sv
+!i122 98
+L0 1 146
+R16
+R17
+r1
+!s85 0
+31
+!s108 1772874407.000000
+!s107 ../00_src/IPU/grayscale.sv|../00_src/IPU/error_diffusion.sv|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/top.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/top.sv|
+!i113 0
+R26
+R9
+vestimate_transmission
+R12
+R13
+R14
+!i10b 1
+!s100 4YJfXOaAnk8=kc84VmMnM2
+IoYMBNoedj94mAUKLQWA=B1
+S1
+R15
+w1773584407
+8../00_src/IPU/estimate_transmission.sv
+F../00_src/IPU/estimate_transmission.sv
+!i122 1991
+L0 14 132
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vfifo_ram
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/fifo_ram.sv
+R13
+Z35 !s110 1773586637
+!i10b 1
+!s100 1GNVPY]U5DnYE9k[mMbWO0
+I6RjM<=2@KjV10EfC>RN5g2
+S1
+R15
+w1772872702
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/fifo_ram.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/fifo_ram.sv
+!i122 1884
+L0 1 68
+R16
+R17
+r1
+!s85 0
+31
+R31
+!s107 C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/fifo_ram.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/fifo_ram.sv|
+!i113 0
+R26
+R9
+vframe_linear_counter
+R12
+R13
+R14
+!i10b 1
+!s100 [J>CUNGlahPE5ZWPXHH@J3
+IUWESHmdOkAG7`@A<VS;fc2
+S1
+R15
+w1773487034
+8../00_src/IPU/frame_linear_counter.sv
+F../00_src/IPU/frame_linear_counter.sv
+!i122 1991
+L0 1 67
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vfusing
+R12
+R13
+R14
+!i10b 1
+!s100 LZTDi=XI6M9WNnTkQK^2N0
+IDRdzCQ7n_3HKjb1HFfBPO0
+S1
+R15
+Z36 w1773508658
+8../00_src/IPU/fusing.sv
+F../00_src/IPU/fusing.sv
+!i122 1991
+L0 15 90
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vgrayscale
+R12
+R13
+R14
+!i10b 1
+!s100 QQlDoVWmHfCd=D_k]U74Y0
+IU8WoE?fSZjJ514ah8=Q6Z0
+S1
+R15
+w1770043973
+8../00_src/IPU/grayscale.sv
+F../00_src/IPU/grayscale.sv
+!i122 1991
+L0 1 92
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vhaze_removal_core
+R12
+R13
+R14
+!i10b 1
+!s100 zD:Q`]RNnegCimIOMV]N92
+Iz>g69LCCF03;=AR72=h0=0
+S1
+R15
+w1773719027
+8../00_src/IPU/haze_removal_core.sv
+F../00_src/IPU/haze_removal_core.sv
+!i122 1991
+L0 19 727
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vhaze_removal_top
+R12
+R13
+R14
+!i10b 1
+!s100 TEU_<@^>^<^kAW0b1]Z:50
+IWi@cDO0m[2ohKRG^lzFKn1
+S1
+R15
+w1773589550
+8../00_src/IPU/haze_removal_top.sv
+F../00_src/IPU/haze_removal_top.sv
+!i122 1991
+L0 8 76
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vhaze_removal_top_128_tb
+2../00_src/IPU/min3_u8.sv|../00_src/IPU/dark_channel.sv|../00_src/IPU/atmospheric_light.sv|../00_src/IPU/bank_bram.sv|../00_src/IPU/bank_pingpong_stream.sv|../00_src/IPU/estimate_transmission.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_line_buffer_5x5.sv|../00_src/IPU/adc_estimation.sv|../00_src/IPU/frame_linear_counter.sv|../00_src/IPU/invA_lut_q16.sv|../00_src/IPU/omega_clamp_t.sv|../00_src/IPU/norm_channel_q16.sv|../00_src/IPU/ipu_control_logic.sv|../00_src/IPU/grayscale.sv|../00_src/IPU/t_computing.sv|../00_src/IPU/fusing.sv|../00_src/IPU/t_compute_fuse.sv|../00_src/IPU/atm_light_coarse_tx.sv|../00_src/IPU/haze_removal_core.sv|../00_src/IPU/haze_removal_top.sv|../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_128_tb.sv
+R13
+R11
+!i10b 1
+!s100 ?hjbVQIV]Mf6b1`6?zA8K2
+IAEM^U6FGkdAA9>=W=Vbni0
+S1
+R15
+Z37 w1773589074
+8../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_128_tb.sv
+F../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_128_tb.sv
+!i122 1963
+L0 3 531
+R16
+R17
+r1
+!s85 0
+31
+!s108 1773592958.000000
+!s107 ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_128_tb.sv|../00_src/IPU/haze_removal_top.sv|../00_src/IPU/haze_removal_core.sv|../00_src/IPU/atm_light_coarse_tx.sv|../00_src/IPU/t_compute_fuse.sv|../00_src/IPU/fusing.sv|../00_src/IPU/t_computing.sv|../00_src/IPU/grayscale.sv|../00_src/IPU/ipu_control_logic.sv|../00_src/IPU/norm_channel_q16.sv|../00_src/IPU/omega_clamp_t.sv|../00_src/IPU/invA_lut_q16.sv|../00_src/IPU/frame_linear_counter.sv|../00_src/IPU/adc_estimation.sv|../00_src/IPU/adc_line_buffer_5x5.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/estimate_transmission.sv|../00_src/IPU/bank_pingpong_stream.sv|../00_src/IPU/bank_bram.sv|../00_src/IPU/atmospheric_light.sv|../00_src/IPU/dark_channel.sv|../00_src/IPU/min3_u8.sv|
+!s90 +acc|+define+SIM_MODE|../00_src/IPU/min3_u8.sv|../00_src/IPU/dark_channel.sv|../00_src/IPU/atmospheric_light.sv|../00_src/IPU/bank_bram.sv|../00_src/IPU/bank_pingpong_stream.sv|../00_src/IPU/estimate_transmission.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_line_buffer_5x5.sv|../00_src/IPU/adc_estimation.sv|../00_src/IPU/frame_linear_counter.sv|../00_src/IPU/invA_lut_q16.sv|../00_src/IPU/omega_clamp_t.sv|../00_src/IPU/norm_channel_q16.sv|../00_src/IPU/ipu_control_logic.sv|../00_src/IPU/grayscale.sv|../00_src/IPU/t_computing.sv|../00_src/IPU/fusing.sv|../00_src/IPU/t_compute_fuse.sv|../00_src/IPU/atm_light_coarse_tx.sv|../00_src/IPU/haze_removal_core.sv|../00_src/IPU/haze_removal_top.sv|../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_128_tb.sv|
+!i113 0
+R21
+Z38 !s92 +acc +define+SIM_MODE -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vhaze_removal_top_phase_tb
+2../00_src/IPU/min3_u8.sv|../00_src/IPU/dark_channel.sv|../00_src/IPU/atmospheric_light.sv|../00_src/IPU/bank_bram.sv|../00_src/IPU/bank_pingpong_stream.sv|../00_src/IPU/estimate_transmission.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_line_buffer_5x5.sv|../00_src/IPU/adc_estimation.sv|../00_src/IPU/frame_linear_counter.sv|../00_src/IPU/invA_lut_q16.sv|../00_src/IPU/omega_clamp_t.sv|../00_src/IPU/norm_channel_q16.sv|../00_src/IPU/ipu_control_logic.sv|../00_src/IPU/grayscale.sv|../00_src/IPU/t_computing.sv|../00_src/IPU/fusing.sv|../00_src/IPU/t_compute_fuse.sv|../00_src/IPU/atm_light_coarse_tx.sv|../00_src/IPU/haze_removal_core.sv|../00_src/IPU/haze_removal_top.sv|../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_phase_tb.sv
+R13
+!s110 1773589399
+!i10b 1
+!s100 J1M1g43BNonmMNIW=6;?72
+IoghKdOIdSFYhD??=aI9^D0
+S1
+R15
+R37
+8../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_phase_tb.sv
+F../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_phase_tb.sv
+!i122 1952
+L0 6 461
+R16
+R17
+r1
+!s85 0
+31
+!s108 1773589399.000000
+!s107 ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_phase_tb.sv|../00_src/IPU/haze_removal_top.sv|../00_src/IPU/haze_removal_core.sv|../00_src/IPU/atm_light_coarse_tx.sv|../00_src/IPU/t_compute_fuse.sv|../00_src/IPU/fusing.sv|../00_src/IPU/t_computing.sv|../00_src/IPU/grayscale.sv|../00_src/IPU/ipu_control_logic.sv|../00_src/IPU/norm_channel_q16.sv|../00_src/IPU/omega_clamp_t.sv|../00_src/IPU/invA_lut_q16.sv|../00_src/IPU/frame_linear_counter.sv|../00_src/IPU/adc_estimation.sv|../00_src/IPU/adc_line_buffer_5x5.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/estimate_transmission.sv|../00_src/IPU/bank_pingpong_stream.sv|../00_src/IPU/bank_bram.sv|../00_src/IPU/atmospheric_light.sv|../00_src/IPU/dark_channel.sv|../00_src/IPU/min3_u8.sv|
+!s90 +acc|+define+SIM_MODE|../00_src/IPU/min3_u8.sv|../00_src/IPU/dark_channel.sv|../00_src/IPU/atmospheric_light.sv|../00_src/IPU/bank_bram.sv|../00_src/IPU/bank_pingpong_stream.sv|../00_src/IPU/estimate_transmission.sv|../00_src/IPU/adc_pixel_distance.sv|../00_src/IPU/adc_path_length.sv|../00_src/IPU/adc_rlimit_compute.sv|../00_src/IPU/adc_ase_masked_min.sv|../00_src/IPU/adc_line_buffer_5x5.sv|../00_src/IPU/adc_estimation.sv|../00_src/IPU/frame_linear_counter.sv|../00_src/IPU/invA_lut_q16.sv|../00_src/IPU/omega_clamp_t.sv|../00_src/IPU/norm_channel_q16.sv|../00_src/IPU/ipu_control_logic.sv|../00_src/IPU/grayscale.sv|../00_src/IPU/t_computing.sv|../00_src/IPU/fusing.sv|../00_src/IPU/t_compute_fuse.sv|../00_src/IPU/atm_light_coarse_tx.sv|../00_src/IPU/haze_removal_core.sv|../00_src/IPU/haze_removal_top.sv|../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_phase_tb.sv|
+!i113 0
+R21
+R38
+R9
+vhaze_removal_top_tb
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/haze_removal_top_tb.sv
+R13
+Z39 !s110 1773586643
+!i10b 1
+!s100 izUWQ8`?bHaoTTo2ozGUl3
+IF780Mg@Cc7E8gQ7=6B_HQ2
+S1
+R15
+w1773463358
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/haze_removal_top_tb.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/haze_removal_top_tb.sv
+!i122 1937
+L0 21 613
+R16
+R17
+r1
+!s85 0
+31
+Z40 !s108 1773586643.000000
+!s107 C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/haze_removal_top_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/haze_removal_top_tb.sv|
+!i113 0
+R26
+R9
+vimg_in_bram
+R12
+R14
+!i10b 1
+!s100 HJaUefPfk9Td9E_M?EIl?2
+IW<<<eORXS>0EXh[36nkLG1
+R15
+w1773248776
+8../00_src/IPU/mem/img_in_bram.v
+F../00_src/IPU/mem/img_in_bram.v
+!i122 1991
+L0 1 49
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vimg_out_bram
+R12
+R14
+!i10b 1
+!s100 [SdJAGIZ15iWi7ckL]:KO3
+IFHXd`cNoO7J3=H:dMcP>C1
+R15
+w1773248680
+8../00_src/IPU/mem/img_out_bram.v
+F../00_src/IPU/mem/img_out_bram.v
+!i122 1991
+L0 1 44
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vinvA_lut_q16
+R12
+R13
+R14
+!i10b 1
+!s100 ]kjD7McQA21>a2ETFL;Wa1
+IM<K;D=OInB3[YfZ`_LlZc0
+S1
+R15
+w1772594534
+8../00_src/IPU/invA_lut_q16.sv
+F../00_src/IPU/invA_lut_q16.sv
+!i122 1991
+L0 6 43
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+ninv@a_lut_q16
+vipu_bram_reader
+R12
+R14
+!i10b 1
+!s100 oGReh7?;lU]h1JQ_AQJMg3
+I]X<4AhnSEkkdU4CE8Bo^S0
+R15
+Z41 w1773593888
+8../00_src/IPU/mem/ipu_bram_reader.v
+F../00_src/IPU/mem/ipu_bram_reader.v
+!i122 1991
+L0 1 114
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vipu_bram_writer
+R12
+R14
+!i10b 1
+!s100 9jbM3XN^@L90;k<2lGnd43
+I<;Z`<=j:n7cSN1I9cGcTl0
+R15
+w1773248805
+8../00_src/IPU/mem/ipu_bram_writer.v
+F../00_src/IPU/mem/ipu_bram_writer.v
+!i122 1991
+L0 1 80
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vipu_control_logic
+R12
+R13
+R14
+!i10b 1
+!s100 PGffeV7@HmKPANI?eokd^2
+IgM2XHS`Wl>M0>K]<A4Ybg2
+S1
+R15
+R41
+8../00_src/IPU/ipu_control_logic.sv
+F../00_src/IPU/ipu_control_logic.sv
+!i122 1991
+L0 15 201
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vipu_top
+R12
+R13
+R14
+!i10b 1
+!s100 OTc1E4]mA>Oe^cQd:<lcC1
+IP:bPL?<hUUVQnm=neONT[1
+S1
+R15
+R41
+8../00_src/IPU/ipu_top.sv
+F../00_src/IPU/ipu_top.sv
+!i122 1991
+L0 3 326
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vipu_top_128_tb
+R12
+R13
+R14
+!i10b 1
+!s100 5@<E3XBW@]e=3B324G5ND3
+I`CT>=`3;[lRB@fOSznMAJ0
+S1
+R15
+w1773591624
+8../01_sim/IPU/Testbench_IPU_TOP/sim/ipu_top_128_tb.sv
+F../01_sim/IPU/Testbench_IPU_TOP/sim/ipu_top_128_tb.sv
+!i122 1991
+L0 4 471
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vmin3_u8
+R12
+R13
+R14
+!i10b 1
+!s100 b6O76?;^zZ8@?R0@N1Y_C3
+ID5F2<>OY2JL`1GLPC3>3n3
+S1
+R15
+w1772594355
+8../00_src/IPU/min3_u8.sv
+F../00_src/IPU/min3_u8.sv
+!i122 1991
+L0 1 13
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vnorm_channel_q16
+R12
+R13
+R14
+!i10b 1
+!s100 oI9ZTi>Wza8]S<P^;Mjb]3
+IbnJQG>_S<Ue5QR`1c4LdW1
+S1
+R15
+w1772594358
+8../00_src/IPU/norm_channel_q16.sv
+F../00_src/IPU/norm_channel_q16.sv
+!i122 1991
+L0 7 16
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vomega_clamp_t
+R12
+R13
+R14
+!i10b 1
+!s100 7Q<V]O3hcT3fhI3jWQ^?52
+I9WFh4SU^F8=06kb@`7kL[0
+S1
+R15
+w1773508865
+8../00_src/IPU/omega_clamp_t.sv
+F../00_src/IPU/omega_clamp_t.sv
+!i122 1991
+L0 5 24
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vpurple_block_integration_tb
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/purple_block_integration_tb.sv
+R13
+Z42 !s110 1773586640
+!i10b 1
+!s100 YfmAd;FZX8[GI9DKQ_hO@0
+I`mgY7KF1`_nFZNeNmYn^g3
+S1
+R15
+w1773508705
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/purple_block_integration_tb.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/purple_block_integration_tb.sv
+!i122 1904
+L0 23 458
+R16
+R17
+r1
+!s85 0
+31
+Z43 !s108 1773586640.000000
+!s107 C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/purple_block_integration_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/purple_block_integration_tb.sv|
+!i113 0
+R26
+R9
+vpurple_system_tb
+2../01_sim/IPU/Testbench_Purple_Block_Integration/sim/testbench.sv
+R13
+!s110 1772982196
+!i10b 1
+!s100 hMz2B7DHg8FKFH^1CGPNU1
+I7G3LZeCBA34F<h<2`MQDO3
+S1
+R15
+w1772981948
+8../01_sim/IPU/Testbench_Purple_Block_Integration/sim/testbench.sv
+F../01_sim/IPU/Testbench_Purple_Block_Integration/sim/testbench.sv
+!i122 243
+L0 22 430
+R16
+R17
+r1
+!s85 0
+31
+!s108 1772982196.000000
+!s107 ../01_sim/IPU/Testbench_Purple_Block_Integration/sim/testbench.sv|
+!s90 -sv|../01_sim/IPU/Testbench_Purple_Block_Integration/sim/testbench.sv|
+!i113 0
+R27
+R9
+vRAM
+Z44 2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/testbench.sv
+R13
+Z45 !s110 1773586641
+!i10b 1
+!s100 aDA<olCLbXm1>X=GJX75U0
+IL<zdIf1IQY4=W=fda:]P63
+S1
+R15
+Z46 w1772979364
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/../src/RAM.v
+Z47 FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/testbench.sv
+!i122 1916
+Z48 L0 1 31
+R16
+R17
+r1
+!s85 0
+31
+Z49 !s108 1773586641.000000
+Z50 !s107 C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/../src/../src/grayscale.v|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/../src/top.v|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/../src/RAM.v|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/../src/ROM.v|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/testbench.sv|
+Z51 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/testbench.sv|
+!i113 0
+R26
+R9
+n@r@a@m
+vRAM_o
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/RAM_o.sv
+R13
+R35
+!i10b 1
+!s100 NE=jbDVlJjG1I=ECLP_>E1
+I9<VLE`f6QJ:11zfK>cBZO0
+S1
+R15
+w1770045117
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/RAM_o.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/RAM_o.sv
+!i122 1886
+R48
+R16
+R17
+r1
+!s85 0
+31
+R31
+!s107 C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/RAM_o.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/RAM_o.sv|
+!i113 0
+R26
+R9
+n@r@a@m_o
+vROM
+R44
+R13
+R45
+!i10b 1
+!s100 ZBo;YBU`?n77W<0PN>izI1
+IA:WkS@mFKRk=^WF`mb2<a0
+S1
+R15
+R46
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/../src/ROM.v
+R47
+!i122 1916
+Z52 L0 3 18
+R16
+R17
+r1
+!s85 0
+31
+R49
+R50
+R51
+!i113 0
+R26
+R9
+n@r@o@m
+vROM_i
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/ROM_i.sv
+R13
+R35
+!i10b 1
+!s100 3ZHTd@>QUlU862JdK:=6z0
+Ig7]c3TV3lfLc0hQJRbOAB1
+S1
+R15
+w1770045112
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/ROM_i.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/ROM_i.sv
+!i122 1887
+R52
+R16
+R17
+r1
+!s85 0
+31
+R31
+!s107 C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/ROM_i.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/ROM_i.sv|
+!i113 0
+R26
+R9
+n@r@o@m_i
+vsearch_block_min
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/02_questasim/search_block_min.sv
+R13
+R42
+!i10b 1
+!s100 gXN14T9Wg`W>b3?>RCI1I3
+I?o?Z[@KF8jHGLgkPNMMKN0
+S1
+R15
+w1766204432
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/02_questasim/search_block_min.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/02_questasim/search_block_min.sv
+!i122 1908
+R48
+R16
+R17
+r1
+!s85 0
+31
+R43
+!s107 C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/02_questasim/search_block_min.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/02_questasim/search_block_min.sv|
+!i113 0
+R26
+R9
+vsky_recognition
+Z53 2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/sky_recognition_tb.sv
+R13
+R30
+!i10b 1
+!s100 zaX`=1Ca_[f=hK;<I5T623
+IJ14INn6QzMK;Ia3[<54>z3
+S1
+R15
+Z54 w1772876576
+Z55 8../00_src/IPU/sky_recognition.sv
+Z56 F../00_src/IPU/sky_recognition.sv
+!i122 1902
+L0 3 42
+R16
+R17
+r1
+!s85 0
+31
+R32
+Z57 !s107 ../00_src/IPU/sky_recognition.sv|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/sky_recognition_tb.sv|
+Z58 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/sky_recognition_tb.sv|
+!i113 0
+R26
+R9
+vsky_recognition_tb
+R53
+R13
+R30
+!i10b 1
+!s100 g[V>ObFP9aXbZk;P[oEW00
+I@=J63lJDR2ojQH6l?72b61
+S1
+R15
+R54
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/sky_recognition_tb.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/sky_recognition_tb.sv
+R55
+R56
+!i122 1902
+L0 34 200
+R16
+R17
+r1
+!s85 0
+31
+R32
+R57
+R58
+!i113 0
+R26
+R9
+vspatial_min3x3
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/spatial_min3x3.sv
+R13
+R30
+!i10b 1
+!s100 K1C9N@KZh@j0`d@b5X`O03
+IUBL:iHob=8cLBAEXZBmbh1
+S1
+R15
+w1772594326
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/spatial_min3x3.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/spatial_min3x3.sv
+!i122 1898
+L0 6 99
+R16
+R17
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/spatial_min3x3.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/spatial_min3x3.sv|
+!i113 0
+R26
+R9
+vsrc_min
+Z59 2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_DarkChannel_System/sim/testbench.sv
+R13
+R45
+!i10b 1
+!s100 BIFnGLEPl[c9^@DkIfaHB0
+I<KFmmCY1^5WcZJ=@51:kY1
+S1
+R15
+w1766204430
+F../01_sim/IPU/Testbench_DarkChannel_System/src/src_min.sv
+Z60 F../01_sim/IPU/Testbench_DarkChannel_System/src/dark_channel.sv
+!i122 1911
+L0 1 22
+R16
+R17
+r1
+!s85 0
+31
+R49
+Z61 !s107 ../01_sim/IPU/Testbench_DarkChannel_System/src/src_min.sv|../01_sim/IPU/Testbench_DarkChannel_System/src/dark_channel.sv|../01_sim/IPU/Testbench_DarkChannel_System/src/top.sv|../01_sim/IPU/Testbench_DarkChannel_System/src/RAM.v|../01_sim/IPU/Testbench_DarkChannel_System/src/ROM.v|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_DarkChannel_System/sim/testbench.sv|
+Z62 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_DarkChannel_System/sim/testbench.sv|
+!i113 0
+R26
+R9
+vt_compute_fuse
+R12
+R13
+R14
+!i10b 1
+!s100 hbQXE5AC7G:E4HF4cYML^0
+IDF?WJL8JRWm1BZdgibjMQ1
+S1
+R15
+w1773508647
+8../00_src/IPU/t_compute_fuse.sv
+F../00_src/IPU/t_compute_fuse.sv
+!i122 1991
+L0 13 88
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vt_compute_fuse_tb
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/t_compute_fuse_tb.sv
+R13
+R39
+!i10b 1
+!s100 B9n`>07U8nHDCR[N0_X]43
+I@AIc6XO8]JE>`_6]dVaIP1
+S1
+R15
+w1773508691
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/t_compute_fuse_tb.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/t_compute_fuse_tb.sv
+!i122 1934
+L0 34 194
+R16
+R17
+r1
+!s85 0
+31
+R40
+!s107 ../00_src/IPU/t_compute_fuse.sv|../00_src/IPU/fusing.sv|../00_src/IPU/t_computing.sv|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/t_compute_fuse_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/t_compute_fuse_tb.sv|
+!i113 0
+R26
+R9
+vt_computing
+R12
+R13
+R14
+!i10b 1
+!s100 A[hCP`PmzDX6VHD4dfYbd1
+Ia`B@SnG=S?R]_`:oc2k;<3
+S1
+R15
+R36
+8../00_src/IPU/t_computing.sv
+F../00_src/IPU/t_computing.sv
+!i122 1991
+L0 16 61
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+Ttb_dark_opt
+!s110 1772978656
+V@;P6]VW:mBm8TSB^6DM@F0
+04 9 4 work testbench fast 0
+R1
+R5
+R6
+R7
+Z63 o+acc
+R9
+ntb_dark_opt
+R10
+R4
+vtb_estimate_transmission
+2../01_sim/IPU/estimate_tranmission_tb.sv
+R13
+!s110 1772872111
+!i10b 1
+!s100 NzaaWm]5GZI@nZihlo01X3
+IaZCfZVa1^5=nh<TB=C[Cz0
+S1
+R15
+w1772872085
+8../01_sim/IPU/estimate_tranmission_tb.sv
+F../01_sim/IPU/estimate_tranmission_tb.sv
+!i122 88
+L0 17 228
+R16
+R17
+r1
+!s85 0
+31
+!s108 1772872111.000000
+!s107 ../00_src/IPU/search_block_min.sv|../00_src/IPU/spatial_min3x3.sv|../00_src/IPU/omega_clamp_t.sv|../00_src/IPU/min3_u8.sv|../00_src/IPU/norm_channel_q16.sv|../00_src/IPU/invA_lut_q16.sv|../00_src/IPU/estimate_transmission.sv|../01_sim/IPU/estimate_tranmission_tb.sv|
+!s90 ../01_sim/IPU/estimate_tranmission_tb.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+Ttb_gray_opt
+!s110 1772979770
+VEj32blDj_DO7j:@M?OIXc0
+04 11 4 work testfixture fast 0
+R1
+R5
+R6
+R7
+R63
+R9
+ntb_gray_opt
+R10
+R4
+Ttb_opt
+!s110 1773502075
+V4zJZC;h;f`TX0@h0NOHIB2
+04 19 4 work haze_removal_top_tb fast 0
+R1
+R5
+R6
+R7
+R63
+R9
+ntb_opt
+R10
+R4
+Ttb_purple_sys_opt
+!s110 1772982201
+VZV3EJSlOj@DA`MeF7`Qe]2
+04 16 4 work purple_system_tb fast 0
+R1
+R5
+R6
+R7
+R63
+R9
+ntb_purple_sys_opt
+R10
+R4
+vtestbench
+R59
+R13
+R45
+!i10b 1
+!s100 M]zYnAkFSX6OXe0kLDTO?0
+IkE2jXDAe64YB==hXGe6^B0
+S1
+R15
+w1772979967
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_DarkChannel_System/sim/testbench.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_DarkChannel_System/sim/testbench.sv
+8../01_sim/IPU/Testbench_DarkChannel_System/src/dark_channel.sv
+R60
+!i122 1911
+L0 23 323
+R16
+R17
+r1
+!s85 0
+31
+R49
+R61
+R62
+!i113 0
+R26
+R9
+vtestfixture
+R44
+R13
+R45
+!i10b 1
+!s100 VDg:AU53oX2nN=<gAS3K_1
+I:[jNV>Z26VFBXLSi2@H9i2
+S1
+R15
+R46
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/testbench.sv
+R47
+!i122 1916
+L0 22 335
+R16
+R17
+r1
+!s85 0
+31
+R49
+R50
+R51
+!i113 0
+R26
+R9
+vtop
+R44
+R13
+R45
+!i10b 1
+!s100 679VYmGCUXCCJZ@KCGE]L2
+If=WJ>lOQFZL@4j2L@cdT?1
+S1
+R15
+w1772979745
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/../src/top.v
+R47
+!i122 1916
+L0 2 275
+R16
+R17
+r1
+!s85 0
+31
+R49
+R50
+R51
+!i113 0
+R26
+R9
+vtop_purple
+2C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/top_purple.sv
+R13
+!s110 1773418505
+!i10b 1
+!s100 18]I^YjKh11VjW37MKBR?0
+I1EgdCVR]lb16Cc2WE<o5f2
+S1
+R15
+w1772876192
+8C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/top_purple.sv
+FC:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/top_purple.sv
+!i122 416
+L0 25 219
+R16
+R17
+r1
+!s85 0
+31
+!s108 1773418505.000000
+!s107 C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/top_purple.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/top_purple.sv|
+!i113 0
+R26
+R9

@@ -1,0 +1,21 @@
+// RGB Pattern Input (24-bit: [23:16]=B, [15:8]=G, [7:0]=R)
+FFFFFF  // [00] R=255, G=255, B=255 - White - No haze info
+808080  // [01] R=128, G=128, B=128 - Gray - Uniform
+404040  // [02] R= 64, G= 64, B= 64 - Dark gray
+000000  // [03] R=  0, G=  0, B=  0 - Black
+74F0F0  // [04] R=240, G=240, B=116 - Light hazy sky
+B4D2C8  // [05] R=200, G=210, B=180 - Light atmospheric
+8CA096  // [06] R=150, G=160, B=140 - Medium haze
+5A6E64  // [07] R=100, G=110, B= 90 - Heavy haze
+2D3732  // [08] R= 50, G= 55, B= 45 - Very heavy haze
+62CC61  // [09] R= 97, G=204, B= 98 - Green vegetation
+074813  // [10] R= 19, G= 72, B=  7 - Dark vegetation
+1047B5  // [11] R=181, G= 71, B= 16 - Brown/orange
+9AF48E  // [12] R=142, G=244, B=154 - Teal sky
+7CD0E2  // [13] R=226, G=208, B=124 - Sunset
+0000FF  // [14] R=255, G=  0, B=  0 - Pure red
+00FF00  // [15] R=  0, G=255, B=  0 - Pure green
+FF0000  // [16] R=  0, G=  0, B=255 - Pure blue
+00FFFF  // [17] R=255, G=255, B=  0 - Yellow
+FFFF00  // [18] R=  0, G=255, B=255 - Cyan
+FF00FF  // [19] R=255, G=  0, B=255 - Magenta

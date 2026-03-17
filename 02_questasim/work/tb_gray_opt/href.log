@@ -1,0 +1,6 @@
+BEGIN 1:RAM:fast:work
+    mem :  1:testfixture:fast:work
+END 
+BEGIN 1:ROM:fast:work
+    mem :  1:testfixture:fast:work
+END 

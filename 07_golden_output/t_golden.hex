@@ -1,0 +1,64 @@
+// Golden Transmission Output (8-bit)
+// Parameters: A_RGB=(200,200,200), OMEGA_Q8=0xFF, T_MIN=15
+// Algorithm: t = clamp(255 - ((OMEGA * min_norm) >> 8), T_MIN)
+
+// [00] RGB=(  0,  0,  0) - Black - No haze
+FF  // t=255, min_norm=  0
+
+// [01] RGB=(255,255,255) - White - Max haze
+0F  // t= 15, min_norm=255
+
+// [02] RGB=(255,  0,  0) - Pure Red
+FF  // t=255, min_norm=  0
+
+// [03] RGB=(  0,255,  0) - Pure Green
+FF  // t=255, min_norm=  0
+
+// [04] RGB=(  0,  0,255) - Pure Blue
+FF  // t=255, min_norm=  0
+
+// [05] RGB=( 50, 50, 50) - Dark gray
+C1  // t=193, min_norm= 63
+
+// [06] RGB=(100,100,100) - Medium gray
+81  // t=129, min_norm=127
+
+// [07] RGB=(150,150,150) - Light gray
+41  // t= 65, min_norm=191
+
+// [08] RGB=(200,200,200) - Very light gray (same as A)
+0F  // t= 15, min_norm=254
+
+// [09] RGB=(128,128,128) - Mid gray
+5D  // t= 93, min_norm=163
+
+// [10] RGB=(180,190,195) - Light hazy blue-ish
+1B  // t= 27, min_norm=229
+
+// [11] RGB=(170,175,180) - Medium hazy
+28  // t= 40, min_norm=216
+
+// [12] RGB=(160,165,170) - Slightly hazy
+35  // t= 53, min_norm=203
+
+// [13] RGB=(190,195,198) - Very hazy - Sky
+0F  // t= 15, min_norm=242
+
+// [14] RGB=(185,190,195) - Hazy sky-like
+15  // t= 21, min_norm=235
+
+// [15] RGB=( 30, 50, 70) - Dark blue-ish (good contrast)
+DA  // t=218, min_norm= 38
+
+// [16] RGB=( 80, 60, 40) - Brown-ish
+CE  // t=206, min_norm= 50
+
+// [17] RGB=(120, 90, 60) - Warm tone
+B4  // t=180, min_norm= 76
+
+// [18] RGB=( 40, 80,120) - Cool tone
+CE  // t=206, min_norm= 50
+
+// [19] RGB=( 60,130, 90) - Green-ish nature
+B4  // t=180, min_norm= 76
+

@@ -1,0 +1,21 @@
+// RGB Pattern Input (24-bit: [23:16]=B, [15:8]=G, [7:0]=R)
+000000  // [00] R=  0, G=  0, B=  0 - Black - No haze
+FFFFFF  // [01] R=255, G=255, B=255 - White - Max haze
+0000FF  // [02] R=255, G=  0, B=  0 - Pure Red
+00FF00  // [03] R=  0, G=255, B=  0 - Pure Green
+FF0000  // [04] R=  0, G=  0, B=255 - Pure Blue
+323232  // [05] R= 50, G= 50, B= 50 - Dark gray
+646464  // [06] R=100, G=100, B=100 - Medium gray
+969696  // [07] R=150, G=150, B=150 - Light gray
+C8C8C8  // [08] R=200, G=200, B=200 - Very light gray (same as A)
+808080  // [09] R=128, G=128, B=128 - Mid gray
+C3BEB4  // [10] R=180, G=190, B=195 - Light hazy blue-ish
+B4AFAA  // [11] R=170, G=175, B=180 - Medium hazy
+AAA5A0  // [12] R=160, G=165, B=170 - Slightly hazy
+C6C3BE  // [13] R=190, G=195, B=198 - Very hazy - Sky
+C3BEB9  // [14] R=185, G=190, B=195 - Hazy sky-like
+46321E  // [15] R= 30, G= 50, B= 70 - Dark blue-ish (good contrast)
+283C50  // [16] R= 80, G= 60, B= 40 - Brown-ish
+3C5A78  // [17] R=120, G= 90, B= 60 - Warm tone
+785028  // [18] R= 40, G= 80, B=120 - Cool tone
+5A823C  // [19] R= 60, G=130, B= 90 - Green-ish nature

@@ -1,0 +1,63 @@
+// Golden Dark Channel Output (8-bit)
+// Dark Channel = min(R, G, B)
+
+// [00] RGB=(255,255,255) - White - No haze info
+FF  // dark=255
+
+// [01] RGB=(128,128,128) - Gray - Uniform
+80  // dark=128
+
+// [02] RGB=( 64, 64, 64) - Dark gray
+40  // dark= 64
+
+// [03] RGB=(  0,  0,  0) - Black
+00  // dark=  0
+
+// [04] RGB=(240,240,116) - Light hazy sky
+74  // dark=116
+
+// [05] RGB=(200,210,180) - Light atmospheric
+B4  // dark=180
+
+// [06] RGB=(150,160,140) - Medium haze
+8C  // dark=140
+
+// [07] RGB=(100,110, 90) - Heavy haze
+5A  // dark= 90
+
+// [08] RGB=( 50, 55, 45) - Very heavy haze
+2D  // dark= 45
+
+// [09] RGB=( 97,204, 98) - Green vegetation
+61  // dark= 97
+
+// [10] RGB=( 19, 72,  7) - Dark vegetation
+07  // dark=  7
+
+// [11] RGB=(181, 71, 16) - Brown/orange
+10  // dark= 16
+
+// [12] RGB=(142,244,154) - Teal sky
+8E  // dark=142
+
+// [13] RGB=(226,208,124) - Sunset
+7C  // dark=124
+
+// [14] RGB=(255,  0,  0) - Pure red
+00  // dark=  0
+
+// [15] RGB=(  0,255,  0) - Pure green
+00  // dark=  0
+
+// [16] RGB=(  0,  0,255) - Pure blue
+00  // dark=  0
+
+// [17] RGB=(255,255,  0) - Yellow
+00  // dark=  0
+
+// [18] RGB=(  0,255,255) - Cyan
+00  // dark=  0
+
+// [19] RGB=(255,  0,255) - Magenta
+00  // dark=  0
+

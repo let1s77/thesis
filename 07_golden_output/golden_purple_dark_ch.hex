@@ -1,0 +1,17 @@
+// Dark channel per pixel (8-bit)
+96  // [00] dark=150
+50  // [01] dark= 80
+C8  // [02] dark=200
+2D  // [03] dark= 45
+B4  // [04] dark=180
+1E  // [05] dark= 30
+A0  // [06] dark=160
+46  // [07] dark= 70
+8C  // [08] dark=140
+98  // [09] dark=152
+0A  // [10] dark= 10
+C8  // [11] dark=200
+6E  // [12] dark=110
+AA  // [13] dark=170
+00  // [14] dark=  0
+5A  // [15] dark= 90

@@ -1,0 +1,17 @@
+BEGIN 1:haze_removal_core:fast:work
+    purple_tx_valid :  1:haze_removal_top_phase_tb:fast:work
+    purple_A_r :  1:haze_removal_top_phase_tb:fast:work
+    bank_rd_data :  1:haze_removal_top_phase_tb:fast:work
+    purple_A_b :  1:haze_removal_top_phase_tb:fast:work
+    adc_out_pix :  1:haze_removal_top_phase_tb:fast:work
+    adc_latched_index :  1:haze_removal_top_phase_tb:fast:work
+    purple_sky_valid :  1:haze_removal_top_phase_tb:fast:work
+    purple_sky :  1:haze_removal_top_phase_tb:fast:work
+    purple_dark_valid :  1:haze_removal_top_phase_tb:fast:work
+    purple_tx :  1:haze_removal_top_phase_tb:fast:work
+    purple_A_g :  1:haze_removal_top_phase_tb:fast:work
+    adc_out_valid :  1:haze_removal_top_phase_tb:fast:work
+    adc_dark_hold :  1:haze_removal_top_phase_tb:fast:work
+    purple_dark_ch :  1:haze_removal_top_phase_tb:fast:work
+    adc_out_index :  1:haze_removal_top_phase_tb:fast:work
+END 

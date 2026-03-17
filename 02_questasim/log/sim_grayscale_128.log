@@ -1,0 +1,56 @@
+Reading pref.tcl
+
+# 2024.1
+
+# vsim -c tb_gray_opt -do "run -all; quit" 
+# Start time: 21:22:58 on Mar 08,2026
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.testfixture(fast)
+# Loading work.top(fast)
+# Loading work.grayscale(fast)
+# Loading work.ROM(fast)
+# Loading work.RAM(fast)
+# run -all
+# Warning: No pattern macro (P1, P2, TEST) defined. Using default test.bmp
+# BMP read[0]: 5c, pixel[0] channel[0]
+# BMP read[1]: 82, pixel[0] channel[1]
+# BMP read[2]: 7b, pixel[0] channel[2]
+# BMP read[3]: 4f, pixel[1] channel[0]
+# BMP read[4]: 75, pixel[1] channel[1]
+# BMP read[5]: 69, pixel[1] channel[2]
+# BMP read[6]: 47, pixel[2] channel[0]
+# BMP read[7]: 6e, pixel[2] channel[1]
+# BMP read[8]: 5e, pixel[2] channel[2]
+# BMP read[9]: 49, pixel[3] channel[0]
+# BMP read[10]: 6e, pixel[3] channel[1]
+# BMP read[11]: 5f, pixel[3] channel[2]
+# ROM[0]: R=7b, G=82, B=5c, RGB=5c827b
+# ROM[1]: R=69, G=75, B=4f, RGB=4f7569
+# ROM[2]: R=5e, G=6e, B=47, RGB=476e5e
+# ROM[3]: R=5f, G=6e, B=49, RGB=496e5f
+# ROM[4]: R=66, G=70, B=4d, RGB=4d7066
+# Plot grayscale image ...
+# The grayscale image had been generated in the path "../01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/image/gray_test_128.bmp" 
+# 
+# 
+# Your own image "../01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/image/test_128.bmp" had been successfully convert.
+# 
+# 
+# ** Note: $finish    : ../01_sim/IPU/Testbench_Grayscale Image Converter_System/sim/testbench.sv(351)
+#    Time: 131116 ns  Iteration: 1  Instance: /testfixture
+# End time: 21:22:59 on Mar 08,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

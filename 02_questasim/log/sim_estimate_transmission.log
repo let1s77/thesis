@@ -1,0 +1,203 @@
+Reading pref.tcl
+
+# 2024.1
+
+# vsim -c tb_opt -do "run -all; quit" 
+# Start time: 15:28:34 on Mar 07,2026
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb_estimate_transmission(fast)
+# Loading work.estimate_transmission(fast)
+# Loading work.invA_lut_q16(fast)
+# Loading work.norm_channel_q16(fast)
+# Loading work.min3_u8(fast)
+# Loading work.omega_clamp_t(fast)
+# run -all
+# 
+# 
+# ================================================================
+#         Estimate Transmission - RTL Testbench
+# ================================================================
+# Total test patterns: 20
+# Mode: ENABLE_SPATIAL_FILTER = 0
+# Algorithm:
+#   norm_c = sat8((pix_c * invA_q16) >> 16)
+#   min_norm = min(norm_r, norm_g, norm_b)
+#   t = 255 - ((OMEGA_Q8 * min_norm) >> 8)
+#   clamp: t >= T_MIN
+# ================================================================
+# 
+# ----------- Pattern  1: RGB = 000000 -----------
+#   R=  0, G=  0, B=  0, SKY=0
+#   o_valid = 1
+#   Transmission Out: 255 (0xff)
+#   Golden Expected : 255 (0xff)
+#   Result: PASS 
+# 
+# ----------- Pattern  2: RGB = ffffff -----------
+#   R=255, G=255, B=255, SKY=0
+#   o_valid = 1
+#   Transmission Out:  26 (0x1a)
+#   Golden Expected :  26 (0x1a)
+#   Result: PASS 
+# 
+# ----------- Pattern  3: RGB = 0000ff -----------
+#   R=255, G=  0, B=  0, SKY=0
+#   o_valid = 1
+#   Transmission Out: 255 (0xff)
+#   Golden Expected : 255 (0xff)
+#   Result: PASS 
+# 
+# ----------- Pattern  4: RGB = 00ff00 -----------
+#   R=  0, G=255, B=  0, SKY=0
+#   o_valid = 1
+#   Transmission Out: 255 (0xff)
+#   Golden Expected : 255 (0xff)
+#   Result: PASS 
+# 
+# ----------- Pattern  5: RGB = ff0000 -----------
+#   R=  0, G=  0, B=255, SKY=0
+#   o_valid = 1
+#   Transmission Out: 255 (0xff)
+#   Golden Expected : 255 (0xff)
+#   Result: PASS 
+# 
+# ----------- Pattern  6: RGB = 323232 -----------
+#   R= 50, G= 50, B= 50, SKY=0
+#   o_valid = 1
+#   Transmission Out: 196 (0xc4)
+#   Golden Expected : 196 (0xc4)
+#   Result: PASS 
+# 
+# ----------- Pattern  7: RGB = 646464 -----------
+#   R=100, G=100, B=100, SKY=0
+#   o_valid = 1
+#   Transmission Out: 135 (0x87)
+#   Golden Expected : 135 (0x87)
+#   Result: PASS 
+# 
+# ----------- Pattern  8: RGB = 969696 -----------
+#   R=150, G=150, B=150, SKY=0
+#   o_valid = 1
+#   Transmission Out:  74 (0x4a)
+#   Golden Expected :  74 (0x4a)
+#   Result: PASS 
+# 
+# ----------- Pattern  9: RGB = c8c8c8 -----------
+#   R=200, G=200, B=200, SKY=0
+#   o_valid = 1
+#   Transmission Out:  26 (0x1a)
+#   Golden Expected :  26 (0x1a)
+#   Result: PASS 
+# 
+# ----------- Pattern 10: RGB = 808080 -----------
+#   R=128, G=128, B=128, SKY=0
+#   o_valid = 1
+#   Transmission Out: 101 (0x65)
+#   Golden Expected : 101 (0x65)
+#   Result: PASS 
+# 
+# ----------- Pattern 11: RGB = c3beb4 -----------
+#   R=180, G=190, B=195, SKY=0
+#   o_valid = 1
+#   Transmission Out:  38 (0x26)
+#   Golden Expected :  38 (0x26)
+#   Result: PASS 
+# 
+# ----------- Pattern 12: RGB = b4afaa -----------
+#   R=170, G=175, B=180, SKY=0
+#   o_valid = 1
+#   Transmission Out:  50 (0x32)
+#   Golden Expected :  50 (0x32)
+#   Result: PASS 
+# 
+# ----------- Pattern 13: RGB = aaa5a0 -----------
+#   R=160, G=165, B=170, SKY=0
+#   o_valid = 1
+#   Transmission Out:  63 (0x3f)
+#   Golden Expected :  63 (0x3f)
+#   Result: PASS 
+# 
+# ----------- Pattern 14: RGB = c6c3be -----------
+#   R=190, G=195, B=198, SKY=1
+#   o_valid = 1
+#   Transmission Out:  26 (0x1a)
+#   Golden Expected :  26 (0x1a)
+#   Result: PASS 
+# 
+# ----------- Pattern 15: RGB = c3beb9 -----------
+#   R=185, G=190, B=195, SKY=1
+#   o_valid = 1
+#   Transmission Out:  32 (0x20)
+#   Golden Expected :  32 (0x20)
+#   Result: PASS 
+# 
+# ----------- Pattern 16: RGB = 46321e -----------
+#   R= 30, G= 50, B= 70, SKY=0
+#   o_valid = 1
+#   Transmission Out: 219 (0xdb)
+#   Golden Expected : 219 (0xdb)
+#   Result: PASS 
+# 
+# ----------- Pattern 17: RGB = 283c50 -----------
+#   R= 80, G= 60, B= 40, SKY=0
+#   o_valid = 1
+#   Transmission Out: 208 (0xd0)
+#   Golden Expected : 208 (0xd0)
+#   Result: PASS 
+# 
+# ----------- Pattern 18: RGB = 3c5a78 -----------
+#   R=120, G= 90, B= 60, SKY=0
+#   o_valid = 1
+#   Transmission Out: 183 (0xb7)
+#   Golden Expected : 183 (0xb7)
+#   Result: PASS 
+# 
+# ----------- Pattern 19: RGB = 785028 -----------
+#   R= 40, G= 80, B=120, SKY=0
+#   o_valid = 1
+#   Transmission Out: 208 (0xd0)
+#   Golden Expected : 208 (0xd0)
+#   Result: PASS 
+# 
+# ----------- Pattern 20: RGB = 5a823c -----------
+#   R= 60, G=130, B= 90, SKY=0
+#   o_valid = 1
+#   Transmission Out: 183 (0xb7)
+#   Golden Expected : 183 (0xb7)
+#   Result: PASS 
+# 
+# 
+# 
+# ========================================
+#         SIMULATION SUMMARY              
+# ========================================
+#     ********************************
+#     ** Estimate Transmission RTL  **
+#     ********************************
+#     **                            **       |\__||  
+#     **  Congratulations !!        **      / O.O  | 
+#     **                            **    /_____   | 
+#     **  SIMULATION PASS !!        **   /^ ^ ^ \\  |
+#     **                            **  |^ ^ ^ ^ |w| 
+#     ********************************   \m___m__|_|
+#     All 20 patterns passed!
+# 
+# 
+# ** Note: $finish    : ../01_sim/IPU/estimate_tranmission_tb.sv(223)
+#    Time: 646 ns  Iteration: 0  Instance: /tb_estimate_transmission
+# End time: 15:28:35 on Mar 07,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

@@ -1,0 +1,83 @@
+// Golden Grayscale Output (8-bit)
+// Format: 3 values per pattern (Mode 0, 1, 2)
+
+// [00] RGB=(255,255,255) - White
+FF  // Mode0: 255 (float=255.0000)
+FF  // Mode1: 255 (float=255.0000)
+FF  // Mode2: 255 (float=255.0000)
+
+// [01] RGB=(  0,  0,  0) - Black
+00  // Mode0:   0 (float=0.0000)
+00  // Mode1:   0 (float=0.0000)
+00  // Mode2:   0 (float=0.0000)
+
+// [02] RGB=(255,  0,  0) - Pure Red
+50  // Mode0:  80 (float=79.6875)
+4F  // Mode1:  79 (float=79.6875)
+50  // Mode2:  80 (float=79.6875)
+
+// [03] RGB=(  0,255,  0) - Pure Green
+90  // Mode0: 144 (float=143.4375)
+8F  // Mode1: 143 (float=143.4375)
+8F  // Mode2: 143 (float=143.4375)
+
+// [04] RGB=(  0,  0,255) - Pure Blue
+20  // Mode0:  32 (float=31.8750)
+1F  // Mode1:  31 (float=31.8750)
+20  // Mode2:  32 (float=31.8750)
+
+// [05] RGB=(128,128,128) - Gray 50%
+80  // Mode0: 128 (float=128.0000)
+80  // Mode1: 128 (float=128.0000)
+80  // Mode2: 128 (float=128.0000)
+
+// [06] RGB=( 64, 64, 64) - Gray 25%
+40  // Mode0:  64 (float=64.0000)
+40  // Mode1:  64 (float=64.0000)
+40  // Mode2:  64 (float=64.0000)
+
+// [07] RGB=(192,192,192) - Gray 75%
+C0  // Mode0: 192 (float=192.0000)
+C0  // Mode1: 192 (float=192.0000)
+C0  // Mode2: 192 (float=192.0000)
+
+// [08] RGB=(255,128, 64) - Warm tone
+A0  // Mode0: 160 (float=159.6875)
+9F  // Mode1: 159 (float=159.6875)
+A0  // Mode2: 160 (float=159.6875)
+
+// [09] RGB=( 64,128,255) - Cool tone
+7C  // Mode0: 124 (float=123.8750)
+7B  // Mode1: 123 (float=123.8750)
+7C  // Mode2: 124 (float=123.8750)
+
+// [10] RGB=(240,240,116) - Light hazy
+E1  // Mode0: 225 (float=224.5000)
+E0  // Mode1: 224 (float=224.5000)
+E0  // Mode2: 224 (float=224.5000)
+
+// [11] RGB=( 97,204, 98) - Green vegetation
+9E  // Mode0: 158 (float=157.3125)
+9D  // Mode1: 157 (float=157.3125)
+9D  // Mode2: 157 (float=157.3125)
+
+// [12] RGB=(181, 71, 16) - Brown/orange
+63  // Mode0:  99 (float=98.5000)
+62  // Mode1:  98 (float=98.5000)
+62  // Mode2:  98 (float=98.5000)
+
+// [13] RGB=(142,244,154) - Teal
+C9  // Mode0: 201 (float=200.8750)
+C8  // Mode1: 200 (float=200.8750)
+C9  // Mode2: 201 (float=200.8750)
+
+// [14] RGB=(226,208,124) - Sunset
+CC  // Mode0: 204 (float=203.1250)
+CB  // Mode1: 203 (float=203.1250)
+CB  // Mode2: 203 (float=203.1250)
+
+// [15] RGB=(100,100,100) - Mid gray
+64  // Mode0: 100 (float=100.0000)
+64  // Mode1: 100 (float=100.0000)
+64  // Mode2: 100 (float=100.0000)
+

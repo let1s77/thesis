@@ -1,0 +1,20 @@
+BEGIN 1:t_compute_fuse:fast:work
+    tx_raw_s1 :  1:haze_removal_top_tb:fast:work
+END 
+BEGIN 1:haze_removal_top:fast:work
+    tcf_g :  1:haze_removal_top_tb:fast:work
+    bank_rd_data :  1:haze_removal_top_tb:fast:work
+    tcf_valid :  1:haze_removal_top_tb:fast:work
+    adc_out_valid :  1:haze_removal_top_tb:fast:work
+    adc_out_index :  1:haze_removal_top_tb:fast:work
+    purple_A_r :  1:haze_removal_top_tb:fast:work
+    tcf_r :  1:haze_removal_top_tb:fast:work
+    tcf_tx_raw :  1:haze_removal_top_tb:fast:work
+    tcf_b :  1:haze_removal_top_tb:fast:work
+    adc_out_pix :  1:haze_removal_top_tb:fast:work
+    adc_latched_index :  1:haze_removal_top_tb:fast:work
+    adc_dark_hold :  1:haze_removal_top_tb:fast:work
+    tcf_tx_used :  1:haze_removal_top_tb:fast:work
+    purple_A_g :  1:haze_removal_top_tb:fast:work
+    purple_A_b :  1:haze_removal_top_tb:fast:work
+END 

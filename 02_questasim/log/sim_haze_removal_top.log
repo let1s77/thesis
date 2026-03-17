@@ -1,0 +1,181 @@
+# vsim -c tb_opt "+PATTERN_FILE=" "+GOLDEN_FILE=" -l log/sim_haze_removal_top.log -do "run -all; quit" 
+# Start time: 22:28:08 on Mar 14,2026
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.haze_removal_top_tb(fast)
+# Loading work.haze_removal_top(fast)
+# Loading work.atm_light_coarse_tx(fast)
+# Loading work.grayscale(fast)
+# Loading work.dark_channel(fast)
+# Loading work.src_min(fast)
+# Loading work.atmospheric_light(fast)
+# Loading work.sky_recognition(fast)
+# Loading work.estimate_transmission(fast)
+# Loading work.invA_lut_q16(fast)
+# Loading work.norm_channel_q16(fast)
+# Loading work.min3_u8(fast)
+# Loading work.omega_clamp_t(fast)
+# Loading work.bank_pingpong_stream(fast)
+# Loading work.frame_linear_counter(fast)
+# Loading work.bank_bram(fast)
+# Loading work.adc_estimation(fast)
+# Loading work.adc_line_buffer_5x5(fast)
+# Loading work.adc_pixel_distance(fast)
+# Loading work.adc_path_length(fast)
+# Loading work.adc_rlimit_compute(fast)
+# Loading work.adc_ase_masked_min(fast)
+# Loading work.t_compute_fuse(fast)
+# Loading work.t_computing(fast)
+# Loading work.fusing(fast)
+# run -all
+# Pattern file: ../09_pattern/pattern_haze_removal_top_rgb5x5.hex
+# Golden  file: ../07_golden_output/golden_haze_removal_top.hex
+# Golden tx5x5 : ../07_golden_output/golden_haze_removal_top_tx5x5.hex
+# Golden adc   : ../07_golden_output/golden_haze_removal_top_adc.hex
+# 
+# ============================================================
+#   HAZE_REMOVAL_TOP TB (5x5 frame, 20 cases)
+# ============================================================
+# 
+# [CASE  0] exp_case_id=0 tx_raw=0xc7 tx_used=0xc7 exp_rgb=(113,96,90)
+#   TRACE ADC stream idx=0 pix=0x1a (golden=0x1a)
+#   TRACE ADC stream idx=1 pix=0x1a (golden=0x1a)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x1a first_match_idx=0
+#   PASS: center RGB matched (113,96,90)
+# [CASE  1] exp_case_id=1 tx_raw=0xd0 tx_used=0xd0 exp_rgb=(134,117,112)
+#   TRACE ADC stream idx=0 pix=0x1a (golden=0x1a)
+#   TRACE ADC stream idx=1 pix=0x1a (golden=0x1a)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x1a first_match_idx=0
+#   PASS: center RGB matched (134,117,112)
+# [CASE  2] exp_case_id=2 tx_raw=0x12 tx_used=0x1a exp_rgb=(125,46,17)
+#   TRACE ADC stream idx=0 pix=0xd0 (golden=0xd0)
+#   TRACE ADC stream idx=1 pix=0xd0 (golden=0xd0)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0xd0 first_match_idx=0
+#   PASS: center RGB matched (125,46,17)
+# [CASE  3] exp_case_id=3 tx_raw=0x7f tx_used=0x7f exp_rgb=(22,4,0)
+#   TRACE ADC stream idx=0 pix=0xdf (golden=0x7c)
+#   TRACE ADC stream idx=1 pix=0x7c (golden=0x7c)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x7c first_match_idx=1
+#   PASS: center RGB matched (22,4,0)
+# [CASE  4] exp_case_id=4 tx_raw=0xf8 tx_used=0xf8 exp_rgb=(24,13,12)
+#   TRACE ADC stream idx=0 pix=0xe8 (golden=0xe8)
+#   TRACE ADC stream idx=1 pix=0xe8 (golden=0xe8)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0xe8 first_match_idx=0
+#   PASS: center RGB matched (24,13,12)
+# [CASE  5] exp_case_id=5 tx_raw=0xf8 tx_used=0xf8 exp_rgb=(25,13,13)
+#   TRACE ADC stream idx=0 pix=0xf0 (golden=0xe8)
+#   TRACE ADC stream idx=1 pix=0xe8 (golden=0xe8)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0xe8 first_match_idx=1
+#   PASS: center RGB matched (25,13,13)
+# [CASE  6] exp_case_id=6 tx_raw=0xbd tx_used=0xbd exp_rgb=(192,175,177)
+#   TRACE ADC stream idx=0 pix=0xff (golden=0xff)
+#   TRACE ADC stream idx=1 pix=0xff (golden=0xff)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0xff first_match_idx=0
+#   PASS: center RGB matched (192,175,177)
+# [CASE  7] exp_case_id=7 tx_raw=0x58 tx_used=0x58 exp_rgb=(213,175,181)
+#   TRACE ADC stream idx=0 pix=0x93 (golden=0x93)
+#   TRACE ADC stream idx=1 pix=0x93 (golden=0x93)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x93 first_match_idx=0
+#   PASS: center RGB matched (213,175,181)
+# [CASE  8] exp_case_id=8 tx_raw=0xc9 tx_used=0xc9 exp_rgb=(113,95,85)
+#   TRACE ADC stream idx=0 pix=0x1a (golden=0x1a)
+#   TRACE ADC stream idx=1 pix=0x1a (golden=0x1a)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x1a first_match_idx=0
+#   PASS: center RGB matched (113,95,85)
+# [CASE  9] exp_case_id=9 tx_raw=0x86 tx_used=0x86 exp_rgb=(17,2,246)
+#   TRACE ADC stream idx=0 pix=0x7d (golden=0x48)
+#   TRACE ADC stream idx=1 pix=0x48 (golden=0x48)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x48 first_match_idx=1
+#   PASS: center RGB matched (17,2,246)
+# [CASE 10] exp_case_id=10 tx_raw=0x84 tx_used=0x84 exp_rgb=(19,2,247)
+#   TRACE ADC stream idx=0 pix=0x48 (golden=0x48)
+#   TRACE ADC stream idx=1 pix=0x48 (golden=0x48)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x48 first_match_idx=0
+#   PASS: center RGB matched (19,2,247)
+# [CASE 11] exp_case_id=11 tx_raw=0xc3 tx_used=0xc3 exp_rgb=(76,63,57)
+#   TRACE ADC stream idx=0 pix=0x1a (golden=0x21)
+#   TRACE ADC stream idx=1 pix=0x21 (golden=0x21)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x21 first_match_idx=1
+#   PASS: center RGB matched (76,63,57)
+# [CASE 12] exp_case_id=12 tx_raw=0x6f tx_used=0x6f exp_rgb=(31,5,253)
+#   TRACE ADC stream idx=0 pix=0x69 (golden=0x47)
+#   TRACE ADC stream idx=1 pix=0x47 (golden=0x47)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x47 first_match_idx=1
+#   PASS: center RGB matched (31,5,253)
+# [CASE 13] exp_case_id=13 tx_raw=0x5b tx_used=0x5b exp_rgb=(5,229,220)
+#   TRACE ADC stream idx=0 pix=0x2d (golden=0x54)
+#   TRACE ADC stream idx=1 pix=0x54 (golden=0x54)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x54 first_match_idx=1
+#   PASS: center RGB matched (5,229,220)
+# [CASE 14] exp_case_id=14 tx_raw=0x23 tx_used=0x23 exp_rgb=(114,19,4)
+#   TRACE ADC stream idx=0 pix=0xb0 (golden=0xb0)
+#   TRACE ADC stream idx=1 pix=0xb0 (golden=0xb0)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0xb0 first_match_idx=0
+#   PASS: center RGB matched (114,19,4)
+# [CASE 15] exp_case_id=15 tx_raw=0xf6 tx_used=0xf6 exp_rgb=(26,12,11)
+#   TRACE ADC stream idx=0 pix=0xe8 (golden=0xe8)
+#   TRACE ADC stream idx=1 pix=0xe8 (golden=0xe8)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0xe8 first_match_idx=0
+#   PASS: center RGB matched (26,12,11)
+# [CASE 16] exp_case_id=16 tx_raw=0x64 tx_used=0x64 exp_rgb=(202,182,182)
+#   TRACE ADC stream idx=0 pix=0x88 (golden=0x88)
+#   TRACE ADC stream idx=1 pix=0x88 (golden=0x88)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x88 first_match_idx=0
+#   PASS: center RGB matched (202,182,182)
+# [CASE 17] exp_case_id=17 tx_raw=0x72 tx_used=0x72 exp_rgb=(119,98,101)
+#   TRACE ADC stream idx=0 pix=0x5f (golden=0x5f)
+#   TRACE ADC stream idx=1 pix=0x5f (golden=0x5f)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x5f first_match_idx=0
+#   PASS: center RGB matched (119,98,101)
+# [CASE 18] exp_case_id=18 tx_raw=0xc3 tx_used=0xc3 exp_rgb=(105,91,94)
+#   TRACE ADC stream idx=0 pix=0x1a (golden=0x1a)
+#   TRACE ADC stream idx=1 pix=0x1a (golden=0x1a)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x1a first_match_idx=0
+#   PASS: center RGB matched (105,91,94)
+# [CASE 19] exp_case_id=19 tx_raw=0x9c tx_used=0x9c exp_rgb=(119,101,88)
+#   TRACE ADC stream idx=0 pix=0xff (golden=0x57)
+#   TRACE ADC stream idx=1 pix=0x57 (golden=0x57)
+#   TRACE TX5x5: bank stream matched golden (25/25)
+#   TRACE ADC pick: pick_idx=1 latched_idx=1 out_count=2 selected_adc=0x57 first_match_idx=1
+#   PASS: center RGB matched (119,101,88)
+# 
+# ============================================================
+# HAZE_REMOVAL_TOP TB PASS: all 20 cases passed
+# ============================================================
+# 
+# ** Note: $finish    : ../01_sim/IPU/haze_removal_top_tb.sv(623)
+#    Time: 27835 ns  Iteration: 1  Instance: /haze_removal_top_tb
+# End time: 22:28:09 on Mar 14,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

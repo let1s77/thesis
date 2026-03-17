@@ -1,0 +1,17 @@
+// Grayscale per pixel (8-bit, mode=round-to-even)
+9E  // [00] gray=158
+6D  // [01] gray=109
+D0  // [02] gray=208
+37  // [03] gray= 55
+BC  // [04] gray=188
+26  // [05] gray= 38
+A4  // [06] gray=164
+51  // [07] gray= 81
+92  // [08] gray=146
+9D  // [09] gray=157
+10  // [10] gray= 16
+C8  // [11] gray=200
+72  // [12] gray=114
+AE  // [13] gray=174
+00  // [14] gray=  0
+5E  // [15] gray= 94
