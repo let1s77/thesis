@@ -1,0 +1,28 @@
+
+State Machine - |wrapper|soc_top:u_soc_top|ipu_core:u_ipu_core|ipu_control_logic:u_ipu_control_logic|state_prev
+Name state_prev.S_DONE state_prev.S_RECOVERY state_prev.S_ADC state_prev.S_TRANS state_prev.S_SKY state_prev.S_DARK state_prev.S_LOAD state_prev.S_IDLE 
+state_prev.S_IDLE 0 0 0 0 0 0 0 0 
+state_prev.S_LOAD 0 0 0 0 0 0 1 1 
+state_prev.S_DARK 0 0 0 0 0 1 0 1 
+state_prev.S_SKY 0 0 0 0 1 0 0 1 
+state_prev.S_TRANS 0 0 0 1 0 0 0 1 
+state_prev.S_ADC 0 0 1 0 0 0 0 1 
+state_prev.S_RECOVERY 0 1 0 0 0 0 0 1 
+state_prev.S_DONE 1 0 0 0 0 0 0 1 
+
+State Machine - |wrapper|soc_top:u_soc_top|ipu_core:u_ipu_core|ipu_control_logic:u_ipu_control_logic|state_c
+Name state_c.S_DONE state_c.S_RECOVERY state_c.S_ADC state_c.S_TRANS state_c.S_SKY state_c.S_DARK state_c.S_LOAD state_c.S_IDLE 
+state_c.S_IDLE 0 0 0 0 0 0 0 0 
+state_c.S_LOAD 0 0 0 0 0 0 1 1 
+state_c.S_DARK 0 0 0 0 0 1 0 1 
+state_c.S_SKY 0 0 0 0 1 0 0 1 
+state_c.S_TRANS 0 0 0 1 0 0 0 1 
+state_c.S_ADC 0 0 1 0 0 0 0 1 
+state_c.S_RECOVERY 0 1 0 0 0 0 0 1 
+state_c.S_DONE 1 0 0 0 0 0 0 1 
+
+State Machine - |wrapper|soc_top:u_soc_top|single_cycle:u_single_cycle|cpu_state
+Name cpu_state.FETCH cpu_state.MEM_WB cpu_state.EXEC 
+cpu_state.FETCH 0 0 0 
+cpu_state.EXEC 1 0 1 
+cpu_state.MEM_WB 1 1 0 

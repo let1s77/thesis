@@ -1,0 +1,16 @@
+{
+  "log": "C:\\Users\\Ms Khanh\\OneDrive - hcmut.edu.vn\\Desktop\\DATN\\works_code_DA2\\12_test\\log\\quartus_thesis_v1_full_20260419_154715.log",
+  "map_report": "C:\\Users\\Ms Khanh\\OneDrive - hcmut.edu.vn\\Desktop\\DATN\\works_code_DA2\\06_FGPA_Imple\\thesis\\output_files\\thesis_v1.map.rpt",
+  "flow_report": "C:\\Users\\Ms Khanh\\OneDrive - hcmut.edu.vn\\Desktop\\DATN\\works_code_DA2\\06_FGPA_Imple\\thesis\\output_files\\thesis_v1.flow.rpt",
+  "qmsg": "C:\\Users\\Ms Khanh\\OneDrive - hcmut.edu.vn\\Desktop\\DATN\\works_code_DA2\\06_FGPA_Imple\\thesis\\db\\thesis_v1.map.qmsg",
+  "log_counts": {},
+  "map_counts": {
+    "warning": 28
+  },
+  "qmsg_counts": {
+    "warning": 22
+  },
+  "summary": null,
+  "in_progress": false,
+  "success": false
+}

@@ -1,0 +1,876 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/D/Study_material/(DATN)/Tetris_1/simulation/modelsim
+T_opt
+!s110 1758685462
+VJFWONJB8Q3;bYDbG;Z[dJ2
+04 2 4 work tb fast 0
+=1-18dbf230e651-68d36915-1d6-6b28
+!s124 OEM10U70 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vbuffer_ram
+Z2 !s110 1758685457
+!i10b 1
+!s100 n:gbTaeUgljJ`>=_eaGjX2
+ITln7[O>CNjHPYk9=5hB8W1
+R0
+w1758028348
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/buffer_ram.v
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/vga/buffer_ram.v
+!i122 7
+L0 40 80
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z5 !s108 1758685457.000000
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/buffer_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga|C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/buffer_ram.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcal_next_addr
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1758685458
+!i10b 1
+!s100 Ab[a7B5YcmWDI<LRZL1h32
+IH2QZFRjQd2S`@`70TzGnS1
+S1
+R0
+w1758551299
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/cal_next_addr.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/cal_next_addr.sv
+!i122 12
+L0 1 48
+R3
+R4
+r1
+!s85 0
+31
+Z9 !s108 1758685458.000000
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/cal_next_addr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/cal_next_addr.sv|
+!i113 0
+Z10 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vclear_counter
+R2
+!i10b 1
+!s100 1b67]Bn8D_fPmY5kg4J<I3
+IzER?EZgeUk7oGWd=?_^9_3
+R0
+w1758598798
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/clear_counter.v
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/clear_counter.v
+!i122 0
+L0 40 44
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/clear_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/clear_counter.v|
+!i113 0
+R6
+Z12 !s92 -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vclear_line
+R7
+R8
+!i10b 1
+!s100 [`mk]bSTPI`6cKY]TdgzH1
+I7IMdP4>5c15dTR2Jl[JkR2
+S1
+R0
+w1758685228
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/clear_line.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/clear_line.sv
+!i122 11
+L0 1 736
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/clear_line.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/clear_line.sv|
+!i113 0
+R10
+R11
+R1
+vcontrol_debounce
+R7
+Z13 !s110 1758685460
+!i10b 1
+!s100 MXHQNNL8;gInz4AMkdlRI1
+IIX8F4Qd6lI_l6Fm3PL_bh0
+S1
+R0
+w1758071024
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_debounce.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_debounce.sv
+!i122 32
+L0 1 44
+R3
+R4
+r1
+!s85 0
+31
+Z14 !s108 1758685460.000000
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_debounce.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control|C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_debounce.sv|
+!i113 0
+R10
+Z15 !s92 -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcontrol_delay
+R7
+R13
+!i10b 1
+!s100 B7TZk3Rmim8G6fULV?J3M0
+IZKj_1C2eJdoz>RnBHke`J1
+S1
+R0
+w1758147441
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_delay.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_delay.sv
+!i122 31
+L0 1 118
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_delay.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control|C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_delay.sv|
+!i113 0
+R10
+R15
+R1
+vcontrol_input
+R7
+R13
+!i10b 1
+!s100 fZL27KYKNh6oA;NCXm=e_2
+IiM4f]GmP?TKKXFFFF]MiO1
+S1
+R0
+w1758565710
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_input.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_input.sv
+!i122 30
+Z16 L0 1 167
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_input.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control|C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_input.sv|
+!i113 0
+R10
+R15
+R1
+vcontrol_ps2
+R7
+R13
+!i10b 1
+!s100 B;>]^`4Q6IQA:?8Jl@XLV3
+Ie7TgN97`iI`lRz7Enh5iJ2
+S1
+R0
+w1758520449
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_ps2.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_ps2.sv
+!i122 29
+R16
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_ps2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control|C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_ps2.sv|
+!i113 0
+R10
+R15
+R1
+vcounter
+R2
+!i10b 1
+!s100 kfRI1V1m9@>iGdAmhiF<d1
+ISmkTU;oAM1fA?D@h3FMSh0
+R0
+w1758114692
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/counter.v
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/counter.v
+!i122 6
+Z17 L0 40 38
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/counter.v|
+!i113 0
+R6
+R12
+R1
+vd_ff_with_en
+R7
+R8
+!i10b 1
+!s100 SS5Y137TVOkVdPbZBjJ7M3
+I;eeW`WDWJ]jHQ_3zg^Afm3
+S1
+R0
+w1754612181
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/d_ff_with_en.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/d_ff_with_en.sv
+!i122 16
+L0 1 19
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/d_ff_with_en.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/d_ff_with_en.sv|
+!i113 0
+R10
+R11
+R1
+vgame_fsm
+R7
+Z18 !s110 1758685459
+!i10b 1
+!s100 03BnPfbU6foPP8S]S37J`0
+If__OYhgKPRlcWbP9W?C;G0
+S1
+R0
+w1758620678
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/game_fsm.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/game_fsm.sv
+!i122 19
+L0 1 1016
+R3
+R4
+r1
+!s85 0
+31
+Z19 !s108 1758685459.000000
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/game_fsm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/game_fsm.sv|
+!i113 0
+R10
+R11
+R1
+vgame_grid
+R7
+R8
+!i10b 1
+!s100 [`lQag@hk>;6oSD_JF_Da2
+ILco:JbPJBHD_g_G;DEF3_1
+S1
+R0
+w1758532200
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/grid/game_grid.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/grid/game_grid.sv
+!i122 17
+L0 1 50
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/grid/game_grid.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/grid|C:/D/Study_material/(DATN)/Tetris_1/00_src/grid/game_grid.sv|
+!i113 0
+R10
+!s92 -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/grid -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vgrid
+R2
+!i10b 1
+!s100 KAK0^4XcaWa:T@=ZZ]ene1
+I6VNi=GTjW_?j>j6zJVic_0
+R0
+w1758595959
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/grid/grid.v
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/grid/grid.v
+!i122 3
+L0 40 95
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/grid/grid.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/grid|C:/D/Study_material/(DATN)/Tetris_1/00_src/grid/grid.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/grid -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vgrid_select
+R7
+R18
+!i10b 1
+!s100 7nS1R=JJ8mBHIM<ELQS=h1
+I7^>l8m5nDT>ZDeEJE1j151
+S1
+R0
+w1758620880
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/grid_select.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/grid_select.sv
+!i122 23
+L0 1 93
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/grid_select.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/grid_select.sv|
+!i113 0
+R10
+R11
+R1
+vhex
+R7
+R18
+!i10b 1
+!s100 72Pcz>km1:cTE7?n?Oc740
+IXGII4b3VnPFfm4LbLNdGB0
+S1
+R0
+w1758071068
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/hex.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/hex.sv
+!i122 22
+L0 1 28
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/hex.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control|C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/hex.sv|
+!i113 0
+R10
+R15
+R1
+vload_data
+R7
+R8
+!i10b 1
+!s100 ><BoVec7W35kY@RHM?F0<1
+IhOFJO91CIeFb9JbY7Q>@T2
+S1
+R0
+w1758581140
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/load_data.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/load_data.sv
+!i122 14
+L0 1 587
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/load_data.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/load_data.sv|
+!i113 0
+R10
+R11
+R1
+vload_move
+R7
+R8
+!i10b 1
+!s100 7Yid8i;j04;Odn4cJcl3P2
+I7IIWMaERTBaLCh26DH@nE1
+S1
+R0
+w1758642271
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/load_move.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/load_move.sv
+!i122 13
+L0 1 188
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/load_move.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/load_move.sv|
+!i113 0
+R10
+R11
+R1
+vlvl_counter
+R2
+!i10b 1
+!s100 OHHRb452Fk^J_aT[hLJgY3
+I9f_`9BjN@jF4?`Uk7@AWC1
+R0
+w1758065395
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/lvl_counter.v
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/lvl_counter.v
+!i122 2
+L0 40 40
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/lvl_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/lvl_counter.v|
+!i113 0
+R6
+R12
+R1
+vmap_controller
+R7
+R18
+!i10b 1
+!s100 NF]=zL[0A4kGGlm=SLVim2
+IB4Tjkj?ff1Q^NXXGCQF3E2
+S1
+R0
+w1758524333
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_controller.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_controller.sv
+!i122 21
+L0 1 51
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/map|C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_controller.sv|
+!i113 0
+R10
+Z20 !s92 -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/map -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vmap_fsm
+R7
+R18
+!i10b 1
+!s100 ?n:MD=c>IPBMUdIhf>]Hh0
+Ilgh3fDIZH?SIXQg4EAk1X1
+S1
+R0
+w1754779921
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_fsm.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_fsm.sv
+!i122 20
+L0 1 80
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_fsm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/map|C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_fsm.sv|
+!i113 0
+R10
+R20
+R1
+vmap_pointer_fsm
+R7
+R18
+!i10b 1
+!s100 DZEJ?7_S<cAHYH4OgX1e40
+I?o81mYg33T9lZF7nM;MQn3
+S1
+R0
+w1758516343
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/pointer/map_pointer_fsm.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/pointer/map_pointer_fsm.sv
+!i122 18
+L0 1 181
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/pointer/map_pointer_fsm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/pointer|C:/D/Study_material/(DATN)/Tetris_1/00_src/pointer/map_pointer_fsm.sv|
+!i113 0
+R10
+!s92 -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/pointer -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vmap_rom
+R2
+!i10b 1
+!s100 Efj4MT][1X@[5D^e:6RK]2
+I<lEo:_gb2F0=b]cJ@WhBM2
+R0
+w1758685390
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_rom.v
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_rom.v
+!i122 5
+Z21 L0 40 62
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/map|C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_rom.v|
+!i113 0
+R6
+Z22 !s92 -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/map -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpiece_decoder
+R7
+R13
+!i10b 1
+!s100 ;Bz9Y9RTcIA10E<8[iQ3^3
+IW=1?24l9IUVNZz5=QSDf@1
+S1
+R0
+w1758526012
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_decoder.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_decoder.sv
+!i122 33
+L0 1 365
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode|C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_decoder.sv|
+!i113 0
+R10
+!s92 -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpiece_generator
+R7
+R8
+!i10b 1
+!s100 n?XJ?LlPfRh^fEdX5j0cG1
+IhkjaAzO=YSEaOG?nlB3BF2
+S1
+R0
+w1758395487
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_generator.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/piece_generator.sv
+!i122 15
+L0 1 30
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_generator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_generator.sv|
+!i113 0
+R10
+R11
+R1
+vpiece_rom_blue
+R8
+!i10b 1
+!s100 YWSD0aFJTTROa8JioT7aa1
+I><KFzTgA87IYHPVE=niG22
+R0
+w1758685394
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_blue.v
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_blue.v
+!i122 10
+L0 40 63
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_blue.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode|C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_blue.v|
+!i113 0
+R6
+Z23 !s92 -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpiece_rom_green
+R8
+!i10b 1
+!s100 ^3RB@ChMG;8;cW2z7TToK1
+IRJPHFR6;WCziAhI0n;lLR0
+R0
+w1758685401
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_green.v
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_green.v
+!i122 9
+R21
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_green.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode|C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_green.v|
+!i113 0
+R6
+R23
+R1
+vpiece_rom_red
+R2
+!i10b 1
+!s100 ;NYDg`;LPm>bXEUJa5NZP0
+II7TBDT@i:D3k=WdMcLo]83
+R0
+w1758685397
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_red.v
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_red.v
+!i122 8
+R21
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_red.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode|C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_red.v|
+!i113 0
+R6
+R23
+R1
+vrender_counter
+R2
+!i10b 1
+!s100 7`4V<gk_=a72jhE[5n2g70
+IF1TFHVYLfFEPU7Nloa2O]1
+R0
+w1758028340
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/map/render_counter.v
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/map/render_counter.v
+!i122 4
+R17
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/map/render_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/map|C:/D/Study_material/(DATN)/Tetris_1/00_src/map/render_counter.v|
+!i113 0
+R6
+R22
+R1
+vtb
+R7
+R13
+!i10b 1
+!s100 E:6FnYNng68zWYN^<ZUQJ1
+IQC1kG49zK9H3and8Ndm5b0
+S1
+R0
+w1758672441
+8C:/D/Study_material/(DATN)/Tetris_1/01_tb/tb.sv
+FC:/D/Study_material/(DATN)/Tetris_1/01_tb/tb.sv
+!i122 34
+L0 4 481
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/D/Study_material/(DATN)/Tetris_1/01_tb/tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/01_tb|C:/D/Study_material/(DATN)/Tetris_1/01_tb/tb.sv|
+!i113 0
+R10
+!s92 -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/01_tb -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vTetris_0
+R7
+R18
+!i10b 1
+!s100 5624ZTSO<Ez7j;j<@lgmn2
+IE@<;kRYC2H:D9UbZ^;MO>1
+S1
+R0
+w1758685407
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/Tetris_0.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/Tetris_0.sv
+!i122 24
+L0 1 848
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/Tetris_0.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/Tetris_0.sv|
+!i113 0
+R10
+R11
+R1
+n@tetris_0
+vtimer
+R2
+!i10b 1
+!s100 gmV`FJWPjDcB;ZFc>=Bi@2
+In>I]SHPYKGPW9Y>jGo^U>3
+R0
+w1758421599
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/timer.v
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/timer.v
+!i122 1
+R17
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src|C:/D/Study_material/(DATN)/Tetris_1/00_src/timer.v|
+!i113 0
+R6
+R12
+R1
+vvga_controller
+R7
+R13
+!i10b 1
+!s100 ^>N=R7D[3Y5a`Q>Uan3U:2
+IaXfZNGMFW0hJI>Q3mBDa42
+S1
+R0
+w1758501050
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_controller.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_controller.sv
+!i122 28
+L0 2 57
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga|C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_controller.sv|
+!i113 0
+R10
+Z24 !s92 -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vvga_horizontal_counter
+R7
+R18
+!i10b 1
+!s100 @LnihY4TELYW@gCDlNL;I3
+I:3?LdgR_DXmC6SJgc;4eM0
+S1
+R0
+w1757024960
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_horizontal_counter.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_horizontal_counter.sv
+!i122 27
+L0 2 17
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_horizontal_counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga|C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_horizontal_counter.sv|
+!i113 0
+R10
+R24
+R1
+vvga_line_buffer
+R7
+R18
+!i10b 1
+!s100 8Rc3]4>dmRV1VmR?@CVnB3
+I9Xj6YE>9le6NHzV2Eg_lJ0
+S1
+R0
+w1758501279
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_line_buffer.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_line_buffer.sv
+!i122 26
+L0 1 108
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_line_buffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga|C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_line_buffer.sv|
+!i113 0
+R10
+R24
+R1
+vvga_vertical_counter
+R7
+R18
+!i10b 1
+!s100 mQ=mD6T192F]okCmL4`f21
+IPcPP0KM8m;mLfd<AeoU3?2
+S1
+R0
+w1757024944
+8C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_vertical_counter.sv
+FC:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_vertical_counter.sv
+!i122 25
+L0 2 14
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_vertical_counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga|C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_vertical_counter.sv|
+!i113 0
+R10
+R24
+R1

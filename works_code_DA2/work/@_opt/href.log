@@ -1,0 +1,12 @@
+BEGIN 1:img_out_bram:fast:work
+    mem :  1:soc_128_tb:fast:work
+END 
+BEGIN 1:soc_top:fast:work
+    reg_rd_en :  1:soc_128_tb:fast:work
+    reg_wdata :  1:soc_128_tb:fast:work
+    reg_wr_en :  1:soc_128_tb:fast:work
+    reg_addr :  1:soc_128_tb:fast:work
+END 
+BEGIN 1:img_in_bram:fast:work
+    mem :  1:soc_128_tb:fast:work
+END 

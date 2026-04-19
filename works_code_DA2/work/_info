@@ -1,0 +1,1662 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+!s12c _opt2
+R1
+R0
+R1
+!s12c _opt1
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s11f vlog 2024.1 2024.02, Feb  1 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2
+T_opt
+!s110 1776588394
+V`i>:Vi94EJcidB5HLhM;S1
+Z3 04 10 4 work soc_128_tb fast 0
+=1-3043d7e15221-69e4966a-5c-be8
+R1
+Z4 !s12f OEM100
+Z5 !s12b OEM100
+Z6 !s124 OEM100
+Z7 o-quiet -auto_acc_if_foreign -work work
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2024.1;79
+T_opt1
+!s110 1776577795
+VHz?@H9[0;3GJ@HE4WBda^2
+R3
+=1-3043d7e15221-69e46d03-7e-98c
+R1
+R4
+R5
+R6
+o-quiet -auto_acc_if_foreign -work work +acc
+R8
+n@_opt1
+R9
+R2
+T_opt2
+!s110 1776577959
+VEFY<HU:AeUS[Pbj]K6[;V1
+R3
+=1-3043d7e15221-69e46da5-38c-56dc
+R1
+R4
+R5
+R6
+R7
+R8
+n@_opt2
+R9
+R2
+vadc_ase_masked_min
+Z10 2C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/fa.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/cla_4bit.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/cla_32bit.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/alu.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/brc.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/control_logic.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/immgen.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/instr_mem.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/memory.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/mux2.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/mux3.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/pc.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/PCplus4.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/regfile.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/SevenSegment.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/peripherals.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/lsu_v1.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/single_cycle.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/peri_apb_wrapper.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/ipu_apb_wrapper.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/src_min.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/search_block_min.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/sky_recognition.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/min3_u8.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/dark_channel.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/atmospheric_light.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/bank_bram.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/bank_pingpong_stream.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/estimate_transmission.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_pixel_distance.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_path_length.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_rlimit_compute.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_ase_masked_min.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_line_buffer_5x5.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_estimation.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/frame_linear_counter.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/invA_lut_q16.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/omega_clamp_t.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/norm_channel_q16.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_control_logic.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/grayscale.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/t_computing.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/recip_lut_q16.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/fusing.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/t_compute_fuse.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/atm_light_coarse_tx.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/haze_removal_core.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/haze_removal_top.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_in_bram.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_out_bram.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_tmp_bram.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/ipu_bram_reader.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/ipu_bram_writer.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_core.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_soc.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/soc_top.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/01_sim/soc/Testbench_SOC/sim/soc_128_tb.sv
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z12 !s110 1776588393
+!i10b 1
+!s100 ?UKO39C;lzS7`0GfhHCd22
+IN6^PM[6>z;0ZdjQI^Z=>R3
+S1
+R2
+w1773244784
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_ase_masked_min.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_ase_masked_min.sv
+!i122 16
+L0 18 146
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2024.1;79
+r1
+!s85 0
+31
+Z15 !s108 1776588393.000000
+Z16 !s107 C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/ipu_addr_map_soc.vh|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/soc_addr_map.vh|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/../soc/ipu_addr_map_soc.vh|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/01_sim/soc/Testbench_SOC/sim/soc_128_tb.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/soc_top.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_soc.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_core.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/ipu_bram_writer.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/ipu_bram_reader.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_tmp_bram.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_out_bram.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_in_bram.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/haze_removal_top.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/haze_removal_core.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/atm_light_coarse_tx.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/t_compute_fuse.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/fusing.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/recip_lut_q16.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/t_computing.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/grayscale.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_control_logic.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/norm_channel_q16.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/omega_clamp_t.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/invA_lut_q16.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/frame_linear_counter.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_estimation.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_line_buffer_5x5.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_ase_masked_min.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_rlimit_compute.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_path_length.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_pixel_distance.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/estimate_transmission.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/bank_pingpong_stream.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/bank_bram.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/atmospheric_light.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/dark_channel.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/min3_u8.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/sky_recognition.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/search_block_min.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/src_min.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/ipu_apb_wrapper.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/peri_apb_wrapper.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/single_cycle.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/lsu_v1.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/peripherals.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/SevenSegment.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/regfile.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/PCplus4.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/pc.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/mux3.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/mux2.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/memory.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/instr_mem.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/immgen.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/control_logic.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/brc.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/alu.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/cla_32bit.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/cla_4bit.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/fa.sv|
+Z17 !s90 +acc|+define+SIM_MODE|+incdir+C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V|+incdir+C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc|+incdir+C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU|+incdir+C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/fa.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/cla_4bit.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/cla_32bit.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/alu.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/brc.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/control_logic.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/immgen.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/instr_mem.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/memory.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/mux2.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/mux3.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/pc.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/PCplus4.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/regfile.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/SevenSegment.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/peripherals.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/lsu_v1.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/single_cycle.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/peri_apb_wrapper.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/ipu_apb_wrapper.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/src_min.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/search_block_min.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/sky_recognition.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/min3_u8.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/dark_channel.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/atmospheric_light.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/bank_bram.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/bank_pingpong_stream.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/estimate_transmission.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_pixel_distance.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_path_length.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_rlimit_compute.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_ase_masked_min.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_line_buffer_5x5.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_estimation.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/frame_linear_counter.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/invA_lut_q16.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/omega_clamp_t.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/norm_channel_q16.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_control_logic.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/grayscale.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/t_computing.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/recip_lut_q16.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/fusing.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/t_compute_fuse.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/atm_light_coarse_tx.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/haze_removal_core.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/haze_removal_top.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_in_bram.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_out_bram.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_tmp_bram.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/ipu_bram_reader.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/ipu_bram_writer.v|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_core.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_soc.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/soc_top.sv|C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/01_sim/soc/Testbench_SOC/sim/soc_128_tb.sv|
+!i113 0
+Z18 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z19 !s92 +acc +define+SIM_MODE {+incdir+C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V} {+incdir+C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc} {+incdir+C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU} {+incdir+C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+vadc_estimation
+R10
+R11
+R12
+!i10b 1
+!s100 NN3kziX2m8O8Hj7ND:VD23
+I8MoQ3>8adJl<QbWfh;_5M1
+S1
+R2
+w1773487530
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_estimation.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_estimation.sv
+!i122 16
+L0 29 327
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vadc_line_buffer_5x5
+R10
+R11
+R12
+!i10b 1
+!s100 3jOVm57c9I`z5oNJz^AeA3
+Icj2X4IkS8iNR9Zf>cFGYA3
+S1
+R2
+Z20 w1776496297
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_line_buffer_5x5.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_line_buffer_5x5.sv
+!i122 16
+L0 14 115
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vadc_path_length
+R10
+R11
+R12
+!i10b 1
+!s100 mPM=XGIE6fzSY``cVHdG10
+I;AClnH5>Da7VnmazaU5X^3
+S1
+R2
+w1773162023
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_path_length.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_path_length.sv
+!i122 16
+L0 29 114
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vadc_pixel_distance
+R10
+R11
+R12
+!i10b 1
+!s100 0O8aOGYgHZc]MU<QOVO4T0
+IJgo?5HL<n0TY90[z=^]`l2
+S1
+R2
+Z21 w1773159121
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_pixel_distance.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_pixel_distance.sv
+!i122 16
+L0 31 169
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vadc_rlimit_compute
+R10
+R11
+R12
+!i10b 1
+!s100 M6g@hX9AUnEkO1G>WlA]H0
+I=VE5I0Z9<44=1^V3de=_d0
+S1
+R2
+R21
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_rlimit_compute.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/adc_rlimit_compute.sv
+!i122 16
+L0 22 126
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+valu
+R10
+R11
+R12
+!i10b 1
+!s100 SJJ5[Ek0NiWg2g5FFja:E0
+IHnXblbo^SE2G0@OU:=KjO3
+S1
+R2
+w1763795888
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/alu.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/alu.sv
+!i122 16
+L0 1 128
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vatm_light_coarse_tx
+R10
+R11
+R12
+!i10b 1
+!s100 :6^>]SlJIC>=01RA?iA@L0
+IzijEoF:1mOb][1zn6TCTJ0
+S1
+R2
+w1773508673
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/atm_light_coarse_tx.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/atm_light_coarse_tx.sv
+!i122 16
+L0 25 196
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vatmospheric_light
+R10
+R11
+R12
+!i10b 1
+!s100 `1]?>1N?8E3Nl>_bDR0gj1
+IZllNo31IYjTA^PR5a1[BG3
+S1
+R2
+w1776585273
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/atmospheric_light.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/atmospheric_light.sv
+!i122 16
+L0 1 88
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vbank_bram
+R10
+R11
+R12
+!i10b 1
+!s100 I_AIA?z3UK2:QCUNYA0S?0
+I6nKgT4M^P?HNdh55WkibF1
+S1
+R2
+Z22 w1776494777
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/bank_bram.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/bank_bram.sv
+!i122 16
+L0 1 41
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vbank_pingpong_stream
+R10
+R11
+R12
+!i10b 1
+!s100 ]>NnQBiZgB;mo4`[Ma0Um3
+Ijj0=Oa:XeT@0hGP71jdYO1
+S1
+R2
+w1772873873
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/bank_pingpong_stream.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/bank_pingpong_stream.sv
+!i122 16
+L0 1 172
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vbrc
+R10
+R11
+R12
+!i10b 1
+!s100 IF]I[;ENF^MO[o3?kNK8C2
+IaP[b;j:Qg=O4KQIoF7Ve50
+S1
+R2
+w1763390323
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/brc.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/brc.sv
+!i122 16
+L0 1 43
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vcla_32bit
+R10
+R11
+R12
+!i10b 1
+!s100 ESS5l<nP_G35=jPW_0`QP0
+I>zLe3Rz<3zonRPz4]Z?0d0
+S1
+R2
+Z23 w1776536105
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/cla_32bit.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/cla_32bit.sv
+!i122 16
+L0 10 13
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vcla_4bit
+R10
+R11
+R12
+!i10b 1
+!s100 eW_z^cfNJEODg]e9UdoN53
+IUgV]geV[P1AL`4YoBmi`60
+S1
+R2
+w1762524896
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/cla_4bit.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/cla_4bit.sv
+!i122 16
+Z24 L0 1 44
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vcontrol_logic
+R10
+R11
+R12
+!i10b 1
+!s100 6eB:MSOf=AmKMF92KVL5Q0
+Ikb1n[[Xnl1l5aF:C[Tc4l2
+S1
+R2
+Z25 w1762524895
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/control_logic.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/control_logic.sv
+!i122 16
+L0 1 213
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vdark_channel
+R10
+R11
+R12
+!i10b 1
+!s100 2JcSfBzzI;D9W6a?NCZBA0
+IZkN9YMK9n[?YXnH;>5Sg51
+S1
+R2
+R20
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/dark_channel.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/dark_channel.sv
+!i122 16
+L0 3 102
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vestimate_transmission
+R10
+R11
+R12
+!i10b 1
+!s100 4YJfXOaAnk8=kc84VmMnM2
+IO7I@kVOmG<^9>ZTe=8J^J0
+S1
+R2
+w1773584407
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/estimate_transmission.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/estimate_transmission.sv
+!i122 16
+L0 14 132
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vfa
+R10
+R11
+R12
+!i10b 1
+!s100 GOGGDabU:S_Zb;=KcUmZd2
+I<af3h^hGalONaS_N8IenT0
+S1
+R2
+w1770018532
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/fa.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/fa.sv
+!i122 16
+L0 1 12
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vframe_linear_counter
+R10
+R11
+R12
+!i10b 1
+!s100 [J>CUNGlahPE5ZWPXHH@J3
+IL?d8zZjJY1bOTGnAJ]>RH1
+S1
+R2
+w1773487034
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/frame_linear_counter.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/frame_linear_counter.sv
+!i122 16
+L0 1 67
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vfusing
+R10
+R11
+R12
+!i10b 1
+!s100 ;BILZ=S1L^c^iMWN]E>4k1
+I8^PIkT^5>cZ1ia:Z>8]ZO3
+S1
+R2
+w1776586972
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/fusing.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/fusing.sv
+!i122 16
+L0 15 126
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vgrayscale
+R10
+R11
+R12
+!i10b 1
+!s100 QQlDoVWmHfCd=D_k]U74Y0
+Iil?6I276d?a13LKiZKEz[2
+S1
+R2
+w1775311539
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/grayscale.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/grayscale.sv
+!i122 16
+L0 1 92
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vhaze_removal_core
+R10
+R11
+R12
+!i10b 1
+!s100 NM>LobIc484Xa9Aez6Sdl3
+I8[nF01?7T[`L2IP]z8CfT3
+S1
+R2
+w1776588170
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/haze_removal_core.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/haze_removal_core.sv
+!i122 16
+L0 19 956
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vhaze_removal_top
+R10
+R11
+R12
+!i10b 1
+!s100 TEU_<@^>^<^kAW0b1]Z:50
+IdYhRfj1z9Uk`5cl`]XERl1
+S1
+R2
+w1773589550
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/haze_removal_top.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/haze_removal_top.sv
+!i122 16
+L0 8 76
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vimg_in_bram
+R10
+R12
+!i10b 1
+!s100 nj3z0CfSOJSjl63g4Y=]B2
+I_BadI[Z_F@`HRhj283lHb0
+R2
+w1776559909
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_in_bram.v
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_in_bram.v
+!i122 16
+R24
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vimg_out_bram
+R10
+R12
+!i10b 1
+!s100 5^Z56COg<M2XY4d38k;BO2
+I`U4V6VeeoYigai3O;PoiL3
+R2
+w1776570164
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_out_bram.v
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_out_bram.v
+!i122 16
+L0 1 49
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vimg_tmp_bram
+R10
+R12
+!i10b 1
+!s100 fMzz]bJ[8>]U7`HC6j60c1
+ID5kGWe7m?8k?GGF4]8V793
+R2
+w1776567484
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_tmp_bram.v
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/img_tmp_bram.v
+!i122 16
+L0 1 53
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vImmGen
+R10
+R11
+R12
+!i10b 1
+!s100 kA?WHfEgCl;b2@TSlV@Hi1
+Imel`C[`9=X:8SNeO?ISMD1
+S1
+R2
+R25
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/immgen.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/immgen.sv
+!i122 16
+Z26 L0 1 22
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+n@imm@gen
+vinstr_mem
+R10
+R11
+R12
+!i10b 1
+!s100 1:fkPI<GF4UX@oN??giB81
+IS7J>A]Mz5;UlgXP^QRzPi1
+S1
+R2
+Z27 w1776498691
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/instr_mem.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/instr_mem.sv
+!i122 16
+L0 1 23
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vinvA_lut_q16
+R10
+R11
+R12
+!i10b 1
+!s100 ]kjD7McQA21>a2ETFL;Wa1
+I9gAVL0OzPJ:c2ThfHW=GU0
+S1
+R2
+w1772594534
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/invA_lut_q16.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/invA_lut_q16.sv
+!i122 16
+Z28 L0 6 43
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+ninv@a_lut_q16
+vipu_apb_wrapper
+R10
+R11
+R12
+!i10b 1
+!s100 o_z5A526CiUdX_eMlZ@Z`2
+IRC^[T4HY>m`5TDj4PfB]J2
+S1
+R2
+w1773766476
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/ipu_apb_wrapper.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/ipu_apb_wrapper.sv
+!i122 16
+L0 4 41
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vipu_bram_reader
+R10
+R12
+!i10b 1
+!s100 k6ZIXnaS3WHFjk>zM7FLP0
+IP@CMjFS46K2ZTPd3>@QeT3
+R2
+R22
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/ipu_bram_reader.v
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/ipu_bram_reader.v
+!i122 16
+L0 1 116
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vipu_bram_writer
+R10
+R12
+!i10b 1
+!s100 zLCfi=SL5h7=C0TnF@E^W2
+Id4^87LVf>o>b36U34l[AH0
+R2
+R22
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/ipu_bram_writer.v
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/mem/ipu_bram_writer.v
+!i122 16
+Z29 L0 1 85
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vipu_control_logic
+R10
+R11
+R12
+!i10b 1
+!s100 PGffeV7@HmKPANI?eokd^2
+ISKRH>[2Sj;lh0_O>31A=F3
+S1
+R2
+w1773593888
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_control_logic.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_control_logic.sv
+!i122 16
+L0 15 201
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vipu_core
+R10
+R11
+R12
+!i10b 1
+!s100 HC>A5c;ii7MZZJlgkkUk20
+IMSLV2Jm1^jdlLgLzFEL`Y2
+S1
+R2
+w1776446546
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_core.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_core.sv
+!i122 16
+L0 6 276
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vipu_soc
+R10
+R11
+R12
+!i10b 1
+!s100 7U<CcBDN4?27ee9^ZBV2b0
+IF_`zGF:nJF4GE>]:4Zc:?0
+S1
+R2
+w1776561756
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_soc.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/ipu_soc.sv
+!i122 16
+L0 3 138
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vlsu
+R10
+R11
+R12
+!i10b 1
+!s100 5hL;EkWTV5]T?^n?ikZ]12
+I0JNMOASH`@^QeNc1hFeO81
+S1
+R2
+R23
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/lsu_v1.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/lsu_v1.sv
+!i122 16
+L0 22 221
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vmemory
+R10
+R11
+R12
+!i10b 1
+!s100 LZjK=NR7?49@KJElOPUJK0
+InL`:CE:oHUfRXTa[MJ_h[3
+S1
+R2
+w1776532763
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/memory.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/memory.sv
+!i122 16
+L0 1 89
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vmin3_u8
+R10
+R11
+R12
+!i10b 1
+!s100 b6O76?;^zZ8@?R0@N1Y_C3
+I9G[I58J@IBnJi^FzobCom1
+S1
+R2
+w1772594355
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/min3_u8.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/min3_u8.sv
+!i122 16
+Z30 L0 1 13
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vmux2
+R10
+R11
+R12
+!i10b 1
+!s100 CN9dzzMclP<l4^c@Z1MGm2
+IbM5fiM1WTBJRI3cdBfSf30
+S1
+R2
+R25
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/mux2.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/mux2.sv
+!i122 16
+R30
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vmux3
+R10
+R11
+R12
+!i10b 1
+!s100 2=^7Pco6fF<TlTYBHQRkj2
+IO>M9FD>Om;8Bl:X<fAcdY3
+S1
+R2
+R25
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/mux3.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/mux3.sv
+!i122 16
+L0 1 14
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vnorm_channel_q16
+R10
+R11
+R12
+!i10b 1
+!s100 oI9ZTi>Wza8]S<P^;Mjb]3
+I4NL4nbmJ0N4NMEmTZahmV1
+S1
+R2
+w1772594358
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/norm_channel_q16.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/norm_channel_q16.sv
+!i122 16
+L0 7 16
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vomega_clamp_t
+R10
+R11
+R12
+!i10b 1
+!s100 7Q<V]O3hcT3fhI3jWQ^?52
+Ic@bEHbU@n9JZgO6o7m_G33
+S1
+R2
+w1773508865
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/omega_clamp_t.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/omega_clamp_t.sv
+!i122 16
+L0 5 24
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vpc
+R10
+R11
+R12
+!i10b 1
+!s100 WGGzcd>A:3ICGzN]eBOk72
+IBC?]_4BVf8N?Fl31;QjVB0
+S1
+R2
+R27
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/pc.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/pc.sv
+!i122 16
+L0 1 18
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vPCplus4
+R10
+R11
+R12
+!i10b 1
+!s100 7AkMT=e;[Oc>nc>Kf?[RQ2
+Ih<TZzNTO;VM=^R802nn]83
+S1
+R2
+R25
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/PCplus4.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/PCplus4.sv
+!i122 16
+L0 1 9
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+n@p@cplus4
+vperi_apb_wrapper
+R10
+R11
+R12
+!i10b 1
+!s100 `4BS?FA>=LnzBbXRkXaN30
+IM6A8OV`D:18Uj6hEZNCJU0
+S1
+R2
+w1773935338
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/peri_apb_wrapper.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/peri_apb_wrapper.sv
+!i122 16
+L0 20 72
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vperipherals
+R10
+R11
+R12
+!i10b 1
+!s100 ;iHn@7@@XnKdLf23dnf532
+I258ARGz`bDbe[Jj[TcYNZ3
+S1
+R2
+w1774069851
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/peripherals.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/peripherals.sv
+!i122 16
+R29
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vrecip_lut_q16
+R10
+R11
+R12
+!i10b 1
+!s100 ]6VK]DgoQJR4j;Y8_nPL]0
+IA?Y<5gZXRa54heKX=>1c]2
+S1
+R2
+w1776578619
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/recip_lut_q16.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/recip_lut_q16.sv
+!i122 16
+R28
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vregfile
+R10
+R11
+R12
+!i10b 1
+!s100 mEb1SeGWU_hV[d6fnJ`YM2
+I^85;7P0]4flT<Y>VLnn;M0
+S1
+R2
+w1763262821
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/regfile.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/regfile.sv
+!i122 16
+Z31 L0 1 31
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vsearch_block_min
+R10
+R11
+R12
+!i10b 1
+!s100 gXN14T9Wg`W>b3?>RCI1I3
+I]7e;Cg;ToJ0QKReW2mFTZ0
+S1
+R2
+w1770137591
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/search_block_min.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/search_block_min.sv
+!i122 16
+R31
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vSevenSegment
+R10
+R11
+R12
+!i10b 1
+!s100 VW>bV_QHMXBU[3OZKl9De1
+I1m?kbI;Z0Q0l3J0DmNYlJ2
+S1
+R2
+R25
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/SevenSegment.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/SevenSegment.sv
+!i122 16
+L0 1 38
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+n@seven@segment
+vsingle_cycle
+R10
+R11
+R12
+!i10b 1
+!s100 :GMBabfIiiY5i2N5UJcel1
+Ik4KPm_[VdNb5o^zX7]g7Z1
+S1
+R2
+R27
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/single_cycle.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/RISC_V/single_cycle.sv
+!i122 16
+L0 9 267
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vsky_recognition
+R10
+R11
+R12
+!i10b 1
+!s100 zaX`=1Ca_[f=hK;<I5T623
+IT_V9lJ0;NCd6BJGF9:hZA0
+S1
+R2
+w1772876576
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/sky_recognition.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/sky_recognition.sv
+!i122 16
+L0 3 42
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vsoc_128_tb
+R10
+R11
+R12
+!i10b 1
+!s100 `HS5IED9mTNWQ`LHlSN1C0
+I?SGajKnnBB@<FZc^cFfM;2
+S1
+R2
+w1774082586
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/01_sim/soc/Testbench_SOC/sim/soc_128_tb.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/01_sim/soc/Testbench_SOC/sim/soc_128_tb.sv
+!i122 16
+L0 4 244
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vsoc_top
+R10
+R11
+R12
+!i10b 1
+!s100 XY;<gcG:bbCG0hZ8CM?<52
+I6M^N4l;bhCRPO@]dd8dRa2
+S1
+R2
+w1776573154
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/soc_top.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/soc/soc_top.sv
+!i122 16
+L0 22 271
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vsrc_min
+R10
+R11
+R12
+!i10b 1
+!s100 hQ2A`M:S8nW8RSQlH3kH60
+I6XHV70z:Ule1aA3jlK7mP0
+S1
+R2
+w1770137602
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/src_min.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/src_min.sv
+!i122 16
+R26
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vt_compute_fuse
+R10
+R11
+R12
+!i10b 1
+!s100 9mHYZ8:2l7TdU[I<e^:J23
+Ii2GVnXA91G6PUBoX^dOh;2
+S1
+R2
+w1776587690
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/t_compute_fuse.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/t_compute_fuse.sv
+!i122 16
+L0 14 104
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vt_computing
+R10
+R11
+R12
+!i10b 1
+!s100 KiU0CLjg]482o7@_5g`P>0
+ITJc:k5:`XJVA4R7m=O2;:3
+S1
+R2
+w1776587360
+8C:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/t_computing.sv
+FC:/Users/Ms Khanh/OneDrive - hcmut.edu.vn/Desktop/DATN/works_code_DA2/00_src/IPU/t_computing.sv
+!i122 16
+L0 16 88
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vvga_controller
+Z32 200_src/VGA/vga_pll.v|00_src/VGA/vga_controller.sv|00_src/VGA/vga_horizontal_counter.sv|00_src/VGA/vga_vertical_counter.sv
+R11
+Z33 !s110 1776568985
+!i10b 1
+!s100 k7ANgTbEhTiRK2gG4>ENo2
+I>HdS_cPASbUU2]>ITHamX0
+S1
+R2
+w1776568968
+800_src/VGA/vga_controller.sv
+F00_src/VGA/vga_controller.sv
+!i122 4
+L0 2 91
+R13
+R14
+r1
+!s85 0
+31
+Z34 !s108 1776568985.000000
+Z35 !s107 00_src/VGA/vga_vertical_counter.sv|00_src/VGA/vga_horizontal_counter.sv|00_src/VGA/vga_controller.sv|00_src/VGA/vga_pll.v|
+Z36 !s90 +acc|+define+SIM_MODE|00_src/VGA/vga_pll.v|00_src/VGA/vga_controller.sv|00_src/VGA/vga_horizontal_counter.sv|00_src/VGA/vga_vertical_counter.sv|
+!i113 0
+R18
+Z37 !s92 +acc +define+SIM_MODE -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+vvga_horizontal_counter
+R32
+R11
+R33
+!i10b 1
+!s100 @LnihY4TELYW@gCDlNL;I3
+Izjb>645A^d=nIJ[HCZEEz0
+S1
+R2
+w1757024960
+800_src/VGA/vga_horizontal_counter.sv
+F00_src/VGA/vga_horizontal_counter.sv
+!i122 4
+L0 2 17
+R13
+R14
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 0
+R18
+R37
+R8
+vvga_pll
+R32
+R33
+!i10b 1
+!s100 R159dnV0XTImZaEflGTUB2
+IRndZdXe8Ve3b=;>oRG`iL3
+R2
+w1776568935
+800_src/VGA/vga_pll.v
+F00_src/VGA/vga_pll.v
+!i122 4
+L0 10 98
+R13
+R14
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 0
+R18
+R37
+R8
+vvga_vertical_counter
+R32
+R11
+R33
+!i10b 1
+!s100 mQ=mD6T192F]okCmL4`f21
+Ie5ga5;3BJSYC8mhn264Ha0
+S1
+R2
+w1757024944
+800_src/VGA/vga_vertical_counter.sv
+F00_src/VGA/vga_vertical_counter.sv
+!i122 4
+L0 2 14
+R13
+R14
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 0
+R18
+R37
+R8

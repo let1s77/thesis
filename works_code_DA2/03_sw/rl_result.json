@@ -1,0 +1,201 @@
+{
+  "config": {
+    "fusing_pipe": 0,
+    "tcomp_pipe": 0,
+    "fusing_div_mode": 1,
+    "tcomp_div_mode": 0,
+    "core_norm_div_mode": 1,
+    "core_hybrid_div_mode": 1,
+    "blend_div_mode": 1,
+    "reg_adc_dark": 1,
+    "reg_tx_hybrid": 1,
+    "reg_post_blend": 1,
+    "reg_core_hybrid_mid": 1,
+    "bram_out_oreg": 0,
+    "bram_in_oreg": 0,
+    "bram_tmp_oreg": 0,
+    "portb_out_pipe": 1,
+    "portb_in_pipe": 0,
+    "portb_tmp_pipe": 0
+  },
+  "info": {
+    "fmax_mhz": 49.02,
+    "worst_path": "post_blend->tone",
+    "worst_delay_ns": 20.4,
+    "added_latency": 4,
+    "added_alms": -1196,
+    "added_m10k_bits": 12288,
+    "reward": -4.08,
+    "meets_timing": false
+  },
+  "history": [
+    {
+      "episode": 0,
+      "eps": 1.0,
+      "reward": -43.28,
+      "fmax": 35.21,
+      "meets": false,
+      "best_fmax": 35.21
+    },
+    {
+      "episode": 1000,
+      "eps": 0.921,
+      "reward": -223.32,
+      "fmax": 24.51,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 2000,
+      "eps": 0.842,
+      "reward": -300.82,
+      "fmax": 22.62,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 3000,
+      "eps": 0.762,
+      "reward": -1016.5,
+      "fmax": 15.38,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 4000,
+      "eps": 0.683,
+      "reward": -548.5,
+      "fmax": 18.87,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 5000,
+      "eps": 0.604,
+      "reward": -83.42,
+      "fmax": 31.06,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 6000,
+      "eps": 0.525,
+      "reward": -336.24,
+      "fmax": 21.88,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 7000,
+      "eps": 0.446,
+      "reward": -222.32,
+      "fmax": 24.51,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 8000,
+      "eps": 0.367,
+      "reward": -220.32,
+      "fmax": 24.51,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 9000,
+      "eps": 0.287,
+      "reward": -281.12,
+      "fmax": 22.99,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 10000,
+      "eps": 0.208,
+      "reward": -220.32,
+      "fmax": 24.51,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 11000,
+      "eps": 0.129,
+      "reward": -280.12,
+      "fmax": 22.99,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 12000,
+      "eps": 0.05,
+      "reward": -809.05,
+      "fmax": 16.67,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 13000,
+      "eps": 0.05,
+      "reward": -207.0,
+      "fmax": 25.0,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 14000,
+      "eps": 0.05,
+      "reward": -299.97,
+      "fmax": 22.62,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 15000,
+      "eps": 0.05,
+      "reward": -218.32,
+      "fmax": 24.51,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 16000,
+      "eps": 0.05,
+      "reward": -8.08,
+      "fmax": 49.02,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 17000,
+      "eps": 0.05,
+      "reward": -517.0,
+      "fmax": 19.23,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 18000,
+      "eps": 0.05,
+      "reward": -557.21,
+      "fmax": 18.8,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 19000,
+      "eps": 0.05,
+      "reward": -1318.84,
+      "fmax": 14.03,
+      "meets": false,
+      "best_fmax": 49.02
+    },
+    {
+      "episode": 19999,
+      "eps": 0.05,
+      "reward": -370.8,
+      "fmax": 21.32,
+      "meets": false,
+      "best_fmax": 49.02
+    }
+  ]
+}

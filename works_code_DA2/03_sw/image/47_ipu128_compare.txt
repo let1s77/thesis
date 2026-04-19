@@ -1,0 +1,18 @@
+Software vs IPU comparison for image_47_fix4
+
+Reference IPU image:
+- 01_sim/IPU/Testbench_IPU_TOP/sim/image_47_fix4/ipu_recovery_128.bmp
+
+Software image:
+- 03_sw/image/47_ipu128_stage10_dehazed_output.png
+
+Metric (absolute error):
+- MAE total: 7.953084309895833
+- MAE R: 11.2982177734375
+- MAE G: 7.80633544921875
+- MAE B: 4.75469970703125
+
+Notes:
+- Recovery path in software was updated to follow IPU haze_removal_core:
+  tx_hybrid + fusing + adaptive blend + post-tone + anti-purple guard.
+- This greatly reduces mismatch compared to previous software output.
