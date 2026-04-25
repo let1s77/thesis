@@ -1,0 +1,18 @@
+Full flow run for 03_sw
+input=01_sim\IPU\Testbench_IPU_TOP\sim\image_test\ipu_src_128.bmp
+size=128x128
+A_rgb=(206,206,206)
+A0=150, OMEGA_Q8=243, T_MIN_COARSE=26, MODIFICATION_VALUE=255
+TX_MIN_RECOVERY=15, RECOVERY_TX_MIN=73, DENSE_HAZE_TH=117, DENSE_HAZE_SUB=8
+outputs:
+- cityscape_ipu128_stage0_input.png
+- cityscape_ipu128_stage1_dark_channel.png
+- cityscape_ipu128_stage2_grayscale.png
+- cityscape_ipu128_stage3_sky_mask.png
+- cityscape_ipu128_stage4_transmission_coarse.png
+- cityscape_ipu128_stage5_adc_dark.png
+- cityscape_ipu128_stage6_adc_used.png
+- cityscape_ipu128_stage7_tx_adc.png
+- cityscape_ipu128_stage8_tx_hybrid.png
+- cityscape_ipu128_stage9_recovery_direct.png
+- cityscape_ipu128_stage10_dehazed_output.png

@@ -1,0 +1,182 @@
+# 
+# puts "HAZE_REMOVAL_TOP automation"
+# puts "Log file: $log_file"
+# 
+# if {[info exists ::env(IMG_IN)]} {
+#     set img_in $::env(IMG_IN)
+# } else {
+#     set img_in "../01_sim/IPU/Testbench_DarkChannel_System/sim/image/test_128.bmp"
+# }
+# ../01_sim/IPU/Testbench_DarkChannel_System/sim/image/test_128.bmp
+# 
+# if {[info exists ::env(OUT_DIR)]} {
+#     set out_dir $::env(OUT_DIR)
+# } else {
+#     set out_dir "../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/"
+# }
+# ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/
+# 
+# vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# vmap work work
+# QuestaSim-64 vmap 2024.1 Lib Mapping Utility 2024.02 Feb  1 2024
+# vmap work work 
+# Modifying C:/questasim64_2024.1/win64/../modelsim.ini
+# 
+# set SRC_DIR "../00_src/IPU"
+# ../00_src/IPU
+# set TB_DIR  "../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim"
+# ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim
+# 
+# vlog +acc +define+SIM_MODE \
+#     $SRC_DIR/min3_u8.sv \
+#     $SRC_DIR/dark_channel.sv \
+#     $SRC_DIR/atmospheric_light.sv \
+#     $SRC_DIR/bank_bram.sv \
+#     $SRC_DIR/bank_pingpong_stream.sv \
+#     $SRC_DIR/estimate_transmission.sv \
+#     $SRC_DIR/adc_pixel_distance.sv \
+#     $SRC_DIR/adc_path_length.sv \
+#     $SRC_DIR/adc_rlimit_compute.sv \
+#     $SRC_DIR/adc_ase_masked_min.sv \
+#     $SRC_DIR/adc_line_buffer_5x5.sv \
+#     $SRC_DIR/adc_estimation.sv \
+#     $SRC_DIR/frame_linear_counter.sv \
+#     $SRC_DIR/invA_lut_q16.sv \
+#     $SRC_DIR/omega_clamp_t.sv \
+#     $SRC_DIR/norm_channel_q16.sv \
+#     $SRC_DIR/ipu_control_logic.sv \
+#     $SRC_DIR/grayscale.sv \
+#     $SRC_DIR/t_computing.sv \
+#     $SRC_DIR/fusing.sv \
+#     $SRC_DIR/t_compute_fuse.sv \
+#     $SRC_DIR/atm_light_coarse_tx.sv \
+#     $SRC_DIR/haze_removal_core.sv \
+#     $SRC_DIR/haze_removal_top.sv \
+#     $TB_DIR/haze_removal_top_128_tb.sv
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 15:22:39 on Mar 21,2026
+# vlog "+acc" "+define+SIM_MODE" ../00_src/IPU/min3_u8.sv ../00_src/IPU/dark_channel.sv ../00_src/IPU/atmospheric_light.sv ../00_src/IPU/bank_bram.sv ../00_src/IPU/bank_pingpong_stream.sv ../00_src/IPU/estimate_transmission.sv ../00_src/IPU/adc_pixel_distance.sv ../00_src/IPU/adc_path_length.sv ../00_src/IPU/adc_rlimit_compute.sv ../00_src/IPU/adc_ase_masked_min.sv ../00_src/IPU/adc_line_buffer_5x5.sv ../00_src/IPU/adc_estimation.sv ../00_src/IPU/frame_linear_counter.sv ../00_src/IPU/invA_lut_q16.sv ../00_src/IPU/omega_clamp_t.sv ../00_src/IPU/norm_channel_q16.sv ../00_src/IPU/ipu_control_logic.sv ../00_src/IPU/grayscale.sv ../00_src/IPU/t_computing.sv ../00_src/IPU/fusing.sv ../00_src/IPU/t_compute_fuse.sv ../00_src/IPU/atm_light_coarse_tx.sv ../00_src/IPU/haze_removal_core.sv ../00_src/IPU/haze_removal_top.sv ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_128_tb.sv 
+# -- Compiling module min3_u8
+# -- Compiling module dark_channel
+# -- Compiling module atmospheric_light
+# -- Compiling module bank_bram
+# -- Compiling module bank_pingpong_stream
+# -- Compiling module estimate_transmission
+# -- Compiling module adc_pixel_distance
+# -- Compiling module adc_path_length
+# -- Compiling module adc_rlimit_compute
+# -- Compiling module adc_ase_masked_min
+# -- Compiling module adc_line_buffer_5x5
+# -- Compiling module adc_estimation
+# -- Compiling module frame_linear_counter
+# -- Compiling module invA_lut_q16
+# -- Compiling module omega_clamp_t
+# -- Compiling module norm_channel_q16
+# -- Compiling module ipu_control_logic
+# -- Compiling module grayscale
+# -- Compiling module t_computing
+# -- Compiling module fusing
+# -- Compiling module t_compute_fuse
+# -- Compiling module atm_light_coarse_tx
+# -- Compiling module haze_removal_core
+# -- Compiling module haze_removal_top
+# -- Compiling module haze_removal_top_128_tb
+# 
+# Top level modules:
+# 	ipu_control_logic
+# 	haze_removal_top_128_tb
+# End time: 15:22:39 on Mar 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -c haze_removal_top_128_tb +IMG_IN=$img_in +OUT_DIR=$out_dir -do "run -all; quit -f"
+# vsim -c haze_removal_top_128_tb "+IMG_IN=../01_sim/IPU/Testbench_DarkChannel_System/sim/image/test_128.bmp" "+OUT_DIR=../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/" -do "run -all; quit -f" 
+# Start time: 15:22:39 on Mar 21,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.haze_removal_top_128_tb(fast)
+# Loading work.haze_removal_top(fast)
+# Loading work.haze_removal_core(fast)
+# Loading work.atm_light_coarse_tx(fast)
+# Loading work.grayscale(fast)
+# Loading work.dark_channel(fast)
+# Loading work.atmospheric_light(fast)
+# Loading work.estimate_transmission(fast)
+# Loading work.invA_lut_q16(fast)
+# Loading work.norm_channel_q16(fast)
+# Loading work.min3_u8(fast)
+# Loading work.omega_clamp_t(fast)
+# Loading work.bank_pingpong_stream(fast)
+# Loading work.frame_linear_counter(fast)
+# Loading work.bank_bram(fast)
+# Loading work.adc_estimation(fast)
+# Loading work.adc_line_buffer_5x5(fast)
+# Loading work.adc_pixel_distance(fast)
+# Loading work.adc_path_length(fast)
+# Loading work.adc_rlimit_compute(fast)
+# Loading work.adc_ase_masked_min(fast)
+# Loading work.t_compute_fuse(fast)
+# Loading work.t_computing(fast)
+# Loading work.fusing(fast)
+# run -all
+# ==========================================================
+#   HAZE_REMOVAL_TOP FULL-FRAME TEST (128x128 BMP)
+# ==========================================================
+# Input BMP : ../01_sim/IPU/Testbench_DarkChannel_System/sim/image/test_128.bmp
+# Output dir: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/
+# <at time 0 ns> [START] Load BMP and initialize buffers
+# <at time 55000 ns> [START] Phase DARK
+# 
+# --- Phase DARK ---
+#   dark captured: 16384 pixels
+# <at time 163965000 ns> [START] Phase TRANS
+# 
+# --- Phase TRANS ---
+#   sky captured     : 16384 pixels
+#   tx_core captured : 16384 pixels
+# <at time 327885000 ns> [START] Phase ADC
+# 
+# --- Phase ADC ---
+#   tx_bank captured : 16384 pixels
+#   adc captured     : 15357 pixels
+# <at time 1638635000 ns> [START] Phase RECOVERY
+# 
+# --- Phase RECOVERY ---
+#   recovery captured: 16384 pixels
+# <at time 1802525000 ns> [START] Save output BMP images
+# 
+# --- Saving BMP images ---
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_src_128.bmp
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_dark_128.bmp
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_sky_128.bmp
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_tx_core_128.bmp
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_tx_bank_128.bmp
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_adc_128.bmp
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_adc_used_128.bmp
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_tx_core_raw_128.bmp
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_tx_bank_raw_128.bmp
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_adc_raw_128.bmp
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_adc_used_raw_128.bmp
+#   Saved: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/haze_recovery_128.bmp
+# 
+# Done. Check images in: ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/image/
+# 
+# ** Note: $finish    : ../01_sim/IPU/Testbench_HAZE_REMOVAL_TOP/sim/haze_removal_top_128_tb.sv(542)
+#    Time: 1802525 ns  Iteration: 1  Instance: /haze_removal_top_128_tb
+# End time: 15:22:41 on Mar 21,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

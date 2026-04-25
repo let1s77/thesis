@@ -1,0 +1,41 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/grid {C:/D/Study_material/(DATN)/Tetris_1/00_src/grid/grid.v}
+vlog -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/map {C:/D/Study_material/(DATN)/Tetris_1/00_src/map/render_counter.v}
+vlog -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/map {C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_rom.v}
+vlog -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src {C:/D/Study_material/(DATN)/Tetris_1/00_src/counter.v}
+vlog -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga {C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/buffer_ram.v}
+vlog -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode {C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_red.v}
+vlog -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode {C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_green.v}
+vlog -vlog01compat -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode {C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_rom_blue.v}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/grid {C:/D/Study_material/(DATN)/Tetris_1/00_src/grid/game_grid.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/pointer {C:/D/Study_material/(DATN)/Tetris_1/00_src/pointer/map_pointer_fsm.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src {C:/D/Study_material/(DATN)/Tetris_1/00_src/game_fsm.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/map {C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_fsm.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/map {C:/D/Study_material/(DATN)/Tetris_1/00_src/map/map_controller.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control {C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/hex.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src {C:/D/Study_material/(DATN)/Tetris_1/00_src/grid_select.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src {C:/D/Study_material/(DATN)/Tetris_1/00_src/Tetris_0.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga {C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_vertical_counter.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga {C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_line_buffer.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga {C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_horizontal_counter.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/vga {C:/D/Study_material/(DATN)/Tetris_1/00_src/vga/vga_controller.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control {C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_ps2.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control {C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_input.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control {C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_delay.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control {C:/D/Study_material/(DATN)/Tetris_1/00_src/ps_control/control_debounce.sv}
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode {C:/D/Study_material/(DATN)/Tetris_1/00_src/piece_decode/piece_decoder.sv}
+
+vlog -sv -work work +incdir+C:/D/Study_material/(DATN)/Tetris_1/01_tb {C:/D/Study_material/(DATN)/Tetris_1/01_tb/tb.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb
+
+add wave *
+view structure
+view signals
+run -all

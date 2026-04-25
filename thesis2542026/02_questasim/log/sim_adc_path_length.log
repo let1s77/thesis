@@ -1,0 +1,115 @@
+Reading pref.tcl
+
+# 2024.1
+
+# vsim -c tb_opt -do "run -all; quit" 
+# Start time: 23:06:28 on Mar 11,2026
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.adc_path_length_tb(fast)
+# Loading work.adc_path_length(fast)
+# run -all
+# 
+# 
+# ================================================================
+#         ADC Path Length - RTL Testbench
+# ================================================================
+# Total test cases : 20  (25 values per case)
+# LAMBDA_Q8        : 51  (lambda ~ 0.2)
+# Pipeline stages  : 1
+# ================================================================
+# 
+# ----------- Case  0: flat_uniform             -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case  1: center_dark_flat         -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case  2: horizontal_edge          -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case  3: vertical_edge            -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case  4: diag_edge_main           -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case  5: diag_edge_anti           -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case  6: cross_structure          -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case  7: center_bright_island     -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case  8: noisy_small_variation    -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case  9: ramp_horizontal          -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case 10: ramp_vertical            -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case 11: checkerboard_soft        -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case 12: corner_dark_tl           -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case 13: corner_dark_br           -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case 14: ring_structure           -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case 15: left_right_two_regions   -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case 16: top_bottom_two_regions   -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case 17: center_valley            -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case 18: random_like_1            -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# ----------- Case 19: random_like_2            -----------
+#   All 25 d_lambda MATCH  -> PASS
+# 
+# 
+# 
+# ========================================
+#         SIMULATION SUMMARY              
+# ========================================
+#     ********************************
+#     **  Path Length RTL            **
+#     ********************************
+#     **                            **       |\__||  
+#     **  Congratulations !!        **      / O.O  | 
+#     **                            **    /_____   | 
+#     **  SIMULATION PASS !!        **   /^ ^ ^ \\  |
+#     **                            **  |^ ^ ^ ^ |w| 
+#     ********************************   \m___m__|_|
+#     All 20 cases passed!
+# 
+# 
+# ** Note: $finish    : ../01_sim/IPU/adc_path_length_tb.sv(199)
+#    Time: 655 ns  Iteration: 0  Instance: /adc_path_length_tb
+# End time: 23:06:29 on Mar 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

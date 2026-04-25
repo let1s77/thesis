@@ -1,0 +1,322 @@
+# vsim -sv_seed 1 -voptargs="+acc" -assertdebug -c tb_top -do "log -r /*;run -all;" -l TC_SMOKE_001_1.log "+UVM_TESTNAME=TC_SMOKE_001" "+UVM_VERBOSITY=UVM_HIGH" "+UVM_PHASE_TRACE" "+UVM_OBJECTION_TRACE" "+UVM_CONFIG_DB_TRACE" 
+# Start time: 13:54:28 on Mar 05,2026
+# Loading C:/Users/USER/AppData/Local/Temp\USER@DESKTOP-7VJHTSQ_dpi_14368\win64_gcc-15.2.0\export_tramp.dll
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# different random seeds from your non-debug simulations.
+# Loading sv_std.std
+# Loading work.a_fifo_w_if(fast)
+# Loading work.a_fifo_r_if(fast)
+# Loading work.uvm_pkg(fast)
+# Loading work.a_fifo_pkg(fast)
+# Loading work.seq_pkg(fast)
+# Loading work.env_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.tb_top(fast)
+# Loading work.a_fifo_w_if(fast__2)
+# Loading work.a_fifo_r_if(fast__2)
+# Loading work.asyn_fifo(fast)
+# Loading work.sync_r2w(fast)
+# Loading work.sync_w2r(fast)
+# Loading work.fifomem(fast)
+# Loading work.rptr_empty(fast)
+# Loading work.wptr_full(fast)
+# Compiling C:/Users/USER/AppData/Local/Temp\USER@DESKTOP-7VJHTSQ_dpi_14368\win64_gcc-15.2.0\exportwrapper.c
+# Loading C:/Users/USER/AppData/Local/Temp\USER@DESKTOP-7VJHTSQ_dpi_14368\win64_gcc-15.2.0\vsim_auto_compile.dll
+# log -r /*
+# run -all
+# UVM_INFO C:/questasim64_2024.1/verilog_src/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# ----------------------------------------------------------------
+# UVM-1.2
+# (C) 2007-2014 Mentor Graphics Corporation
+# (C) 2007-2014 Cadence Design Systems, Inc.
+# (C) 2006-2014 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# (C) 2013-2014 NVIDIA Corporation
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO C:/questasim64_2024.1/verilog_src/uvm-1.2/src/base/uvm_root.svh(453) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+# UVM_INFO @ 0: reporter [RNTST] Running test TC_SMOKE_001...
+# UVM_INFO ./../test_case/a_fifo_base_test.sv(13) @ 0: uvm_test_top [build_phase] Entered...
+# UVM_INFO ./../test_case/a_fifo_base_test.sv(27) @ 0: uvm_test_top [build_phase] Exiting...
+# UVM_INFO ./../tb/a_fifo_environment.sv(21) @ 0: uvm_test_top.a_fifo_env [build_phase] Entered...
+# UVM_INFO ./../tb/a_fifo_environment.sv(28) @ 0: uvm_test_top.a_fifo_env [build_phase] Exiting...
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_agent.sv(22) @ 0: uvm_test_top.a_fifo_env.a_fifo_r_agt [a_fifo_read_agent] Active agent is configued
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_agent.sv(24) @ 0: uvm_test_top.a_fifo_env.a_fifo_w_agt [a_fifo_write_agent] Active agent is configued
+# UVM_INFO C:/questasim64_2024.1/verilog_src/uvm-1.2/src/base/uvm_traversal.svh(279) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+# UVM_INFO ./../test_case/a_fifo_base_test.sv(31) @ 0: uvm_test_top [start_of_simulation_phase] Entered...
+# UVM_INFO C:/questasim64_2024.1/verilog_src/uvm-1.2/src/base/uvm_root.svh(579) @ 0: reporter [UVMTOP] UVM testbench topology:
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# uvm_test_top               TC_SMOKE_001            -     @346 
+#   a_fifo_env               a_fifo_environment      -     @363 
+#     a_fifo_r_agt           a_fifo_read_agent       -     @382 
+#       r_driver             a_fifo_read_driver      -     @410 
+#         rsp_port           uvm_analysis_port       -     @429 
+#         seq_item_port      uvm_seq_item_pull_port  -     @419 
+#       r_monitor            a_fifo_read_monitor     -     @576 
+#         ap_port            uvm_analysis_port       -     @585 
+#       r_sequencer          a_fifo_read_sequencer   -     @439 
+#         rsp_export         uvm_analysis_export     -     @448 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @566 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+#     a_fifo_w_agt           a_fifo_write_agent      -     @391 
+#       w_driver             a_fifo_write_driver     -     @609 
+#         rsp_port           uvm_analysis_port       -     @628 
+#         seq_item_port      uvm_seq_item_pull_port  -     @618 
+#       w_monitor            a_fifo_write_monitor    -     @775 
+#         ap_port            uvm_analysis_port       -     @784 
+#       w_sequencer          a_fifo_write_sequencer  -     @638 
+#         rsp_export         uvm_analysis_export     -     @647 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @765 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+# --------------------------------------------------------------
+# 
+# UVM_INFO ./../test_case/a_fifo_base_test.sv(33) @ 0: uvm_test_top [start_of_simulation_phase] Exiting...
+# UVM_INFO ./../test_case/TC_SMOKE_001.sv(19) @ 0: uvm_test_top [TC_SMOKE_001] Starting TC_SMOKE_001
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(31) @ 100000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] RST OTF | drive idle.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(31) @ 300000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] RST OTF | drive idle.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(29) @ 300000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_monitor.sv(32) @ 450000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_monitor [a_fifo_read_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(31) @ 500000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] RST OTF | drive idle.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(29) @ 500000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(31) @ 700000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] RST OTF | drive idle.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(29) @ 700000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_monitor.sv(32) @ 750000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_monitor [a_fifo_read_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(31) @ 900000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] RST OTF | drive idle.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(29) @ 900000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_monitor.sv(32) @ 1050000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_monitor [a_fifo_read_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(31) @ 1100000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] RST OTF | drive idle.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(29) @ 1100000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(31) @ 1300000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] RST OTF | drive idle.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(29) @ 1300000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_monitor.sv(32) @ 1350000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_monitor [a_fifo_read_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(31) @ 1500000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] RST OTF | drive idle.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(29) @ 1500000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_monitor.sv(32) @ 1650000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_monitor [a_fifo_read_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(31) @ 1700000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] RST OTF | drive idle.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(29) @ 1700000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(31) @ 1900000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] RST OTF | drive idle.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(29) @ 1900000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_monitor.sv(32) @ 1950000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_monitor [a_fifo_read_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(31) @ 2100000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] RST OTF | drive idle.
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(29) @ 2100000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] RST Asserted.
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_monitor.sv(48) @ 2250000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_monitor [a_fifo_read_monitor] ----------------------------------------------------------
+# Name            Type                     Size  Value      
+# ----------------------------------------------------------
+# r_tran          a_fifo_read_transaction  -     @906       
+#   read_req      integral                 1     'h0        
+#   read_type     read_type_enum           1     NORMAL_READ
+#   empty_happen  integral                 1     'h1        
+#   read_happen   integral                 1     'h0        
+#   rdata         integral                 8     'h0        
+#   status        read_status_enum         2     READ_OK    
+# ----------------------------------------------------------
+# 
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(44) @ 2300000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] ------------------------------------------------------------
+# Name            Type                      Size  Value       
+# ------------------------------------------------------------
+# w_tran          a_fifo_write_transaction  -     @912        
+#   write_en_req  integral                  1     'h0         
+#   wdata         integral                  8     'h0         
+#   write_type    write_type_enum           1     NORMAL_WRITE
+#   full_happen   integral                  1     'h0         
+#   write_happen  integral                  1     'h0         
+#   status        write_status_enum         2     WRITE_OK    
+# ------------------------------------------------------------
+# 
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_driver.sv(54) @ 2500000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_driver [a_fifo_write_driver] DRV WRITE: write_req=1 wdata=0xa5
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(44) @ 2500000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] ------------------------------------------------------------
+# Name            Type                      Size  Value       
+# ------------------------------------------------------------
+# w_tran          a_fifo_write_transaction  -     @925        
+#   write_en_req  integral                  1     'h0         
+#   wdata         integral                  8     'h0         
+#   write_type    write_type_enum           1     NORMAL_WRITE
+#   full_happen   integral                  1     'h0         
+#   write_happen  integral                  1     'h0         
+#   status        write_status_enum         2     WRITE_OK    
+# ------------------------------------------------------------
+# 
+# UVM_INFO ./../test_case/a_fifo_base_test.sv(50) @ 2550000: uvm_test_top [reset_phase] Reset is done!
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_monitor.sv(48) @ 2550000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_monitor [a_fifo_read_monitor] ----------------------------------------------------------
+# Name            Type                     Size  Value      
+# ----------------------------------------------------------
+# r_tran          a_fifo_read_transaction  -     @963       
+#   read_req      integral                 1     'h0        
+#   read_type     read_type_enum           1     NORMAL_READ
+#   empty_happen  integral                 1     'h1        
+#   read_happen   integral                 1     'h0        
+#   rdata         integral                 8     'h0        
+#   status        read_status_enum         2     READ_OK    
+# ----------------------------------------------------------
+# 
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(44) @ 2700000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] ------------------------------------------------------------
+# Name            Type                      Size  Value       
+# ------------------------------------------------------------
+# w_tran          a_fifo_write_transaction  -     @969        
+#   write_en_req  integral                  1     'h1         
+#   wdata         integral                  8     'ha5        
+#   write_type    write_type_enum           1     NORMAL_WRITE
+#   full_happen   integral                  1     'h0         
+#   write_happen  integral                  1     'h1         
+#   status        write_status_enum         2     WRITE_OK    
+# ------------------------------------------------------------
+# 
+# UVM_INFO ./../sequences/a_fifo_write_sequence.sv(32) @ 2700000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_sequencer@@write_seq [a_fifo_write_sequence] -------------------------------------------------------------------------------------------------------------------------
+# Name                           Type                      Size  Value                                                     
+# -------------------------------------------------------------------------------------------------------------------------
+# req                            a_fifo_write_transaction  -     @841                                                      
+#   write_en_req                 integral                  1     'h1                                                       
+#   wdata                        integral                  8     'ha5                                                      
+#   write_type                   write_type_enum           1     NORMAL_WRITE                                              
+#   full_happen                  integral                  1     'h0                                                       
+#   write_happen                 integral                  1     'h0                                                       
+#   status                       write_status_enum         2     WRITE_OK                                                  
+#   begin_time                   time                      64    2300000                                                   
+#   end_time                     time                      64    2300000                                                   
+#   depth                        int                       32    'd2                                                       
+#   parent sequence (name)       string                    9     write_seq                                                 
+#   parent sequence (full name)  string                    58    uvm_test_top.a_fifo_env.a_fifo_w_agt.w_sequencer.write_seq
+#   sequencer                    string                    48    uvm_test_top.a_fifo_env.a_fifo_w_agt.w_sequencer          
+# -------------------------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_driver.sv(51) @ 2850000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_driver [a_fifo_read_driver] DRV READ: read_req=1 type=NORMAL_READ
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_monitor.sv(48) @ 2850000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_monitor [a_fifo_read_monitor] ----------------------------------------------------------
+# Name            Type                     Size  Value      
+# ----------------------------------------------------------
+# r_tran          a_fifo_read_transaction  -     @993       
+#   read_req      integral                 1     'h0        
+#   read_type     read_type_enum           1     NORMAL_READ
+#   empty_happen  integral                 1     'h1        
+#   read_happen   integral                 1     'h0        
+#   rdata         integral                 8     'ha5       
+#   status        read_status_enum         2     READ_OK    
+# ----------------------------------------------------------
+# 
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(44) @ 2900000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] ------------------------------------------------------------
+# Name            Type                      Size  Value       
+# ------------------------------------------------------------
+# w_tran          a_fifo_write_transaction  -     @999        
+#   write_en_req  integral                  1     'h0         
+#   wdata         integral                  8     'ha5        
+#   write_type    write_type_enum           1     NORMAL_WRITE
+#   full_happen   integral                  1     'h0         
+#   write_happen  integral                  1     'h0         
+#   status        write_status_enum         2     WRITE_OK    
+# ------------------------------------------------------------
+# 
+# UVM_INFO ./../async_fifo_vip/a_fifo_write_monitor.sv(44) @ 3100000: uvm_test_top.a_fifo_env.a_fifo_w_agt.w_monitor [a_fifo_write_monitor] ------------------------------------------------------------
+# Name            Type                      Size  Value       
+# ------------------------------------------------------------
+# w_tran          a_fifo_write_transaction  -     @1005       
+#   write_en_req  integral                  1     'h0         
+#   wdata         integral                  8     'ha5        
+#   write_type    write_type_enum           1     NORMAL_WRITE
+#   full_happen   integral                  1     'h0         
+#   write_happen  integral                  1     'h0         
+#   status        write_status_enum         2     WRITE_OK    
+# ------------------------------------------------------------
+# 
+# UVM_INFO ./../async_fifo_vip/a_fifo_read_monitor.sv(48) @ 3150000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_monitor [a_fifo_read_monitor] --------------------------------------------------------------
+# Name            Type                     Size  Value          
+# --------------------------------------------------------------
+# r_tran          a_fifo_read_transaction  -     @1011          
+#   read_req      integral                 1     'h1            
+#   read_type     read_type_enum           1     NORMAL_READ    
+#   empty_happen  integral                 1     'h1            
+#   read_happen   integral                 1     'h0            
+#   rdata         integral                 8     'ha5           
+#   status        read_status_enum         2     READ_WHEN_EMPTY
+# --------------------------------------------------------------
+# 
+# UVM_INFO ./../sequences/a_fifo_read_sequence.sv(25) @ 3150000: uvm_test_top.a_fifo_env.a_fifo_r_agt.r_sequencer@@read_seq [a_fifo_read_sequence] -----------------------------------------------------------------------------------------------------------------------
+# Name                           Type                     Size  Value                                                    
+# -----------------------------------------------------------------------------------------------------------------------
+# req                            a_fifo_read_transaction  -     @982                                                     
+#   read_req                     integral                 1     'h1                                                      
+#   read_type                    read_type_enum           1     NORMAL_READ                                              
+#   empty_happen                 integral                 1     'h0                                                      
+#   read_happen                  integral                 1     'h0                                                      
+#   rdata                        integral                 8     'h0                                                      
+#   status                       read_status_enum         2     READ_OK                                                  
+#   begin_time                   time                     64    2710000                                                  
+#   end_time                     time                     64    2710000                                                  
+#   depth                        int                      32    'd2                                                      
+#   parent sequence (name)       string                   8     read_seq                                                 
+#   parent sequence (full name)  string                   57    uvm_test_top.a_fifo_env.a_fifo_r_agt.r_sequencer.read_seq
+#   sequencer                    string                   48    uvm_test_top.a_fifo_env.a_fifo_r_agt.r_sequencer         
+# -----------------------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ./../test_case/TC_SMOKE_001.sv(38) @ 3150000: uvm_test_top [TC_SMOKE_001] Finished TC_SMOKE_001
+# UVM_INFO C:/questasim64_2024.1/verilog_src/uvm-1.2/src/base/uvm_objection.svh(1270) @ 3150000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO C:/questasim64_2024.1/verilog_src/uvm-1.2/src/base/uvm_report_server.svh(847) @ 3150000: reporter [UVM/REPORT/SERVER] 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   57
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [NO_DPI_TSTNAME]     1
+# [RNTST]     1
+# [TC_SMOKE_001]     2
+# [TEST_DONE]     1
+# [UVM/COMP/NAMECHECK]     1
+# [UVM/RELNOTES]     1
+# [UVMTOP]     1
+# [a_fifo_read_agent]     1
+# [a_fifo_read_driver]     1
+# [a_fifo_read_monitor]    10
+# [a_fifo_read_sequence]     1
+# [a_fifo_write_agent]     1
+# [a_fifo_write_driver]    12
+# [a_fifo_write_monitor]    15
+# [a_fifo_write_sequence]     1
+# [build_phase]     4
+# [reset_phase]     1
+# [start_of_simulation_phase]     2
+# 
+# ** Note: $finish    : C:/questasim64_2024.1/verilog_src/uvm-1.2/src/base/uvm_root.svh(517)
+#    Time: 3150 ns  Iteration: 77  Instance: /tb_top
+# End time: 13:54:33 on Mar 05,2026, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 1

@@ -1,0 +1,17 @@
+// Bank write data pattern (8-bit), 16 entries
+07  // [00] row=0 col=0
+14  // [01] row=0 col=1
+21  // [02] row=0 col=2
+2E  // [03] row=0 col=3
+3B  // [04] row=1 col=0
+48  // [05] row=1 col=1
+55  // [06] row=1 col=2
+62  // [07] row=1 col=3
+6F  // [08] row=2 col=0
+7C  // [09] row=2 col=1
+89  // [10] row=2 col=2
+96  // [11] row=2 col=3
+A3  // [12] row=3 col=0
+B0  // [13] row=3 col=1
+BD  // [14] row=3 col=2
+CA  // [15] row=3 col=3

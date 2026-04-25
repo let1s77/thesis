@@ -1,0 +1,176 @@
+# do 01_sim/soc/Testbench_SOC/script/run_soc_128_fullframe_47.tcl
+# 01_sim/IPU/Testbench_DarkChannel_System/sim/image/47_hazy.bmp
+# 01_sim/soc/Testbench_SOC/sim/image_47/
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/soc
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/mem
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/soc/Testbench_SOC/sim
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vmap 2024.1 Lib Mapping Utility 2024.02 Feb  1 2024
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 09:46:51 on Apr 25,2026
+# vlog "+acc" "+define+SIM_MODE" "+incdir+C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V" "+incdir+C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/soc" "+incdir+C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU" "+incdir+C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/mem" C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/fa.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/cla_4bit.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/cla_32bit.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/alu.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/brc.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/control_logic.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/immgen.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/instr_mem.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/memory.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/mux2.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/mux3.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/pc.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/PCplus4.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/regfile.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/SevenSegment.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/peripherals.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/lsu_v1.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/single_cycle.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/soc/peri_apb_wrapper.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/soc/ipu_apb_wrapper.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/src_min.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/search_block_min.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/sky_recognition.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/min3_u8.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/dark_channel.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/atmospheric_light.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/bank_bram.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/bank_pingpong_stream.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/estimate_transmission.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/adc_pixel_distance.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/adc_path_length.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/adc_rlimit_compute.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/adc_ase_masked_min.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/adc_line_buffer_5x5.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/adc_estimation.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/frame_linear_counter.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/invA_lut_q16.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/omega_clamp_t.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/norm_channel_q16.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/ipu_control_logic.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/grayscale.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/t_computing.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/recip_lut_q16.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/fusing.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/t_compute_fuse.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/atm_light_coarse_tx.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/haze_removal_core.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/haze_removal_top.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/mem/img_in_bram.v C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/mem/img_out_bram.v C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/mem/ipu_bram_reader.v C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/mem/ipu_bram_writer.v C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/IPU/ipu_soc.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/soc/soc_top.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/soc/Testbench_SOC/sim/soc_128_tb.sv 
+# -- Compiling module fa
+# -- Compiling module cla_4bit
+# -- Compiling module cla_32bit
+# -- Compiling module alu
+# -- Compiling module brc
+# -- Compiling module control_logic
+# -- Compiling module ImmGen
+# -- Compiling module instr_mem
+# -- Compiling module memory
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module pc
+# -- Compiling module PCplus4
+# -- Compiling module regfile
+# -- Compiling module SevenSegment
+# -- Compiling module peripherals
+# -- Compiling module lsu
+# -- Compiling module single_cycle
+# -- Compiling module peri_apb_wrapper
+# -- Compiling module ipu_apb_wrapper
+# -- Compiling module src_min
+# -- Compiling module search_block_min
+# -- Compiling module sky_recognition
+# -- Compiling module min3_u8
+# -- Compiling module dark_channel
+# -- Compiling module atmospheric_light
+# -- Compiling module bank_bram
+# -- Compiling module bank_pingpong_stream
+# -- Compiling module estimate_transmission
+# -- Compiling module adc_pixel_distance
+# -- Compiling module adc_path_length
+# -- Compiling module adc_rlimit_compute
+# -- Compiling module adc_ase_masked_min
+# -- Compiling module adc_line_buffer_5x5
+# -- Compiling module adc_estimation
+# -- Compiling module frame_linear_counter
+# -- Compiling module invA_lut_q16
+# -- Compiling module omega_clamp_t
+# -- Compiling module norm_channel_q16
+# -- Compiling module ipu_control_logic
+# -- Compiling module grayscale
+# -- Compiling module t_computing
+# -- Compiling module recip_lut_q16
+# -- Compiling module fusing
+# -- Compiling module t_compute_fuse
+# -- Compiling module atm_light_coarse_tx
+# -- Compiling module haze_removal_core
+# -- Compiling module haze_removal_top
+# -- Compiling module img_in_bram
+# -- Compiling module img_out_bram
+# -- Compiling module ipu_bram_reader
+# -- Compiling module ipu_bram_writer
+# -- Compiling module ipu_soc
+# -- Compiling module soc_top
+# -- Compiling module soc_128_tb
+# 
+# Top level modules:
+# 	cla_4bit
+# 	ipu_control_logic
+# 	haze_removal_top
+# 	ipu_bram_reader
+# 	ipu_bram_writer
+# 	ipu_soc
+# 	soc_128_tb
+# End time: 09:46:51 on Apr 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c soc_128_tb "+IMG_IN=01_sim/IPU/Testbench_DarkChannel_System/sim/image/47_hazy.bmp" "+OUT_DIR=01_sim/soc/Testbench_SOC/sim/image_47/" -do "run -all; quit -f" 
+# Start time: 09:46:51 on Apr 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.soc_128_tb(fast)
+# Loading work.soc_top(fast)
+# Loading work.single_cycle(fast)
+# Loading work.PCplus4(fast)
+# Loading work.mux2(fast)
+# Loading work.pc(fast)
+# Loading work.instr_mem(fast)
+# Loading work.ImmGen(fast)
+# Loading work.regfile(fast)
+# Loading work.brc(fast)
+# Loading work.cla_32bit(fast)
+# Loading work.alu(fast)
+# Loading work.lsu(fast)
+# Loading work.memory(fast)
+# Loading work.mux3(fast)
+# Loading work.control_logic(fast)
+# Loading work.peri_apb_wrapper(fast)
+# Loading work.peripherals(fast)
+# Loading work.SevenSegment(fast)
+# Loading work.ipu_apb_wrapper(fast)
+# Loading work.ipu_core(fast)
+# Loading work.ipu_control_logic(fast)
+# Loading work.ipu_bram_reader(fast)
+# Loading work.haze_removal_top(fast)
+# Loading work.haze_removal_core(fast)
+# Loading work.recip_lut_q16(fast)
+# Loading work.bank_bram(fast)
+# Loading work.atm_light_coarse_tx(fast)
+# Loading work.grayscale(fast)
+# Loading work.dark_channel(fast)
+# Loading work.src_min(fast)
+# Loading work.atmospheric_light(fast)
+# Loading work.sky_recognition(fast)
+# Loading work.estimate_transmission(fast)
+# Loading work.invA_lut_q16(fast)
+# Loading work.norm_channel_q16(fast)
+# Loading work.min3_u8(fast)
+# Loading work.omega_clamp_t(fast)
+# Loading work.bank_pingpong_stream(fast)
+# Loading work.frame_linear_counter(fast)
+# Loading work.adc_estimation(fast)
+# Loading work.adc_line_buffer_5x5(fast)
+# Loading work.adc_pixel_distance(fast)
+# Loading work.adc_path_length(fast)
+# Loading work.adc_rlimit_compute(fast)
+# Loading work.adc_ase_masked_min(fast)
+# Loading work.t_compute_fuse(fast)
+# Loading work.t_computing(fast)
+# Loading work.fusing(fast)
+# Loading work.ipu_bram_writer(fast)
+# Loading work.img_in_bram(fast)
+# Loading work.img_out_bram(fast)
+# Loading work.img_tmp_bram(fast)
+# run -all
+# ** Warning: (vsim-7) Failed to open readmem file "../../01_sim/RISC_V/02_test/isa_4b.hex" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/00_src/RISC_V/instr_mem.sv(14)
+#    Time: 0 ps  Iteration: 0  Instance: /soc_128_tb/dut/u_single_cycle/instr_mem_inst
+# ==========================================================
+#   SOC TOP TEST (BMP before/after)
+# ==========================================================
+# Input BMP : 01_sim/IPU/Testbench_DarkChannel_System/sim/image/47_hazy.bmp
+# Output dir: 01_sim/soc/Testbench_SOC/sim/image_47/
+# <at time 0 ns> [START] Load BMP and reset SOC
+# <at time 85000 ns> [START] Preload image BRAM and program IPU regs
+# <at time 265000 ns> [START] Run SOC until IPU IRQ done
+# <at time 655865000 ns> [START] Capture and save SOC output BMP
+#   Saved: 01_sim/soc/Testbench_SOC/sim/image_47/soc_input_128.bmp
+#   Saved: 01_sim/soc/Testbench_SOC/sim/image_47/soc_output_128.bmp
+# <at time 655865000 ns> [START] VGA port readback verify
+#   VGA port readback: PASS (16 pixels checked)
+# SOC image compare done.
+# ** Note: $finish    : C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/soc/Testbench_SOC/sim/soc_128_tb.sv(297)
+#    Time: 656345 ns  Iteration: 1  Instance: /soc_128_tb
+# End time: 09:46:54 on Apr 25,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1

@@ -1,0 +1,110 @@
+# 
+# puts "SOC TOP automation"
+# puts "Log file: $log_file"
+# 
+# if {[info exists ::env(IMG_IN)]} {
+#     set img_in $::env(IMG_IN)
+# } else {
+#     set img_in "01_sim/IPU/Testbench_DarkChannel_System/sim/image/test_128.bmp"
+# }
+# 01_sim/IPU/Testbench_DarkChannel_System/sim/image/test_128.bmp
+# 
+# if {[info exists ::env(OUT_DIR)]} {
+#     set out_dir $::env(OUT_DIR)
+# } else {
+#     set out_dir "01_sim/soc/Testbench_SOC/sim/image_test/"
+# }
+# 01_sim/soc/Testbench_SOC/sim/image_test/
+# 
+# set proj_root [file normalize [pwd]]
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim
+# 
+# set SRC_RV  [file join $proj_root 00_src RISC_V]
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V
+# set SRC_SOC [file join $proj_root 00_src soc]
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/soc
+# set SRC_IPU [file join $proj_root 00_src IPU]
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU
+# set SRC_MEM [file join $proj_root 00_src IPU mem]
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/mem
+# set TB_SIM  [file join $proj_root 01_sim soc Testbench_SOC sim]
+# C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/01_sim/soc/Testbench_SOC/sim
+# 
+# file mkdir $out_dir
+# 
+# vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# vmap work work
+# QuestaSim-64 vmap 2024.1 Lib Mapping Utility 2024.02 Feb  1 2024
+# vmap work work 
+# Modifying C:/questasim64_2024.1/win64/../modelsim.ini
+# 
+# vlog +acc +define+SIM_MODE \
+#     +incdir+$SRC_RV +incdir+$SRC_SOC +incdir+$SRC_IPU +incdir+$SRC_MEM \
+#     [file join $SRC_RV fa.sv] \
+#     [file join $SRC_RV cla_4bit.sv] \
+#     [file join $SRC_RV cla_32bit.sv] \
+#     [file join $SRC_RV alu.sv] \
+#     [file join $SRC_RV brc.sv] \
+#     [file join $SRC_RV control_logic.sv] \
+#     [file join $SRC_RV immgen.sv] \
+#     [file join $SRC_RV instr_mem.sv] \
+#     [file join $SRC_RV memory.sv] \
+#     [file join $SRC_RV mux2.sv] \
+#     [file join $SRC_RV mux3.sv] \
+#     [file join $SRC_RV pc.sv] \
+#     [file join $SRC_RV PCplus4.sv] \
+#     [file join $SRC_RV regfile.sv] \
+#     [file join $SRC_RV SevenSegment.sv] \
+#     [file join $SRC_RV peripherals.sv] \
+#     [file join $SRC_RV lsu_v1.sv] \
+#     [file join $SRC_RV single_cycle.sv] \
+#     [file join $SRC_SOC peri_apb_wrapper.sv] \
+#     [file join $SRC_SOC ipu_apb_wrapper.sv] \
+#     [file join $SRC_IPU src_min.sv] \
+#     [file join $SRC_IPU search_block_min.sv] \
+#     [file join $SRC_IPU sky_recognition.sv] \
+#     [file join $SRC_IPU min3_u8.sv] \
+#     [file join $SRC_IPU dark_channel.sv] \
+#     [file join $SRC_IPU atmospheric_light.sv] \
+#     [file join $SRC_IPU bank_bram.sv] \
+#     [file join $SRC_IPU bank_pingpong_stream.sv] \
+#     [file join $SRC_IPU estimate_transmission.sv] \
+#     [file join $SRC_IPU adc_pixel_distance.sv] \
+#     [file join $SRC_IPU adc_path_length.sv] \
+#     [file join $SRC_IPU adc_rlimit_compute.sv] \
+#     [file join $SRC_IPU adc_ase_masked_min.sv] \
+#     [file join $SRC_IPU adc_line_buffer_5x5.sv] \
+#     [file join $SRC_IPU adc_estimation.sv] \
+#     [file join $SRC_IPU frame_linear_counter.sv] \
+#     [file join $SRC_IPU invA_lut_q16.sv] \
+#     [file join $SRC_IPU omega_clamp_t.sv] \
+#     [file join $SRC_IPU norm_channel_q16.sv] \
+#     [file join $SRC_IPU ipu_control_logic.sv] \
+#     [file join $SRC_IPU grayscale.sv] \
+#     [file join $SRC_IPU t_computing.sv] \
+#     [file join $SRC_IPU recip_lut_q16.sv] \
+#     [file join $SRC_IPU fusing.sv] \
+#     [file join $SRC_IPU t_compute_fuse.sv] \
+#     [file join $SRC_IPU atm_light_coarse_tx.sv] \
+#     [file join $SRC_IPU haze_removal_core.sv] \
+#     [file join $SRC_IPU haze_removal_top.sv] \
+#     [file join $SRC_MEM img_in_bram.v] \
+#     [file join $SRC_MEM img_out_bram.v] \
+#     [file join $SRC_MEM img_tmp_bram.v] \
+#     [file join $SRC_MEM ipu_bram_reader.v] \
+#     [file join $SRC_MEM ipu_bram_writer.v] \
+#     [file join $SRC_IPU ipu_core.sv] \
+#     [file join $SRC_IPU ipu_soc.sv] \
+#     [file join $SRC_SOC soc_top.sv] \
+#     [file join $TB_SIM soc_128_tb.sv]
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 09:32:58 on Apr 25,2026
+# vlog "+acc" "+define+SIM_MODE" "+incdir+C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V" "+incdir+C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/soc" "+incdir+C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU" "+incdir+C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/mem" C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/fa.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/cla_4bit.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/cla_32bit.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/alu.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/brc.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/control_logic.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/immgen.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/instr_mem.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/memory.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/mux2.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/mux3.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/pc.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/PCplus4.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/regfile.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/SevenSegment.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/peripherals.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/lsu_v1.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/single_cycle.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/soc/peri_apb_wrapper.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/soc/ipu_apb_wrapper.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/src_min.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/search_block_min.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/sky_recognition.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/min3_u8.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/dark_channel.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/atmospheric_light.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/bank_bram.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/bank_pingpong_stream.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/estimate_transmission.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/adc_pixel_distance.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/adc_path_length.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/adc_rlimit_compute.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/adc_ase_masked_min.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/adc_line_buffer_5x5.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/adc_estimation.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/frame_linear_counter.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/invA_lut_q16.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/omega_clamp_t.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/norm_channel_q16.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/ipu_control_logic.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/grayscale.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/t_computing.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/recip_lut_q16.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/fusing.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/t_compute_fuse.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/atm_light_coarse_tx.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/haze_removal_core.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/haze_removal_top.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/mem/img_in_bram.v C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/mem/img_out_bram.v C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/mem/img_tmp_bram.v C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/mem/ipu_bram_reader.v C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/mem/ipu_bram_writer.v C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/ipu_core.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/IPU/ipu_soc.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/soc/soc_top.sv C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/01_sim/soc/Testbench_SOC/sim/soc_128_tb.sv 
+# ** Error: (vlog-7) Failed to open design unit file "C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/00_src/RISC_V/fa.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 09:32:58 on Apr 25,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2024.1/win64/vlog failed.
+# Executing ONERROR command at macro ./soc/Testbench_SOC/script/run_soc_128_fullframe.tcl line 102

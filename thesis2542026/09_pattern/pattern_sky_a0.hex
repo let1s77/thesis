@@ -1,0 +1,21 @@
+// A0 threshold (8-bit)
+96  // [00] Black - gray=0 < A0
+96  // [01] gray=149, just below A0
+96  // [02] gray=150, equal A0 (not >)
+96  // [03] gray=151, just above A0 => sky
+96  // [04] White - gray=255 >> A0 => sky
+96  // [05] Dark pixel - non-sky
+96  // [06] Medium dark - non-sky
+96  // [07] Bright - sky
+96  // [08] Very bright - sky
+96  // [09] Mid gray - non-sky
+96  // [10] dark_ch=0 << A0 - non-sky
+96  // [11] dark_ch=149, just below A0
+96  // [12] dark_ch=150, equal A0 (not >)
+96  // [13] dark_ch=151, just above => sky
+96  // [14] dark_ch=255 >> A0 => sky
+96  // [15] dark_ch=80 - non-sky
+96  // [16] dark_ch=130 - non-sky
+96  // [17] dark_ch=180 - sky
+96  // [18] dark_ch=200 - sky
+96  // [19] dark_ch=100 - non-sky

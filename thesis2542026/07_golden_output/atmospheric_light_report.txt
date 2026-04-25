@@ -1,0 +1,107 @@
+======================================================================
+ATMOSPHERIC LIGHT ESTIMATION REPORT
+======================================================================
+Threshold: 128
+Algorithm: dark > threshold -> A = RGB, else A based on max channel
+======================================================================
+
+[00] Pure white - Max haze
+     Input:  RGB=(255,255,255), Dark=255
+     Output: A=(255,255,255)
+     Haze:   Very Heavy
+
+[01] Very bright sky
+     Input:  RGB=(240,245,250), Dark=240
+     Output: A=(240,245,250)
+     Haze:   Very Heavy
+
+[02] Bright hazy sky
+     Input:  RGB=(220,230,235), Dark=220
+     Output: A=(220,230,235)
+     Haze:   Very Heavy
+
+[03] Medium hazy
+     Input:  RGB=(200,210,215), Dark=200
+     Output: A=(200,210,215)
+     Haze:   Heavy
+
+[04] Light haze
+     Input:  RGB=(180,190,195), Dark=180
+     Output: A=(180,190,195)
+     Haze:   Heavy
+
+[05] Slight haze
+     Input:  RGB=(160,170,175), Dark=160
+     Output: A=(160,170,175)
+     Haze:   Heavy
+
+[06] Gray haze
+     Input:  RGB=(128,135,140), Dark=128
+     Output: A=(128,135,140)
+     Haze:   Medium
+
+[07] Weak haze
+     Input:  RGB=(100,110,115), Dark=100
+     Output: A=(100,110,115)
+     Haze:   Light
+
+[08] Very weak haze
+     Input:  RGB=( 80, 90, 95), Dark= 80
+     Output: A=( 80, 90, 95)
+     Haze:   Light
+
+[09] Minimal haze
+     Input:  RGB=( 60, 70, 75), Dark= 60
+     Output: A=( 60, 70, 75)
+     Haze:   Light
+
+[10] Warm atmospheric
+     Input:  RGB=(255,200,180), Dark=180
+     Output: A=(255,200,180)
+     Haze:   Heavy
+
+[11] Cool atmospheric
+     Input:  RGB=(180,200,255), Dark=180
+     Output: A=(180,200,255)
+     Haze:   Heavy
+
+[12] Sunset light
+     Input:  RGB=(255,220,200), Dark=200
+     Output: A=(255,220,200)
+     Haze:   Heavy
+
+[13] Sky light
+     Input:  RGB=(200,220,255), Dark=200
+     Output: A=(200,220,255)
+     Haze:   Heavy
+
+[14] Black - No light
+     Input:  RGB=(  0,  0,  0), Dark=  0
+     Output: A=(  0,  0,  0)
+     Haze:   Minimal
+
+[15] Pure red
+     Input:  RGB=(255,  0,  0), Dark=  0
+     Output: A=(255,  0,  0)
+     Haze:   Minimal
+
+[16] Pure green
+     Input:  RGB=(  0,255,  0), Dark=  0
+     Output: A=(  0,255,  0)
+     Haze:   Minimal
+
+[17] Pure blue
+     Input:  RGB=(  0,  0,255), Dark=  0
+     Output: A=(  0,  0,255)
+     Haze:   Minimal
+
+[18] Typical hazy day
+     Input:  RGB=(150,160,165), Dark=150
+     Output: A=(150,160,165)
+     Haze:   Medium
+
+[19] Dense fog
+     Input:  RGB=(190,200,210), Dark=190
+     Output: A=(190,200,210)
+     Haze:   Heavy
+

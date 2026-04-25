@@ -1,0 +1,158 @@
+# vsim -c tb_opt -l log/sim_t_co# vsim -c tb_opt -l log/sim_t_compute_fuse.log -do "run -all; quit" 
+# Start time: 23:16:43 on Mar 13,2026
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expre# Loading sv_std.std
+# Loading # Loading sv_std.std
+# Loading work.t_compute_fuse_tb(fast)
+# Loading work.t_compute_fuse(fast)
+# Loading work.t_computing(fast)
+# Loading work.fusing(fast)
+# run -all
+# 
+# 
+# ================================================================
+#         t_compute_fuse - RTL Testbench
+# ================================================================
+# Total test cases : 20
+# Pipeline latency : 2 cycles
+# ================================================================
+# 
+# ----------- Case  0 (id=0) -----------
+#   IN : dark= 20 A=220 src=(180,170,160)
+#   OUT: tx_raw=233 tx_used=233 rgb=(176,165,154) o_valid=1
+#   EXP: tx_raw=233 tx_used=233 rgb=(176,165,154)
+#   Result: PASS
+# 
+# ----------- Case  1 (id=1) -----------
+#   IN : dark= 60 A=210 src=(150,140,130)
+#   OUT: tx_raw=186 tx_used=186 rgb=(127,113, 99) o_valid=1
+#   EXP: tx_raw=186 tx_used=186 rgb=(127,113, 99)
+#   Result: PASS
+# 
+# ----------- Case  2 (id=2) -----------
+#   IN : dark=100 A=200 src=(160,145,120)
+#   OUT: tx_raw=134 tx_used=134 rgb=(123, 94, 47) o_valid=1
+#   EXP: tx_raw=134 tx_used=134 rgb=(123, 94, 47)
+#   Result: PASS
+# 
+# ----------- Case  3 (id=3) -----------
+#   IN : dark=170 A=190 src=(180,160,140)
+#   OUT: tx_raw= 38 tx_used= 38 rgb=(122,244,110) o_valid=1
+#   EXP: tx_raw= 38 tx_used= 38 rgb=(122,244,110)
+#   Result: PASS
+# 
+# ----------- Case  4 (id=4) -----------
+#   IN : dark= 15 A=200 src=( 20, 18, 16)
+#   OUT: tx_raw=237 tx_used=237 rgb=(  5,  3,  1) o_valid=1
+#   EXP: tx_raw=237 tx_used=237 rgb=(  5,  3,  1)
+#   Result: PASS
+# 
+# ----------- Case  5 (id=5) -----------
+#   IN : dark=180 A=220 src=(215,210,205)
+#   OUT: tx_raw= 57 tx_used= 57 rgb=(197,175,152) o_valid=1
+#   EXP: tx_raw= 57 tx_used= 57 rgb=(197,175,152)
+#   Result: PASS
+# 
+# ----------- Case  6 (id=6) -----------
+#   IN : dark= 90 A=205 src=(220,110,100)
+#   OUT: tx_raw=149 tx_used=149 rgb=(230, 41, 24) o_valid=1
+#   EXP: tx_raw=149 tx_used=149 rgb=(230, 41, 24)
+#   Result: PASS
+# 
+# ----------- Case  7 (id=7) -----------
+#   IN : dark= 95 A=205 src=(100,220,110)
+#   OUT: tx_raw=143 tx_used=143 rgb=( 17,231, 34) o_valid=1
+#   EXP: tx_raw=143 tx_used=143 rgb=( 17,231, 34)
+#   Result: PASS
+# 
+# ----------- Case  8 (id=8) -----------
+#   IN : dark= 90 A=205 src=(105,110,225)
+#   OUT: tx_raw=149 tx_used=149 rgb=( 33, 41,239) o_valid=1
+#   EXP: tx_raw=149 tx_used=149 rgb=( 33, 41,239)
+#   Result: PASS
+# 
+# ----------- Case  9 (id=9) -----------
+#   IN : dark=180 A=180 src=(150,145,140)
+#   OUT: tx_raw= 12 tx_used= 26 rgb=(141, 92, 43) o_valid=1
+#   EXP: tx_raw= 12 tx_used= 26 rgb=(141, 92, 43)
+#   Result: PASS
+# 
+# ----------- Case 10 (id=10) -----------
+#   IN : dark=199 A=200 src=(180,170,160)
+#   OUT: tx_raw= 14 tx_used= 26 rgb=(  3,161, 63) o_valid=1
+#   EXP: tx_raw= 14 tx_used= 26 rgb=(  3,161, 63)
+#   Result: PASS
+# 
+# ----------- Case 11 (id=11) -----------
+#   IN : dark=210 A=220 src=(190,180,170)
+#   OUT: tx_raw= 24 tx_used= 26 rgb=(181, 83,240) o_valid=1
+#   EXP: tx_raw= 24 tx_used= 26 rgb=(181, 83,240)
+#   Result: PASS
+# 
+# ----------- Case 12 (id=12) -----------
+#   IN : dark= 30 A= 64 src=( 90, 85, 80)
+#   OUT: tx_raw=142 tx_used=142 rgb=(110,101, 92) o_valid=1
+#   EXP: tx_raw=142 tx_used=142 rgb=(110,101, 92)
+#   Result: PASS
+# 
+# ----------- Case 13 (id=13) -----------
+#   IN : dark= 40 A=250 src=(200,195,190)
+#   OUT: tx_raw=217 tx_used=217 rgb=(191,185,179) o_valid=1
+#   EXP: tx_raw=217 tx_used=217 rgb=(191,185,179)
+#   Result: PASS
+# 
+# ----------- Case 14 (id=14) -----------
+#   IN : dark=100 A=180 src=(128,128,128)
+#   OUT: tx_raw=120 tx_used=120 rgb=( 69, 69, 69) o_valid=1
+#   EXP: tx_raw=120 tx_used=120 rgb=( 69, 69, 69)
+#   Result: PASS
+# 
+# ----------- Case 15 (id=15) -----------
+#   IN : dark= 80 A=160 src=(120,110,100)
+#   OUT: tx_raw=134 tx_used=134 rgb=( 83, 64, 45) o_valid=1
+#   EXP: tx_raw=134 tx_used=134 rgb=( 83, 64, 45)
+#   Result: PASS
+# 
+# ----------- Case 16 (id=16) -----------
+#   IN : dark= 70 A=150 src=(150,150,150)
+#   OUT: tx_raw=142 tx_used=142 rgb=(150,150,150) o_valid=1
+#   EXP: tx_raw=142 tx_used=142 rgb=(150,150,150)
+#   Result: PASS
+# 
+# ----------- Case 17 (id=17) -----------
+#   IN : dark= 70 A=150 src=(190,180,170)
+#   OUT: tx_raw=142 tx_used=142 rgb=(222,204,186) o_valid=1
+#   EXP: tx_raw=142 tx_used=142 rgb=(222,204,186)
+#   Result: PASS
+# 
+# ----------- Case 18 (id=18) -----------
+#   IN : dark= 10 A=120 src=(  8,  8,  8)
+#   OUT: tx_raw=235 tx_used=235 rgb=(254,254,254) o_valid=1
+#   EXP: tx_raw=235 tx_used=235 rgb=(254,254,254)
+#   Result: PASS
+# 
+# ----------- Case 19 (id=19) -----------
+#   IN : dark=180 A=230 src=(250,248,246)
+#   OUT: tx_raw= 65 tx_used= 65 rgb=( 52, 44, 37) o_valid=1
+#   EXP: tx_raw= 65 tx_used= 65 rgb=( 52, 44, 37)
+#   Result: PASS
+# 
+# ========================================
+#         SIMULATION SUMMARY              
+# ========================================
+# All 20 cases passed!
+# ** Note: $finish    : C:/Users/USER/OneDrive - Verisilicon/Desktop/works_code_DA2/01_sim/IPU/t_compute_fuse_tb.sv(206)
+#    Time: 855 ns  Iteration: 0  Instance: /t_compute_fuse_tb
+# End time: 23:16:44 on Mar 13,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

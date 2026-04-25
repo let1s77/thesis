@@ -1,0 +1,21 @@
+// Pattern: [31:24]=Dark, [23:16]=B, [15:8]=G, [7:0]=R
+FFFFFFFF  // [00] RGB=(255,255,255), D=255 - Pure white - Max haze
+F0FAF5F0  // [01] RGB=(240,245,250), D=240 - Very bright sky
+DCEBE6DC  // [02] RGB=(220,230,235), D=220 - Bright hazy sky
+C8D7D2C8  // [03] RGB=(200,210,215), D=200 - Medium hazy
+B4C3BEB4  // [04] RGB=(180,190,195), D=180 - Light haze
+A0AFAAA0  // [05] RGB=(160,170,175), D=160 - Slight haze
+808C8780  // [06] RGB=(128,135,140), D=128 - Gray haze
+64736E64  // [07] RGB=(100,110,115), D=100 - Weak haze
+505F5A50  // [08] RGB=( 80, 90, 95), D= 80 - Very weak haze
+3C4B463C  // [09] RGB=( 60, 70, 75), D= 60 - Minimal haze
+B4B4C8FF  // [10] RGB=(255,200,180), D=180 - Warm atmospheric
+B4FFC8B4  // [11] RGB=(180,200,255), D=180 - Cool atmospheric
+C8C8DCFF  // [12] RGB=(255,220,200), D=200 - Sunset light
+C8FFDCC8  // [13] RGB=(200,220,255), D=200 - Sky light
+00000000  // [14] RGB=(  0,  0,  0), D=  0 - Black - No light
+000000FF  // [15] RGB=(255,  0,  0), D=  0 - Pure red
+0000FF00  // [16] RGB=(  0,255,  0), D=  0 - Pure green
+00FF0000  // [17] RGB=(  0,  0,255), D=  0 - Pure blue
+96A5A096  // [18] RGB=(150,160,165), D=150 - Typical hazy day
+BED2C8BE  // [19] RGB=(190,200,210), D=190 - Dense fog

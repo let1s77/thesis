@@ -1,0 +1,87 @@
+======================================================================
+GRAYSCALE CONVERSION REPORT
+======================================================================
+Formula: Gray = 0.3125*R + 0.5625*G + 0.125*B
+Format:  Q8.4 fixed-point
+======================================================================
+
+[00] White: RGB=(255,255,255)
+     Mode 0 (Round Up       ): 255 (0xFF)
+     Mode 1 (Round Down     ): 255 (0xFF)
+     Mode 2 (Round to Even  ): 255 (0xFF)
+
+[01] Black: RGB=(  0,  0,  0)
+     Mode 0 (Round Up       ):   0 (0x00)
+     Mode 1 (Round Down     ):   0 (0x00)
+     Mode 2 (Round to Even  ):   0 (0x00)
+
+[02] Pure Red: RGB=(255,  0,  0)
+     Mode 0 (Round Up       ):  80 (0x50)
+     Mode 1 (Round Down     ):  79 (0x4F)
+     Mode 2 (Round to Even  ):  80 (0x50)
+
+[03] Pure Green: RGB=(  0,255,  0)
+     Mode 0 (Round Up       ): 144 (0x90)
+     Mode 1 (Round Down     ): 143 (0x8F)
+     Mode 2 (Round to Even  ): 143 (0x8F)
+
+[04] Pure Blue: RGB=(  0,  0,255)
+     Mode 0 (Round Up       ):  32 (0x20)
+     Mode 1 (Round Down     ):  31 (0x1F)
+     Mode 2 (Round to Even  ):  32 (0x20)
+
+[05] Gray 50%: RGB=(128,128,128)
+     Mode 0 (Round Up       ): 128 (0x80)
+     Mode 1 (Round Down     ): 128 (0x80)
+     Mode 2 (Round to Even  ): 128 (0x80)
+
+[06] Gray 25%: RGB=( 64, 64, 64)
+     Mode 0 (Round Up       ):  64 (0x40)
+     Mode 1 (Round Down     ):  64 (0x40)
+     Mode 2 (Round to Even  ):  64 (0x40)
+
+[07] Gray 75%: RGB=(192,192,192)
+     Mode 0 (Round Up       ): 192 (0xC0)
+     Mode 1 (Round Down     ): 192 (0xC0)
+     Mode 2 (Round to Even  ): 192 (0xC0)
+
+[08] Warm tone: RGB=(255,128, 64)
+     Mode 0 (Round Up       ): 160 (0xA0)
+     Mode 1 (Round Down     ): 159 (0x9F)
+     Mode 2 (Round to Even  ): 160 (0xA0)
+
+[09] Cool tone: RGB=( 64,128,255)
+     Mode 0 (Round Up       ): 124 (0x7C)
+     Mode 1 (Round Down     ): 123 (0x7B)
+     Mode 2 (Round to Even  ): 124 (0x7C)
+
+[10] Light hazy: RGB=(240,240,116)
+     Mode 0 (Round Up       ): 225 (0xE1)
+     Mode 1 (Round Down     ): 224 (0xE0)
+     Mode 2 (Round to Even  ): 224 (0xE0)
+
+[11] Green vegetation: RGB=( 97,204, 98)
+     Mode 0 (Round Up       ): 158 (0x9E)
+     Mode 1 (Round Down     ): 157 (0x9D)
+     Mode 2 (Round to Even  ): 157 (0x9D)
+
+[12] Brown/orange: RGB=(181, 71, 16)
+     Mode 0 (Round Up       ):  99 (0x63)
+     Mode 1 (Round Down     ):  98 (0x62)
+     Mode 2 (Round to Even  ):  98 (0x62)
+
+[13] Teal: RGB=(142,244,154)
+     Mode 0 (Round Up       ): 201 (0xC9)
+     Mode 1 (Round Down     ): 200 (0xC8)
+     Mode 2 (Round to Even  ): 201 (0xC9)
+
+[14] Sunset: RGB=(226,208,124)
+     Mode 0 (Round Up       ): 204 (0xCC)
+     Mode 1 (Round Down     ): 203 (0xCB)
+     Mode 2 (Round to Even  ): 203 (0xCB)
+
+[15] Mid gray: RGB=(100,100,100)
+     Mode 0 (Round Up       ): 100 (0x64)
+     Mode 1 (Round Down     ): 100 (0x64)
+     Mode 2 (Round to Even  ): 100 (0x64)
+

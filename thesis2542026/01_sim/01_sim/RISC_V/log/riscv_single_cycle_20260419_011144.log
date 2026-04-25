@@ -1,0 +1,48 @@
+# 
+# puts "RISC-V single_cycle automation"
+# puts "Log file: $log_file"
+# 
+# vlib work
+# vmap work work
+# QuestaSim-64 vmap 2024.1 Lib Mapping Utility 2024.02 Feb  1 2024
+# vmap work work 
+# Copying C:/questasim64_2024.1/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# set SRC_DIR "../00_src/RISC_V"
+# ../00_src/RISC_V
+# set SOC_DIR "../00_src/soc"
+# ../00_src/soc
+# set TB_DIR  "../01_sim/RISC_V"
+# ../01_sim/RISC_V
+# 
+# vlog +acc \
+#     $SRC_DIR/fa.sv \
+#     $SRC_DIR/cla_4bit.sv \
+#     $SRC_DIR/cla_32bit.sv \
+#     $SRC_DIR/alu.sv \
+#     $SRC_DIR/brc.sv \
+#     $SRC_DIR/control_logic.sv \
+#     $SRC_DIR/immgen.sv \
+#     $SRC_DIR/instr_mem.sv \
+#     $SRC_DIR/memory.sv \
+#     $SRC_DIR/mux2.sv \
+#     $SRC_DIR/mux3.sv \
+#     $SRC_DIR/pc.sv \
+#     $SRC_DIR/PCplus4.sv \
+#     $SRC_DIR/regfile.sv \
+#     $SRC_DIR/SevenSegment.sv \
+#     $SRC_DIR/peripherals.sv \
+#     $SOC_DIR/peri_apb_wrapper.sv \
+#     $SRC_DIR/lsu_v1.sv \
+#     $SRC_DIR/single_cycle.sv \
+#     $TB_DIR/single_cycle_tb.sv
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 01:11:44 on Apr 19,2026
+# vlog "+acc" ../00_src/RISC_V/fa.sv ../00_src/RISC_V/cla_4bit.sv ../00_src/RISC_V/cla_32bit.sv ../00_src/RISC_V/alu.sv ../00_src/RISC_V/brc.sv ../00_src/RISC_V/control_logic.sv ../00_src/RISC_V/immgen.sv ../00_src/RISC_V/instr_mem.sv ../00_src/RISC_V/memory.sv ../00_src/RISC_V/mux2.sv ../00_src/RISC_V/mux3.sv ../00_src/RISC_V/pc.sv ../00_src/RISC_V/PCplus4.sv ../00_src/RISC_V/regfile.sv ../00_src/RISC_V/SevenSegment.sv ../00_src/RISC_V/peripherals.sv ../00_src/soc/peri_apb_wrapper.sv ../00_src/RISC_V/lsu_v1.sv ../00_src/RISC_V/single_cycle.sv ../01_sim/RISC_V/single_cycle_tb.sv 
+# ** Error: (vlog-7) Failed to open design unit file "../00_src/RISC_V/fa.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 01:11:44 on Apr 19,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2024.1/win64/vlog failed.
+# Executing ONERROR command at macro ./script/run_single_cycle_isa.tcl line 48

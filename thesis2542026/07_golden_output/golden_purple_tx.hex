@@ -1,0 +1,20 @@
+// Transmission per pixel (8-bit)
+// A=(200,210,220)
+// OMEGA=0xFF, T_MIN=15
+// use_sky=1, t_sky=255
+FF  // [00] tx=255 sky=1
+A4  // [01] tx=164 sky=0
+FF  // [02] tx=255 sky=1
+CC  // [03] tx=204 sky=0
+FF  // [04] tx=255 sky=1
+DA  // [05] tx=218 sky=0
+FF  // [06] tx=255 sky=1
+A7  // [07] tx=167 sky=0
+4E  // [08] tx= 78 sky=0
+FF  // [09] tx=255 sky=1
+F4  // [10] tx=244 sky=0
+FF  // [11] tx=255 sky=1
+75  // [12] tx=117 sky=0
+FF  // [13] tx=255 sky=1
+FF  // [14] tx=255 sky=0
+8E  // [15] tx=142 sky=0
