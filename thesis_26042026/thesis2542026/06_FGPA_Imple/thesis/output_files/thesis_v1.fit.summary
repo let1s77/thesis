@@ -1,0 +1,20 @@
+Fitter Status : Successful - Sat Apr 25 14:06:16 2026
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : thesis_v1
+Top-level Entity Name : wrapper
+Family : Cyclone V
+Device : 5CSXFC6D6F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 7,005 / 41,910 ( 17 % )
+Total registers : 10608
+Total pins : 180 / 499 ( 36 % )
+Total virtual pins : 0
+Total block memory bits : 2,300,416 / 5,662,720 ( 41 % )
+Total RAM Blocks : 281 / 553 ( 51 % )
+Total DSP Blocks : 45 / 112 ( 40 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 1 / 15 ( 7 % )
+Total DLLs : 0 / 4 ( 0 % )

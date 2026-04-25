@@ -1,2 +1,0 @@
-1. https://data.vision.ee.ethz.ch/cvl/ntire19/dense-haze/
-2. https://www.kaggle.com/datasets/balraj98/indoor-training-set-its-residestandard/discussion?sort=undefined

@@ -1,0 +1,318 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 21:50:56  April 17, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		thesis_v1_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY wrapper
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:50:56  APRIL 17, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 4
+set_global_assignment -name MAX_NUMBER_OF_REGISTERS_FROM_UNINFERRED_RAMS 500000
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name MISC_FILE ../../13_hex/vga_dehaze_fulltest.hex
+set_global_assignment -name MISC_FILE ../images/soc_input_128.hex
+set_global_assignment -name SYNCHRONIZER_IDENTIFICATION AUTO
+
+# ===================================================================
+# VGA source files
+# ===================================================================
+
+# ===================================================================
+# Pin Assignments — DE10-Standard (from User Manual Tables 3-5..3-18)
+# ===================================================================
+
+# --- Clock (Table 3-5) ---
+set_location_assignment PIN_AF14 -to CLOCK_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK_50
+
+# --- Push-buttons (Table 3-7) ---
+set_location_assignment PIN_AJ4 -to KEY[0]
+set_location_assignment PIN_AK4 -to KEY[1]
+set_location_assignment PIN_AA14 -to KEY[2]
+set_location_assignment PIN_AA15 -to KEY[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[3]
+
+# --- Slide Switches (Table 3-6) ---
+set_location_assignment PIN_AB30 -to SW[0]
+set_location_assignment PIN_Y27 -to SW[1]
+set_location_assignment PIN_AB28 -to SW[2]
+set_location_assignment PIN_AC30 -to SW[3]
+set_location_assignment PIN_W25 -to SW[4]
+set_location_assignment PIN_V25 -to SW[5]
+set_location_assignment PIN_AC28 -to SW[6]
+set_location_assignment PIN_AD30 -to SW[7]
+set_location_assignment PIN_AC29 -to SW[8]
+set_location_assignment PIN_AA30 -to SW[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[9]
+
+# --- LEDs (Table 3-8) ---
+set_location_assignment PIN_AA24 -to LEDR[0]
+set_location_assignment PIN_AB23 -to LEDR[1]
+set_location_assignment PIN_AC23 -to LEDR[2]
+set_location_assignment PIN_AD24 -to LEDR[3]
+set_location_assignment PIN_AG25 -to LEDR[4]
+set_location_assignment PIN_AF25 -to LEDR[5]
+set_location_assignment PIN_AE24 -to LEDR[6]
+set_location_assignment PIN_AF24 -to LEDR[7]
+set_location_assignment PIN_AB22 -to LEDR[8]
+set_location_assignment PIN_AC22 -to LEDR[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[9]
+
+# --- 7-Segment Displays (Table 3-9) ---
+set_location_assignment PIN_W17 -to HEX0[0]
+set_location_assignment PIN_V18 -to HEX0[1]
+set_location_assignment PIN_AG17 -to HEX0[2]
+set_location_assignment PIN_AG16 -to HEX0[3]
+set_location_assignment PIN_AH17 -to HEX0[4]
+set_location_assignment PIN_AG18 -to HEX0[5]
+set_location_assignment PIN_AH18 -to HEX0[6]
+set_location_assignment PIN_AF16 -to HEX1[0]
+set_location_assignment PIN_V16 -to HEX1[1]
+set_location_assignment PIN_AE16 -to HEX1[2]
+set_location_assignment PIN_AD17 -to HEX1[3]
+set_location_assignment PIN_AE18 -to HEX1[4]
+set_location_assignment PIN_AE17 -to HEX1[5]
+set_location_assignment PIN_V17 -to HEX1[6]
+set_location_assignment PIN_AA21 -to HEX2[0]
+set_location_assignment PIN_AB17 -to HEX2[1]
+set_location_assignment PIN_AA18 -to HEX2[2]
+set_location_assignment PIN_Y17 -to HEX2[3]
+set_location_assignment PIN_Y18 -to HEX2[4]
+set_location_assignment PIN_AF18 -to HEX2[5]
+set_location_assignment PIN_W16 -to HEX2[6]
+set_location_assignment PIN_Y19 -to HEX3[0]
+set_location_assignment PIN_W19 -to HEX3[1]
+set_location_assignment PIN_AD19 -to HEX3[2]
+set_location_assignment PIN_AA20 -to HEX3[3]
+set_location_assignment PIN_AC20 -to HEX3[4]
+set_location_assignment PIN_AA19 -to HEX3[5]
+set_location_assignment PIN_AD20 -to HEX3[6]
+set_location_assignment PIN_AD21 -to HEX4[0]
+set_location_assignment PIN_AG22 -to HEX4[1]
+set_location_assignment PIN_AE22 -to HEX4[2]
+set_location_assignment PIN_AE23 -to HEX4[3]
+set_location_assignment PIN_AG23 -to HEX4[4]
+set_location_assignment PIN_AF23 -to HEX4[5]
+set_location_assignment PIN_AH22 -to HEX4[6]
+set_location_assignment PIN_AF21 -to HEX5[0]
+set_location_assignment PIN_AG21 -to HEX5[1]
+set_location_assignment PIN_AF20 -to HEX5[2]
+set_location_assignment PIN_AG20 -to HEX5[3]
+set_location_assignment PIN_AE19 -to HEX5[4]
+set_location_assignment PIN_AF19 -to HEX5[5]
+set_location_assignment PIN_AB21 -to HEX5[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[*]
+
+# --- VGA DAC ADV7123 (Table 3-18) ---
+set_location_assignment PIN_AK29 -to VGA_R[0]
+set_location_assignment PIN_AK28 -to VGA_R[1]
+set_location_assignment PIN_AK27 -to VGA_R[2]
+set_location_assignment PIN_AJ27 -to VGA_R[3]
+set_location_assignment PIN_AH27 -to VGA_R[4]
+set_location_assignment PIN_AF26 -to VGA_R[5]
+set_location_assignment PIN_AG26 -to VGA_R[6]
+set_location_assignment PIN_AJ26 -to VGA_R[7]
+set_location_assignment PIN_AK26 -to VGA_G[0]
+set_location_assignment PIN_AJ25 -to VGA_G[1]
+set_location_assignment PIN_AH25 -to VGA_G[2]
+set_location_assignment PIN_AK24 -to VGA_G[3]
+set_location_assignment PIN_AJ24 -to VGA_G[4]
+set_location_assignment PIN_AH24 -to VGA_G[5]
+set_location_assignment PIN_AK23 -to VGA_G[6]
+set_location_assignment PIN_AH23 -to VGA_G[7]
+set_location_assignment PIN_AJ21 -to VGA_B[0]
+set_location_assignment PIN_AJ20 -to VGA_B[1]
+set_location_assignment PIN_AH20 -to VGA_B[2]
+set_location_assignment PIN_AJ19 -to VGA_B[3]
+set_location_assignment PIN_AH19 -to VGA_B[4]
+set_location_assignment PIN_AJ17 -to VGA_B[5]
+set_location_assignment PIN_AJ16 -to VGA_B[6]
+set_location_assignment PIN_AK16 -to VGA_B[7]
+set_location_assignment PIN_AK21 -to VGA_CLK
+set_location_assignment PIN_AK22 -to VGA_BLANK_N
+set_location_assignment PIN_AK19 -to VGA_HS
+set_location_assignment PIN_AK18 -to VGA_VS
+set_location_assignment PIN_AJ22 -to VGA_SYNC_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_BLANK_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_HS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_VS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_SYNC_N
+
+# ===================================================================
+# Timing Closure Optimizations
+# ===================================================================
+# Optimize for speed (not area or balanced)
+set_global_assignment -name OPTIMIZATION_TECHNIQUE SPEED
+
+# Physical synthesis: restructure combo logic and duplicate high-fanout regs
+set_global_assignment -name PHYSICAL_SYNTHESIS_COMBO_LOGIC ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_RETIMING ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_ASYNCHRONOUS_SIGNAL_PIPELINING ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_EFFORT EXTRA
+
+# Fitter: maximum routing effort for timing
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name ROUTER_TIMING_OPTIMIZATION_LEVEL MAXIMUM
+
+# Disable power optimization — we need every ns of speed
+set_global_assignment -name OPTIMIZE_POWER_DURING_FITTING OFF
+
+# Enable WYSIWYG remapping for better technology mapping
+set_global_assignment -name ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP ON
+
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/VGA/vga_line_buffer.sv
+set_global_assignment -name VERILOG_FILE ../../00_src/VGA/buffer_ram.v
+set_global_assignment -name QIP_FILE ../../00_src/VGA/buffer_ram.qip
+set_global_assignment -name SDC_FILE ../soc_top.sdc
+set_global_assignment -name VERILOG_INCLUDE_FILE ../../00_src/IPU/ipu_addr_map.vh
+set_global_assignment -name VERILOG_INCLUDE_FILE ../../00_src/soc/soc_addr_map.vh
+set_global_assignment -name VERILOG_INCLUDE_FILE ../../00_src/soc/ipu_addr_map_soc.vh
+set_global_assignment -name VERILOG_INCLUDE_FILE ../../00_src/IPU/mem/ipu_addr.vh
+set_global_assignment -name SYSTEMVERILOG_FILE ../wrapper.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/soc/soc_top.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/soc/peri_apb_wrapper.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/soc/ipu_apb_wrapper.sv
+set_global_assignment -name VERILOG_FILE ../../00_src/IPU/mem/ipu_bram_writer.v
+set_global_assignment -name VERILOG_FILE ../../00_src/IPU/mem/ipu_bram_reader.v
+set_global_assignment -name VERILOG_FILE ../../00_src/IPU/mem/img_out_bram.v
+set_global_assignment -name VERILOG_FILE ../../00_src/IPU/mem/img_tmp_bram.v
+set_global_assignment -name VERILOG_FILE ../../00_src/IPU/mem/img_in_bram.v
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/t_computing.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/recip_lut_q16.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/t_compute_fuse.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/src_min.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/spatial_min3x3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/sky_recognition.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/search_block_min.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/ROM_i.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/RAM_o.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/omega_clamp_t.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/norm_channel_q16.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/min3_u8.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/ipu_top.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/ipu_soc.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/ipu_core.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/ipu_control_logic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/invA_lut_q16.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/haze_removal_top.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/haze_removal_core.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/grayscale.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/fusing.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/frame_linear_counter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/fifo_ram.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/estimate_transmission.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/error_diffusion.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/dark_channel.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/bank_pingpong_stream.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/bank_bram.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/atmospheric_light.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/atm_light_coarse_tx.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/adc_rlimit_compute.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/adc_pixel_distance.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/adc_path_length.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/adc_line_buffer_5x5.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/adc_estimation.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/IPU/adc_ase_masked_min.sv
+set_global_assignment -name VERILOG_FILE ../../00_src/apb_bus/APB_Wrapper.v
+set_global_assignment -name VERILOG_FILE ../../00_src/apb_bus/APB_Slave.v
+set_global_assignment -name VERILOG_FILE ../../00_src/apb_bus/APB_Master.v
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/single_cycle.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/SevenSegment.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/regfile.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/peripherals.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/PCplus4.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/pc.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/mux3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/mux2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/memory.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/lsu_v1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/instr_mem.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/immgen.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/fa.sv
+set_global_assignment -name SYSTEMVERILOG_FILE "../../00_src/RISC_V/customize_components .sv"
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/control_logic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/cla_32bit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/cla_4bit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/brc.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/RISC_V/alu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/VGA/vga_controller.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/VGA/vga_horizontal_counter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../00_src/VGA/vga_vertical_counter.sv
+set_global_assignment -name VERILOG_FILE ../../00_src/VGA/vga_pll.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

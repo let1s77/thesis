@@ -1,3 +1,0 @@
-Info (10281): Verilog HDL Declaration information at map_fsm.sv(5): object "done" differs only in case from object "DONE" in the same scope File: C:/D/Study_material/Test/(DATN)/Tetris_1/00_src/map/map_fsm.sv Line: 5
-Warning (10268): Verilog HDL information at piece_generator.sv(13): always construct contains both blocking and non-blocking assignments File: C:/D/Study_material/Test/(DATN)/Tetris_1/00_src/game_logic/piece_generator.sv Line: 13
-Info (10281): Verilog HDL Declaration information at game_fsm.sv(48): object "st_piece" differs only in case from object "ST_PIECE" in the same scope File: C:/D/Study_material/Test/(DATN)/Tetris_1/00_src/game_logic/game_fsm.sv Line: 48

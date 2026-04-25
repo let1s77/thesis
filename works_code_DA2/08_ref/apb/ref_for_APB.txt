@@ -1,3 +1,0 @@
-1. apb to riscv https://github.com/munim-sah75/Design-and-Simulation-of-a-32-bit-RISC-V-Core-and-APB/blob/main/Group%203%20G1%20VLSI%20Project%20Report.pdf
-2. https://github.com/shubhi704/APB-Protocol
-3. https://github.com/kumarraj5364/AMBA-APB-PROTOCOL

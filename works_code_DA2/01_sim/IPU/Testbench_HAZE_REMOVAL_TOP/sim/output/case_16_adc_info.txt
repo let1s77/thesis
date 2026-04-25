@@ -1,8 +1,0 @@
-case_id=16
-A_rgb=d4,c8,c9
-adc_dark_hold=82
-adc_latched_index=1
-adc_out_count=2
-adc_stream_count=2
-adc_stream[0]=82
-adc_stream[1]=82

@@ -1,3 +1,0 @@
-1.https://github.com/prajwalgekkouga/AHB-to-APB-Bridge
-2. có testplan https://github.com/Ghonimo/Formal-Verification-of-an-AHB2APB-Bridge
-3. https://github.com/Siddhi-95/AHB-to-APB-Bridge-Verification
